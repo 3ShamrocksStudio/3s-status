@@ -107,6 +107,7 @@
     position:relative;overflow:hidden;transition:border-color .18s, transform .18s, background .18s;
     -webkit-tap-highlight-color:transparent;
   }
+  a.card{text-decoration:none;color:inherit}
   .card::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:var(--edge,transparent);opacity:.85}
   .card.s-live{--edge:var(--live)} .card.s-build{--edge:var(--build)}
   .card.s-dave{--edge:var(--dave)} .card.s-park{--edge:var(--park)}
@@ -199,14 +200,14 @@
   <div class="sec-title">🔵 Building Now <span class="count">6</span></div>
   <div class="grid">
 
-    <a class="card s-build" href="https://3shamrocksstudio.github.io/shomergency/shomer.html" target="_blank" rel="noopener">
+    <div class="card s-build">
       <div class="top"><h3>SHOMER</h3><span class="badge b-build"><span class="d"></span>Building</span></div>
       <p>Live demo up. Full audit + offline-claim fix → getting it launch-ready.</p>
       <div class="links">
-        <span class="lnk">Open app <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></span>
-        <a class="lnk alt" href="https://3shamrocksstudio.github.io/shomergency/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Landing</a>
+        <a class="lnk" href="https://3shamrocksstudio.github.io/shomergency/shomer.html" target="_blank" rel="noopener">Open app <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></a>
+        <a class="lnk alt" href="https://3shamrocksstudio.github.io/shomergency/" target="_blank" rel="noopener">Landing</a>
       </div>
-    </a>
+    </div>
 
     <a class="card s-build" href="https://3shamrocksstudio.github.io/fairent/" target="_blank" rel="noopener">
       <div class="top"><h3>Fairent</h3><span class="badge b-build"><span class="d"></span>Building</span></div>
