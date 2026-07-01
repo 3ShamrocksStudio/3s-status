@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<meta name="theme-color" content="#0e1622" />
+<meta name="description" content="3Shamrocks Studio — live status board across every product. What's live, what's building, and what's waiting on Dave." />
+<title>3S Studio · Status Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#0e1622; --bg2:#131f30; --navy:#1f2c3e;
+    --surface:rgba(255,255,255,.045); --surface-2:rgba(255,255,255,.03);
+    --border:rgba(255,255,255,.09); --border-hi:rgba(255,255,255,.16);
+    --ink:#eef2f8; --ink-dim:#a7b4c6; --ink-mute:#6f7f95;
+    --indigo:#5f4fcc; --green:#52cc7a;
+    --live:#52cc7a; --build:#5aa9ff; --dave:#f5b544; --park:#7f8da5;
+    --shadow:0 10px 40px -12px rgba(0,0,0,.6);
+    --r:18px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    font-family:'Inter',system-ui,-apple-system,sans-serif;
+    background:
+      radial-gradient(1100px 640px at 82% -8%, rgba(95,79,204,.20), transparent 60%),
+      radial-gradient(920px 620px at 8% 4%, rgba(82,204,122,.11), transparent 55%),
+      linear-gradient(180deg,#0e1622 0%, #0c131e 100%);
+    background-attachment:fixed;
+    color:var(--ink);
+    line-height:1.5;
+    min-height:100vh;
+    padding:max(18px,env(safe-area-inset-top)) 16px calc(52px + env(safe-area-inset-bottom));
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:940px;margin:0 auto}
+
+  /* ---------- Header ---------- */
+  header{padding:14px 4px 8px;display:flex;flex-direction:column;gap:14px}
+  .brandrow{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  .mark{
+    display:inline-flex;align-items:center;justify-content:center;
+    width:44px;height:44px;border-radius:13px;flex:none;
+    background:linear-gradient(135deg,var(--indigo),#7a68e6);
+    box-shadow:0 6px 22px -6px rgba(95,79,204,.7);
+    font-family:'Space Grotesk';font-weight:700;font-size:19px;color:#fff;letter-spacing:-.5px;
+  }
+  .brandtxt h1{
+    font-family:'Space Grotesk';font-weight:700;font-size:clamp(20px,5.5vw,27px);
+    letter-spacing:-.5px;line-height:1.05;
+  }
+  .brandtxt .sub{color:var(--ink-dim);font-size:13px;font-weight:500;margin-top:2px}
+  .updated{
+    display:inline-flex;align-items:center;gap:7px;align-self:flex-start;
+    background:var(--surface);border:1px solid var(--border);
+    padding:6px 12px;border-radius:999px;font-size:12px;color:var(--ink-dim);font-weight:500;
+  }
+  .dot-live{width:7px;height:7px;border-radius:50%;background:var(--green);
+    box-shadow:0 0 0 0 rgba(82,204,122,.6);animation:pulse 2.4s infinite}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(82,204,122,.55)}70%{box-shadow:0 0 0 7px rgba(82,204,122,0)}100%{box-shadow:0 0 0 0 rgba(82,204,122,0)}}
+
+  /* ---------- Section titles ---------- */
+  .sec-title{
+    font-family:'Space Grotesk';font-weight:600;font-size:13px;letter-spacing:.14em;
+    text-transform:uppercase;color:var(--ink-mute);margin:30px 4px 13px;
+    display:flex;align-items:center;gap:9px;
+  }
+  .sec-title .count{
+    font-family:'Inter';letter-spacing:0;text-transform:none;font-weight:600;font-size:12px;
+    color:var(--ink-dim);background:var(--surface);border:1px solid var(--border);
+    padding:1px 8px;border-radius:999px;
+  }
+
+  /* ---------- Waiting on you ---------- */
+  .waiting{
+    background:linear-gradient(135deg, rgba(245,181,68,.13), rgba(245,181,68,.04));
+    border:1px solid rgba(245,181,68,.34);
+    border-radius:var(--r);padding:18px 16px 8px;box-shadow:var(--shadow);
+    position:relative;overflow:hidden;
+  }
+  .waiting::before{content:"";position:absolute;inset:0 auto 0 0;width:4px;background:var(--dave)}
+  .waiting-head{display:flex;align-items:center;gap:9px;padding:0 2px 4px 6px;margin-bottom:6px}
+  .waiting-head h2{font-family:'Space Grotesk';font-weight:700;font-size:16px;letter-spacing:-.2px}
+  .waiting-head .pill{margin-left:auto;font-size:11px;font-weight:600;color:#f5b544;
+    background:rgba(245,181,68,.14);border:1px solid rgba(245,181,68,.3);padding:2px 9px;border-radius:999px}
+  .todo{display:flex;gap:13px;padding:13px 6px;border-top:1px solid rgba(245,181,68,.16)}
+  .todo:first-of-type{border-top:none}
+  .todo .ico{font-size:20px;line-height:1.3;flex:none;width:26px;text-align:center}
+  .todo .body b{display:block;font-family:'Space Grotesk';font-weight:600;font-size:14.5px;color:var(--ink);margin-bottom:2px}
+  .todo .body span{font-size:13px;color:var(--ink-dim)}
+  .todo .body span .arrow{color:var(--dave);font-weight:600}
+
+  /* ---------- Legend ---------- */
+  .legend{display:flex;flex-wrap:wrap;gap:8px 14px;padding:2px 6px;margin-top:2px}
+  .legend span{font-size:12px;color:var(--ink-mute);display:inline-flex;align-items:center;gap:6px;font-weight:500}
+
+  /* ---------- Card grid ---------- */
+  .grid{display:grid;grid-template-columns:1fr;gap:12px}
+  @media(min-width:600px){.grid{grid-template-columns:1fr 1fr}}
+  @media(min-width:860px){.grid{grid-template-columns:1fr 1fr 1fr}}
+
+  .card{
+    background:var(--surface);border:1px solid var(--border);border-radius:var(--r);
+    padding:15px 15px 14px;display:flex;flex-direction:column;gap:9px;
+    position:relative;overflow:hidden;transition:border-color .18s, transform .18s, background .18s;
+    -webkit-tap-highlight-color:transparent;
+  }
+  .card::before{content:"";position:absolute;top:0;left:0;right:0;height:2px;background:var(--edge,transparent);opacity:.85}
+  .card.s-live{--edge:var(--live)} .card.s-build{--edge:var(--build)}
+  .card.s-dave{--edge:var(--dave)} .card.s-park{--edge:var(--park)}
+  .card:active{transform:scale(.99)}
+  @media(hover:hover){.card:hover{border-color:var(--border-hi);background:rgba(255,255,255,.06)}}
+
+  .card .top{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
+  .card h3{font-family:'Space Grotesk';font-weight:600;font-size:16px;letter-spacing:-.2px;line-height:1.2}
+  .badge{
+    flex:none;display:inline-flex;align-items:center;gap:5px;font-size:11px;font-weight:600;
+    padding:3px 9px 3px 7px;border-radius:999px;white-space:nowrap;
+    border:1px solid var(--bc,var(--border));color:var(--bt,var(--ink-dim));background:var(--bb,var(--surface-2));
+  }
+  .badge .d{width:6px;height:6px;border-radius:50%;background:currentColor}
+  .b-live{--bt:#7fe0a0;--bc:rgba(82,204,122,.34);--bb:rgba(82,204,122,.1)}
+  .b-build{--bt:#8cc4ff;--bc:rgba(90,169,255,.34);--bb:rgba(90,169,255,.1)}
+  .b-dave{--bt:#ffce6e;--bc:rgba(245,181,68,.36);--bb:rgba(245,181,68,.1)}
+  .b-park{--bt:#9fabbf;--bc:rgba(127,141,165,.34);--bb:rgba(127,141,165,.1)}
+
+  .card p{font-size:13px;color:var(--ink-dim);flex:1}
+  .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:2px}
+  .lnk{
+    display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;
+    text-decoration:none;color:var(--ink);
+    background:rgba(95,79,204,.16);border:1px solid rgba(95,79,204,.4);
+    padding:6px 11px;border-radius:10px;transition:background .16s,border-color .16s;
+  }
+  .lnk:active{background:rgba(95,79,204,.3)}
+  @media(hover:hover){.lnk:hover{background:rgba(95,79,204,.3);border-color:rgba(95,79,204,.7)}}
+  .lnk.alt{background:var(--surface-2);border-color:var(--border)}
+  @media(hover:hover){.lnk.alt:hover{border-color:var(--border-hi);background:var(--surface)}}
+  .lnk svg{width:12px;height:12px;opacity:.85}
+  .nolink{font-size:12px;color:var(--ink-mute);font-style:italic;font-weight:500}
+
+  footer{text-align:center;color:var(--ink-mute);font-size:12px;margin-top:34px;padding-top:18px;border-top:1px solid var(--border);line-height:1.7}
+  footer b{color:var(--ink-dim);font-weight:600;font-family:'Space Grotesk'}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="brandrow">
+      <span class="mark">3S</span>
+      <div class="brandtxt">
+        <h1>Studio Status Board</h1>
+        <div class="sub">3Shamrocks Studio · everything, at a glance</div>
+      </div>
+    </div>
+    <span class="updated">
+      <span class="dot-live"></span>
+      Last updated <span id="ago" data-iso="2026-07-01T03:36:00-04:00">Jul&nbsp;1,&nbsp;2026&nbsp;·&nbsp;3:36&nbsp;AM&nbsp;ET</span>
+    </span>
+  </header>
+
+  <!-- ===== WAITING ON YOU ===== -->
+  <div class="sec-title">⏳ Waiting on You <span class="count">3</span></div>
+  <section class="waiting" aria-label="Waiting on Dave">
+    <div class="waiting-head">
+      <h2>Only you can unblock these</h2>
+      <span class="pill">🟡 Needs Dave</span>
+    </div>
+
+    <div class="todo">
+      <div class="ico">📸</div>
+      <div class="body">
+        <b>Instagram — log in once</b>
+        <span>Sign the 4 mascot accounts into Chrome a single time <span class="arrow">→</span> then Claude posts autonomously.</span>
+      </div>
+    </div>
+
+    <div class="todo">
+      <div class="ico">🖼️</div>
+      <div class="body">
+        <b>TH pitch deck — quick eyeball</b>
+        <span>Give the Trashure-Hunters deck a once-over when it's done.</span>
+      </div>
+    </div>
+
+    <div class="todo">
+      <div class="ico">🔑</div>
+      <div class="body">
+        <b>Two free keys — 5 min</b>
+        <span>Spin up a free Supabase project + free Gemini key <span class="arrow">→</span> unlocks Chore Royale two-phone, Fairent's data pool, and live AI in Ezra&nbsp;&amp;&nbsp;Milo.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== IN MOTION ===== -->
+  <div class="sec-title">🔵 Building Now <span class="count">6</span></div>
+  <div class="grid">
+
+    <a class="card s-build" href="https://3shamrocksstudio.github.io/shomergency/shomer.html" target="_blank" rel="noopener">
+      <div class="top"><h3>SHOMER</h3><span class="badge b-build"><span class="d"></span>Building</span></div>
+      <p>Live demo up. Full audit + offline-claim fix → getting it launch-ready.</p>
+      <div class="links">
+        <span class="lnk">Open app <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></span>
+        <a class="lnk alt" href="https://3shamrocksstudio.github.io/shomergency/" target="_blank" rel="noopener" onclick="event.stopPropagation()">Landing</a>
+      </div>
+    </a>
+
+    <a class="card s-build" href="https://3shamrocksstudio.github.io/fairent/" target="_blank" rel="noopener">
+      <div class="top"><h3>Fairent</h3><span class="badge b-build"><span class="d"></span>Building</span></div>
+      <p>Live. Rebuilding around the renters&nbsp;+&nbsp;buyers "pop the bubble" mission.</p>
+      <div class="links"><span class="lnk">Open <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></span></div>
+    </a>
+
+    <a class="card s-build" href="https://3shamrocksstudio.github.io/milo-app/" target="_blank" rel="noopener">
+      <div class="top"><h3>Milo</h3><span class="badge b-build"><span class="d"></span>Building</span></div>
+      <p>Live. New world + mutual-growth pivot — kept Tamagotchi-simple.</p>
+      <div class="links"><span class="lnk">Open <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></span></div>
+    </a>
+
+    <a class="card s-build" href="https://3shamrocksstudio.github.io/chore-wars/" target="_blank" rel="noopener">
+      <div class="top"><h3>Chore Royale</h3><span class="badge b-build"><span class="d"></span>Building</span></div>
+      <p>Live. Cross-device arena polish in progress (two-phone waits on a key).</p>
+      <div class="links"><span class="lnk">Open <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></span></div>
+    </a>
+
+    <a class="card s-build" href="https://3shamrocksstudio.github.io/" target="_blank" rel="noopener">
+      <div class="top"><h3>3S Portfolio Site</h3><span class="badge b-build"><span class="d"></span>Building</span></div>
+      <p>The studio's own portfolio — the future 3shamrocks.com.</p>
+      <div class="links"><span class="lnk">Preview <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></span></div>
+    </a>
+
+    <div class="card s-build">
+      <div class="top"><h3>Portfolio Quality Audit</h3><span class="badge b-build"><span class="d"></span>Building</span></div>
+      <p>Sweeping every product for premium, ship-quality polish.</p>
+      <div class="links"><span class="nolink">Internal · no link</span></div>
+    </div>
+
+  </div>
+
+  <!-- ===== LIVE ===== -->
+  <div class="sec-title">🟢 Live &amp; Shipping <span class="count">8</span></div>
+  <div class="grid">
+
+    <a class="card s-live" href="https://3shamrocksstudio.github.io/th-mvp-web/" target="_blank" rel="noopener">
+      <div class="top"><h3>Trashure-Hunters</h3><span class="badge b-live"><span class="d"></span>Live</span></div>
+      <p>Tap-to-play web game MVP demo. Clean the world, win the game.</p>
+      <div class="links"><span class="lnk">Play <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></span></div>
+    </a>
+
+    <a class="card s-live" href="https://3shamrocksstudio.github.io/th-website/" target="_blank" rel="noopener">
+      <div class="top"><h3>TH Website</h3><span class="badge b-live"><span class="d"></span>Live</span></div>
+      <p>Trashure-Hunters marketing site — the public front door.</p>
+      <div class="links"><span class="lnk">Open <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></span></div>
+    </a>
+
+    <a class="card s-live" href="https://3shamrocksstudio.github.io/senior-helper/" target="_blank" rel="noopener">
+      <div class="top"><h3>Ezra</h3><span class="badge b-live"><span class="d"></span>Live</span></div>
+      <p>Gentle senior-helper companion (live AI unlocks with the Gemini key).</p>
+      <div class="links"><span class="lnk">Open <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></span></div>
+    </a>
+
+    <a class="card s-live" href="https://3shamrocksstudio.github.io/shomer-forest/" target="_blank" rel="noopener">
+      <div class="top"><h3>Shomer Forest</h3><span class="badge b-live"><span class="d"></span>Live</span></div>
+      <p>Community guardian for Israel's forests &amp; wildlife — report hazards, SOS.</p>
+      <div class="links"><span class="lnk">Open <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></span></div>
+    </a>
+
+    <a class="card s-live" href="https://3shamrocksstudio.github.io/shomer-beach/" target="_blank" rel="noopener">
+      <div class="top"><h3>Shomer Beach</h3><span class="badge b-live"><span class="d"></span>Live</span></div>
+      <p>Coastal &amp; marine guardian — live beach-hazard map, instant SOS.</p>
+      <div class="links"><span class="lnk">Open <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></span></div>
+    </a>
+
+    <a class="card s-live" href="https://3shamrocksstudio.github.io/j8nix/" target="_blank" rel="noopener">
+      <div class="top"><h3>J8NIX</h3><span class="badge b-live"><span class="d"></span>Live</span></div>
+      <p>Smart Operations OS — calendar, tasks, projects &amp; voice, one dashboard.</p>
+      <div class="links"><span class="lnk">Open <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></span></div>
+    </a>
+
+    <a class="card s-live" href="https://3shamrocksstudio.github.io/3s-design-system/" target="_blank" rel="noopener">
+      <div class="top"><h3>3S Design System</h3><span class="badge b-live"><span class="d"></span>Live</span></div>
+      <p>Brand book &amp; tokens — the single source of truth every product inherits.</p>
+      <div class="links"><span class="lnk">Open <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></span></div>
+    </a>
+
+    <a class="card s-live" href="https://3shamrocksstudio.github.io/shomergency/" target="_blank" rel="noopener">
+      <div class="top"><h3>SHOMER Landing</h3><span class="badge b-live"><span class="d"></span>Live</span></div>
+      <p>Citizens protecting citizens — the SHOMER public landing page.</p>
+      <div class="links"><span class="lnk">Open <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg></span></div>
+    </a>
+
+  </div>
+
+  <!-- ===== PARKED ===== -->
+  <div class="sec-title">⚪ Parked <span class="count">2</span></div>
+  <div class="grid">
+    <div class="card s-park">
+      <div class="top"><h3>TALIAZ</h3><span class="badge b-park"><span class="d"></span>Parked</span></div>
+      <p>Canceled by Dave. Not in the active pipeline.</p>
+      <div class="links"><span class="nolink">No link</span></div>
+    </div>
+    <div class="card s-park">
+      <div class="top"><h3>TH Movie</h3><span class="badge b-park"><span class="d"></span>Parked</span></div>
+      <p>On hold — revisit after the core Trashure-Hunters game lands.</p>
+      <div class="links"><span class="nolink">No link</span></div>
+    </div>
+  </div>
+
+  <footer>
+    <b>3Shamrocks Studio</b> · Status Board<br/>
+    <span class="legend" style="justify-content:center;margin-top:8px">
+      <span>🟢 Live</span><span>🔵 Building</span><span>🟡 Needs Dave</span><span>⚪ Parked</span>
+    </span>
+  </footer>
+
+</div>
+
+<script>
+  // Friendly "updated X ago" that stays honest without a rebuild.
+  (function(){
+    var el=document.getElementById('ago'); if(!el) return;
+    var iso=el.getAttribute('data-iso'); var t=new Date(iso); if(isNaN(t)) return;
+    var abs=el.textContent;
+    function rel(){
+      var s=Math.max(0,(Date.now()-t.getTime())/1000);
+      var out;
+      if(s<90) out='just now';
+      else if(s<3600) out=Math.round(s/60)+' min ago';
+      else if(s<86400) out=Math.round(s/3600)+'h ago';
+      else out=Math.round(s/86400)+'d ago';
+      el.innerHTML=abs.indexOf('(')>-1?abs:abs+' <span style="opacity:.6">· '+out+'</span>';
+    }
+    rel(); setInterval(rel,60000);
+  })();
+</script>
+</body>
+</html>
