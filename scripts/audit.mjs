@@ -39,7 +39,14 @@ for (const t of TARGETS) {
       await page.waitForTimeout(6000);
       entry.status = resp ? resp.status() : 0;
       const m = await page.evaluate(() => ({
-        hscroll: document.documentElement.scrollWidth > innerWidth + 1,
+        // Only a real defect if the user can actually scroll. App shells park
+        // offscreen slides at translateX(100%) behind overflow:hidden — not a bug.
+        hscroll: (() => {
+          const de = document.documentElement;
+          const clipped = getComputedStyle(de).overflowX === 'hidden'
+                       || getComputedStyle(document.body).overflowX === 'hidden';
+          return de.scrollWidth > innerWidth + 1 && !clipped;
+        })(),
         textLen: document.body ? document.body.innerText.trim().length : 0,
         controls: [...document.querySelectorAll('button,a[href],[role=button],input,select,textarea,[onclick]')]
           .filter(e => { const r = e.getBoundingClientRect(); return r.width > 4 && r.height > 4; }).length,
