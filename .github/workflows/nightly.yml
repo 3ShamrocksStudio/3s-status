@@ -1,0 +1,45 @@
+name: 3SDS Nightly Watchtower
+
+on:
+  schedule:
+    - cron: '0 2 * * *'      # 02:00 UTC every night
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Playwright
+        run: |
+          npm init -y >/dev/null 2>&1 || true
+          npm i -D playwright@1.56.0 --no-audit --no-fund
+          npx playwright install --with-deps chromium
+
+      - name: Live site audit
+        run: node scripts/audit.mjs
+
+      - name: JS syntax sweep
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/syntax.mjs
+
+      - name: Build status page
+        run: node scripts/report.mjs
+
+      - name: Publish
+        run: |
+          git config user.name  "3SDS Watchtower"
+          git config user.email "watchtower@3shamrocks.com"
+          git add index.html audit.json syntax.json
+          git diff --staged --quiet || git commit -m "watchtower: nightly status $(date -u +%Y-%m-%d)"
+          git push
