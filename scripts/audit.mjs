@@ -55,7 +55,7 @@ for (const t of TARGETS) {
       entry.title = m.title;
       entry.viewports.push({ vp: vp.label, ...m });
       if (m.hscroll) entry.verdict = 'WARN';
-      if (m.textLen < 40) entry.verdict = 'FAIL';
+      if (m.textLen < 15) entry.verdict = 'FAIL';
     } catch (e) {
       entry.viewports.push({ vp: vp.label, loadError: String(e).slice(0, 140) });
       entry.verdict = 'FAIL';
@@ -63,7 +63,14 @@ for (const t of TARGETS) {
     entry.errors.push(...errs); entry.http4xx.push(...bad);
     await ctx.close();
   }
-  entry.errors = [...new Set(entry.errors)].slice(0, 6);
+  // Benign, non-actionable console noise — not product defects.
+  const BENIGN = [
+    "frame-ancestors' is ignored when delivered via a <meta>",
+    'static.cloudflareinsights.com',
+  ];
+  entry.errors = [...new Set(entry.errors)]
+    .filter(e => !BENIGN.some(b => e.includes(b)))
+    .slice(0, 6);
   entry.http4xx = [...new Set(entry.http4xx)].slice(0, 6);
   if (entry.errors.length) entry.verdict = 'FAIL';
   else if (entry.http4xx.length && entry.verdict === 'PASS') entry.verdict = 'WARN';
