@@ -33,8 +33,10 @@ for (const t of TARGETS) {
     page.on('console', m => { if (m.type() === 'error') errs.push('CONSOLE: ' + m.text().slice(0, 160)); });
     page.on('response', r => { if (r.status() >= 400) bad.push(`${r.status()} ${r.url().slice(-70)}`); });
     try {
-      const resp = await page.goto(t.url + '?ci=' + Date.now(), { waitUntil: 'networkidle', timeout: 45000 });
-      await page.waitForTimeout(2500);
+      // 'load' not 'networkidle': apps with live Firebase/websocket connections never
+      // reach network idle, which produced false FAILs and partial-page garbage.
+      const resp = await page.goto(t.url + '?ci=' + Date.now(), { waitUntil: 'load', timeout: 45000 });
+      await page.waitForTimeout(6000);
       entry.status = resp ? resp.status() : 0;
       const m = await page.evaluate(() => ({
         hscroll: document.documentElement.scrollWidth > innerWidth + 1,
