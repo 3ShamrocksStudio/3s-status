@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20T10:51:44.277Z",
+  "generated": "2026-08-20T11:18:43.072Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -41,31 +41,40 @@
       "viewports": [
         {
           "vp": "phone",
-          "loadError": "TimeoutError: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.shomer-app.co.il/shomer.html?ci=1787222889774\", "
+          "hscroll": false,
+          "textLen": 1294,
+          "controls": 16,
+          "title": "SHOMER · שומר — Citizens for Citizens"
         },
         {
           "vp": "tablet",
-          "loadError": "TimeoutError: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.shomer-app.co.il/shomer.html?ci=1787222934811\", "
+          "hscroll": false,
+          "textLen": 1294,
+          "controls": 16,
+          "title": "SHOMER · שומר — Citizens for Citizens"
         },
         {
           "vp": "desktop",
-          "loadError": "TimeoutError: page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.shomer-app.co.il/shomer.html?ci=1787222979849\", "
+          "hscroll": false,
+          "textLen": 1294,
+          "controls": 16,
+          "title": "SHOMER · שומר — Citizens for Citizens"
         }
       ],
       "errors": [
-        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()",
-        "CONSOLE: Refused to load the script 'https://static.cloudflareinsights.com/beacon.min.js/v4513226cdae34746b4dedf0b4dfa099e1781791509496' because it violates the followin",
-        "CONSOLE: Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+        "CONSOLE: Failed to load resource: the server responded with a status of 401 (Unauthorized)",
+        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
       ],
       "http4xx": [
+        "401 Qc5DIQoq_cWaVDi-vjS21vsndIthZ3ZshU_LKS18vjgJdWeSWUkNWssSYaDREjWSONF53w",
         "404 https://www.shomer-app.co.il/'+e.photo+'",
         "404 https://www.shomer-app.co.il/'+photo+'",
-        "401 Hc0ZoVYJxstkR0Ph4cHglCb7heFJGIFDlDLLQaG5a_JhzOS3AOfZ6P05jiHqUV6ZaeL_9A",
-        "401 MFJqSxRz8Wkzd4nB74j9LQvKBTwHKXOh1AiRchIbtELbOEhz1Ed2TPE5HtoJB1-5HPdVHg",
-        "401 N7C6onKIXjOmRxmuzdzaH648eXIaDHZEyBozM7fbolh3tvMZr9Lvw9eauOZMgQT5OXIrug"
+        "401 fUWrWHJfqYQ3ZCCD7eoaG0x1ICR8POTM5HSHYZMNtiKLhLpAH3Un7BMwavgmR9r-nWLzcA",
+        "401 0l_9a4bOnvrpUqGaGeOWyIEaQar0cZvaYUZoA6xyhFkCkEUqXavrnmtGN9CPIsDh93fo4g"
       ],
-      "status": 0,
-      "verdict": "FAIL"
+      "status": 200,
+      "verdict": "FAIL",
+      "title": "SHOMER · שומר — Citizens for Citizens"
     },
     {
       "name": "TH MVP",
@@ -107,21 +116,21 @@
       "viewports": [
         {
           "vp": "phone",
-          "hscroll": true,
+          "hscroll": false,
           "textLen": 1441,
           "controls": 26,
           "title": "Chore Royale"
         },
         {
           "vp": "tablet",
-          "hscroll": true,
+          "hscroll": false,
           "textLen": 1441,
           "controls": 26,
           "title": "Chore Royale"
         },
         {
           "vp": "desktop",
-          "hscroll": true,
+          "hscroll": false,
           "textLen": 1441,
           "controls": 26,
           "title": "Chore Royale"
@@ -130,7 +139,7 @@
       "errors": [],
       "http4xx": [],
       "status": 200,
-      "verdict": "WARN",
+      "verdict": "PASS",
       "title": "Chore Royale"
     },
     {
@@ -141,31 +150,29 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 463,
-          "controls": 9,
+          "textLen": 801,
+          "controls": 16,
           "title": "עֶזְרָא — העוזר שעושה בשבילכם"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 469,
-          "controls": 9,
+          "textLen": 807,
+          "controls": 16,
           "title": "עֶזְרָא — העוזר שעושה בשבילכם"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 469,
-          "controls": 9,
+          "textLen": 807,
+          "controls": 16,
           "title": "עֶזְרָא — העוזר שעושה בשבילכם"
         }
       ],
-      "errors": [
-        "JS: SyntaxError: Invalid or unexpected token"
-      ],
+      "errors": [],
       "http4xx": [],
       "status": 200,
-      "verdict": "FAIL",
+      "verdict": "PASS",
       "title": "עֶזְרָא — העוזר שעושה בשבילכם"
     },
     {
@@ -195,12 +202,10 @@
           "title": "Milo — Milo grows with you"
         }
       ],
-      "errors": [
-        "CONSOLE: The Content Security Policy directive 'frame-ancestors' is ignored when delivered via a <meta> element."
-      ],
+      "errors": [],
       "http4xx": [],
       "status": 200,
-      "verdict": "FAIL",
+      "verdict": "PASS",
       "title": "Milo — Milo grows with you"
     },
     {
@@ -300,8 +305,8 @@
         "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
       ],
       "http4xx": [
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-hero.jpg",
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-badge.png"
+        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-badge.png",
+        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-hero.jpg"
       ],
       "status": 200,
       "verdict": "FAIL",
