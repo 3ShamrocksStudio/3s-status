@@ -1,0 +1,74 @@
+{
+  "generated": "2026-08-20T10:51:47.487Z",
+  "results": [
+    {
+      "repo": "senior-helper",
+      "path": "index.html",
+      "name": "Ezra",
+      "blocks": 1,
+      "fails": [
+        {
+          "block": 0,
+          "error": "^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"
+        }
+      ],
+      "verdict": "FAIL"
+    },
+    {
+      "repo": "shomer-app",
+      "path": "shomer.html",
+      "name": "SHOMER app",
+      "blocks": 4,
+      "fails": [],
+      "verdict": "PASS"
+    },
+    {
+      "repo": "shomer-app",
+      "path": "index.html",
+      "name": "SHOMER site",
+      "blocks": 2,
+      "fails": [],
+      "verdict": "PASS"
+    },
+    {
+      "repo": "chore-wars",
+      "path": "index.html",
+      "name": "Chore Royale",
+      "blocks": 1,
+      "fails": [],
+      "verdict": "PASS"
+    },
+    {
+      "repo": "milo-app",
+      "path": "index.html",
+      "name": "MILO",
+      "blocks": 1,
+      "fails": [],
+      "verdict": "PASS"
+    },
+    {
+      "repo": "j8nix",
+      "path": "index.html",
+      "name": "J8N.IX",
+      "blocks": 1,
+      "fails": [],
+      "verdict": "PASS"
+    },
+    {
+      "repo": "shomer-nature",
+      "path": "index.html",
+      "name": "SHOMER Nature",
+      "blocks": 1,
+      "fails": [],
+      "verdict": "PASS"
+    },
+    {
+      "repo": "fairent",
+      "path": "index.html",
+      "name": "Fairent",
+      "blocks": 1,
+      "fails": [],
+      "verdict": "PASS"
+    }
+  ]
+}
