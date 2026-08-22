@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T03:12:46.943Z",
+  "generated": "2026-08-22T03:03:16.935Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -65,9 +65,9 @@
         "CONSOLE: Failed to load resource: the server responded with a status of 401 (Unauthorized)"
       ],
       "http4xx": [
-        "401 Rq00Etxwc4zM5KA7Nb_OIsGH04Tm-Glj_eqHmFsi-JpUyQmyE3c5901J9o1IDpLyJJcXPA",
-        "401 BidJfA9oy8SpR3bKMfPrgEHwnXqXbaINoh_V231MnRNjRLoANPYS_XvMp_y-sQoGkRj0GQ",
-        "401 A9EW-9UUcQG9ZNxVbVoEOIBZ6Cc8qAg15MzzDuhTPY9jrUx6y_m8d5ONqIM_QsXDGWrxlg"
+        "401 7C7kQkWjsrWalGi8MD2MFZJOHO18bGUsNtERupdUBCJprtSbL4hFTiYG999xOYjW3zVzVw",
+        "401 qGLI89oz_yijhGd9hqhYFnTkYhjuZ6CueSzqYc2BlI_WvV6-U6cK_wJD_hnfO6eSQ63r2A",
+        "401 kqdw0XcRLEX4dySvmnbXGuJtWmcqd9fzyNE5VJ5N_f89oI2jVrOH0VAupvWCPNVapAA0xQ"
       ],
       "status": 200,
       "verdict": "FAIL",
