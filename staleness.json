@@ -1,16 +1,12 @@
 {
-  "generated": "2026-08-24T06:15:32.633Z",
+  "generated": "2026-08-24T06:19:45.368Z",
   "results": [
     {
       "product": "TH MVP",
       "source": "Trashure-Hunters",
       "deploy": "th-mvp-web",
       "built": true,
-      "sourcePush": "2026-08-12T07:30:20Z",
-      "deployPush": "2026-08-18T09:43:26Z",
-      "lagDays": -6,
-      "ageDays": 12,
-      "verdict": "FRESH"
+      "verdict": "UNKNOWN"
     },
     {
       "product": "SHOMER app",

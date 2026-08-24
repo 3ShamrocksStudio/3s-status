@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24T03:13:31.031Z",
+  "generated": "2026-08-24T06:19:40.362Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -62,15 +62,15 @@
         }
       ],
       "errors": [
-        "CONSOLE: Failed to load resource: the server responded with a status of 401 (Unauthorized)",
-        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
+        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()",
+        "CONSOLE: Failed to load resource: the server responded with a status of 401 (Unauthorized)"
       ],
       "http4xx": [
-        "401 QTE_PV081UaPfgXDcDZB1pkWdzuIWtm-HWDpjSeY-5fOaY-SKEjZEP1Vrr3DHJQze0njJQ",
         "404 https://www.shomer-app.co.il/'+photo+'",
         "404 https://www.shomer-app.co.il/'+e.photo+'",
-        "401 gYddwhOTBNMgkKTzEdm3KBSavTXeT8WP4Ug_SfrR2a2Rjc4q0EAyF9zzDOw21cgFeFC1jw",
-        "401 uWIFXlCp5fM0P5HzQ1m79ODnHBBQ8xmZkoN-obh3eahU4hA-Z0etUnn_f2wgMibfuDClJA"
+        "401 tMx7OLeDURBnsy9EozJs3Ah9ckx_MOWo-v9va2eSkbgsv5-rzTABGAOYAaIxkdlPowkH0A",
+        "401 uLhhuZFVFZXvD5hTg4HY48RwjL3Nh6eV7m7_eSRG_NF9UWGHMoV-jA-YnVpTMy65XJF7Ig",
+        "401 eVQgC8AMHrtw7R6gpkB_IUX_7s9-iZh0uxZWg7E76PsVRR-EKwZ4b5d1tA4ZK8GPqwblnA"
       ],
       "status": 200,
       "verdict": "FAIL",
