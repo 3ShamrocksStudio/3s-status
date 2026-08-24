@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 const audit  = JSON.parse(fs.readFileSync('audit.json','utf8'));
 const syntax = JSON.parse(fs.readFileSync('syntax.json','utf8'));
+const stale  = JSON.parse(fs.readFileSync('staleness.json','utf8'));
 const now = new Date(audit.generated);
 const stamp = now.toISOString().replace('T',' ').slice(0,16) + ' UTC';
 const C = { PASS:'#1f9d55', WARN:'#f0a020', FAIL:'#d64545', MISSING:'#888' };
@@ -10,13 +11,16 @@ audit.results.forEach(r => counts[r.verdict] !== undefined && counts[r.verdict]+
 const rows = audit.results.sort((a,b)=>a.prio-b.prio || a.name.localeCompare(b.name)).map(r => {
   const sx = syntax.results.filter(s => s.name === r.name);
   const sxBad = sx.filter(s => s.verdict === 'FAIL');
+  const st = stale.results.find(x => x.product === r.name);
+  const staleLine = st && (st.verdict === 'STALE' || st.verdict === 'LAGGING')
+    ? `<div class="d warn">DEPLOY ${st.verdict}: source is ${st.lagDays} days ahead of the live build</div>` : '';
   const detail = [
     ...r.errors.map(e => `<div class="d err">${esc(e)}</div>`),
     ...r.http4xx.map(e => `<div class="d warn">HTTP ${esc(e)}</div>`),
     ...sxBad.flatMap(s => s.fails.map(f => `<div class="d err">SYNTAX ${esc(s.path)} block ${f.block}: ${esc(f.error)}</div>`)),
     ...r.viewports.filter(v=>v.hscroll).map(v => `<div class="d warn">horizontal scroll @ ${v.vp}</div>`),
     ...r.viewports.filter(v=>v.loadError).map(v => `<div class="d err">load failed @ ${v.vp}: ${esc(v.loadError)}</div>`),
-  ].join('') || '<div class="d ok">no issues detected</div>';
+  ].join('') + staleLine || '<div class="d ok">no issues detected</div>';
   const ctrls = r.viewports.map(v => v.controls).filter(x=>x!==undefined);
   return `<tr><td><span class="dot" style="background:${C[r.verdict]}"></span></td>
     <td class="n">${esc(r.name)}<div class="u"><a href="${r.url}">${esc(r.url.replace(/^https?:\/\//,''))}</a></div></td>

@@ -33,6 +33,11 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node scripts/syntax.mjs
 
+      - name: Stale deploy check
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/staleness.mjs
+
       - name: Build status page
         run: node scripts/report.mjs
 
@@ -40,6 +45,6 @@ jobs:
         run: |
           git config user.name  "3SDS Watchtower"
           git config user.email "watchtower@3shamrocks.com"
-          git add index.html audit.json syntax.json
+          git add index.html audit.json syntax.json staleness.json
           git diff --staged --quiet || git commit -m "watchtower: nightly status $(date -u +%Y-%m-%d)"
           git push

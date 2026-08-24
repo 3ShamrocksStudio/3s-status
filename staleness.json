@@ -1,0 +1,93 @@
+{
+  "generated": "2026-08-24T06:15:32.633Z",
+  "results": [
+    {
+      "product": "TH MVP",
+      "source": "Trashure-Hunters",
+      "deploy": "th-mvp-web",
+      "built": true,
+      "sourcePush": "2026-08-12T07:30:20Z",
+      "deployPush": "2026-08-18T09:43:26Z",
+      "lagDays": -6,
+      "ageDays": 12,
+      "verdict": "FRESH"
+    },
+    {
+      "product": "SHOMER app",
+      "source": "shomer-app",
+      "deploy": "shomer-app",
+      "built": false,
+      "sourcePush": "2026-08-18T08:01:19Z",
+      "deployPush": "2026-08-18T08:01:19Z",
+      "lagDays": 0,
+      "ageDays": 6,
+      "verdict": "FRESH"
+    },
+    {
+      "product": "Ezra",
+      "source": "senior-helper",
+      "deploy": "senior-helper",
+      "built": false,
+      "sourcePush": "2026-08-20T11:12:42Z",
+      "deployPush": "2026-08-20T11:12:42Z",
+      "lagDays": 0,
+      "ageDays": 4,
+      "verdict": "FRESH"
+    },
+    {
+      "product": "Chore Royale",
+      "source": "chore-wars",
+      "deploy": "chore-wars",
+      "built": false,
+      "sourcePush": "2026-08-10T05:24:58Z",
+      "deployPush": "2026-08-10T05:24:58Z",
+      "lagDays": 0,
+      "ageDays": 14,
+      "verdict": "FRESH"
+    },
+    {
+      "product": "SHOMER Nature",
+      "source": "shomer-nature",
+      "deploy": "shomer-nature",
+      "built": false,
+      "sourcePush": "2026-08-10T05:25:47Z",
+      "deployPush": "2026-08-10T05:25:47Z",
+      "lagDays": 0,
+      "ageDays": 14,
+      "verdict": "FRESH"
+    },
+    {
+      "product": "MILO",
+      "source": "milo-app",
+      "deploy": "milo-app",
+      "built": false,
+      "sourcePush": "2026-06-27T15:07:34Z",
+      "deployPush": "2026-06-27T15:07:34Z",
+      "lagDays": 0,
+      "ageDays": 58,
+      "verdict": "FRESH"
+    },
+    {
+      "product": "J8N.IX",
+      "source": "j8nix",
+      "deploy": "j8nix",
+      "built": false,
+      "sourcePush": "2026-06-18T15:41:11Z",
+      "deployPush": "2026-06-18T15:41:11Z",
+      "lagDays": 0,
+      "ageDays": 67,
+      "verdict": "FRESH"
+    },
+    {
+      "product": "Fairent",
+      "source": "fairent",
+      "deploy": "fairent",
+      "built": false,
+      "sourcePush": "2026-06-26T07:12:31Z",
+      "deployPush": "2026-06-26T07:12:31Z",
+      "lagDays": 0,
+      "ageDays": 59,
+      "verdict": "FRESH"
+    }
+  ]
+}
