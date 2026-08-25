@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-24T06:19:40.362Z",
+  "generated": "2026-08-25T03:08:33.258Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -9,21 +9,21 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 936,
-          "controls": 18,
+          "textLen": 951,
+          "controls": 19,
           "title": "SH✡MER — הרשת החברתית הראשונה בישראל של אזרחים למען אזרחים"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 951,
+          "textLen": 958,
           "controls": 19,
           "title": "SH✡MER — הרשת החברתית הראשונה בישראל של אזרחים למען אזרחים"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 936,
+          "textLen": 943,
           "controls": 18,
           "title": "SH✡MER — הרשת החברתית הראשונה בישראל של אזרחים למען אזרחים"
         }
@@ -66,11 +66,11 @@
         "CONSOLE: Failed to load resource: the server responded with a status of 401 (Unauthorized)"
       ],
       "http4xx": [
-        "404 https://www.shomer-app.co.il/'+photo+'",
         "404 https://www.shomer-app.co.il/'+e.photo+'",
-        "401 tMx7OLeDURBnsy9EozJs3Ah9ckx_MOWo-v9va2eSkbgsv5-rzTABGAOYAaIxkdlPowkH0A",
-        "401 uLhhuZFVFZXvD5hTg4HY48RwjL3Nh6eV7m7_eSRG_NF9UWGHMoV-jA-YnVpTMy65XJF7Ig",
-        "401 eVQgC8AMHrtw7R6gpkB_IUX_7s9-iZh0uxZWg7E76PsVRR-EKwZ4b5d1tA4ZK8GPqwblnA"
+        "404 https://www.shomer-app.co.il/'+photo+'",
+        "401 4mc42MSrV2YNOCv2n1XfQTWC4Dq-ZW3cWVfFkxmnnw_d-nIYgHdZg2g5hFJJFZDAPFmQEA",
+        "401 hQMKv0OEzhRdsty2hbkohj_4LSoSdtfbfMOBvCcHCwGr53-2Zgm18bDTXeYcamKmdKNEcQ",
+        "401 IFNwv6kZUS77nLjJB_Fe8GfTi9Pmbr8drXP782HjRQqxVbFrwfGkOKBUTSrd2iWJnyABaw"
       ],
       "status": 200,
       "verdict": "FAIL",
@@ -117,21 +117,21 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 1441,
+          "textLen": 1442,
           "controls": 26,
           "title": "Chore Royale"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 1441,
+          "textLen": 1442,
           "controls": 26,
           "title": "Chore Royale"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 1441,
+          "textLen": 1442,
           "controls": 26,
           "title": "Chore Royale"
         }
@@ -305,8 +305,8 @@
         "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
       ],
       "http4xx": [
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-badge.png",
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-hero.jpg"
+        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-hero.jpg",
+        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-badge.png"
       ],
       "status": 200,
       "verdict": "FAIL",
