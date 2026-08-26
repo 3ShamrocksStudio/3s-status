@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25T03:08:37.042Z",
+  "generated": "2026-08-26T03:15:22.051Z",
   "results": [
     {
       "product": "TH MVP",
@@ -16,7 +16,7 @@
       "sourcePush": "2026-08-24T13:09:46Z",
       "deployPush": "2026-08-24T13:09:46Z",
       "lagDays": 0,
-      "ageDays": 1,
+      "ageDays": 2,
       "verdict": "FRESH"
     },
     {
@@ -24,10 +24,10 @@
       "source": "senior-helper",
       "deploy": "senior-helper",
       "built": false,
-      "sourcePush": "2026-08-20T11:12:42Z",
-      "deployPush": "2026-08-20T11:12:42Z",
+      "sourcePush": "2026-08-25T09:24:24Z",
+      "deployPush": "2026-08-25T09:24:24Z",
       "lagDays": 0,
-      "ageDays": 5,
+      "ageDays": 1,
       "verdict": "FRESH"
     },
     {
@@ -35,8 +35,8 @@
       "source": "chore-wars",
       "deploy": "chore-wars",
       "built": false,
-      "sourcePush": "2026-08-24T10:23:26Z",
-      "deployPush": "2026-08-24T10:23:26Z",
+      "sourcePush": "2026-08-25T07:07:31Z",
+      "deployPush": "2026-08-25T07:07:31Z",
       "lagDays": 0,
       "ageDays": 1,
       "verdict": "FRESH"
@@ -46,10 +46,10 @@
       "source": "shomer-nature",
       "deploy": "shomer-nature",
       "built": false,
-      "sourcePush": "2026-08-10T05:25:47Z",
-      "deployPush": "2026-08-10T05:25:47Z",
+      "sourcePush": "2026-08-25T09:27:03Z",
+      "deployPush": "2026-08-25T09:27:03Z",
       "lagDays": 0,
-      "ageDays": 15,
+      "ageDays": 1,
       "verdict": "FRESH"
     },
     {
@@ -60,7 +60,7 @@
       "sourcePush": "2026-06-27T15:07:34Z",
       "deployPush": "2026-06-27T15:07:34Z",
       "lagDays": 0,
-      "ageDays": 59,
+      "ageDays": 60,
       "verdict": "FRESH"
     },
     {
@@ -71,7 +71,7 @@
       "sourcePush": "2026-06-18T15:41:11Z",
       "deployPush": "2026-06-18T15:41:11Z",
       "lagDays": 0,
-      "ageDays": 67,
+      "ageDays": 68,
       "verdict": "FRESH"
     },
     {
@@ -79,10 +79,10 @@
       "source": "fairent",
       "deploy": "fairent",
       "built": false,
-      "sourcePush": "2026-06-26T07:12:31Z",
-      "deployPush": "2026-06-26T07:12:31Z",
+      "sourcePush": "2026-08-25T09:26:20Z",
+      "deployPush": "2026-08-25T09:26:20Z",
       "lagDays": 0,
-      "ageDays": 60,
+      "ageDays": 1,
       "verdict": "FRESH"
     }
   ]

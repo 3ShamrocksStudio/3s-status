@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-25T03:08:33.258Z",
+  "generated": "2026-08-26T03:15:17.420Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -62,15 +62,12 @@
         }
       ],
       "errors": [
-        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()",
         "CONSOLE: Failed to load resource: the server responded with a status of 401 (Unauthorized)"
       ],
       "http4xx": [
-        "404 https://www.shomer-app.co.il/'+e.photo+'",
-        "404 https://www.shomer-app.co.il/'+photo+'",
-        "401 4mc42MSrV2YNOCv2n1XfQTWC4Dq-ZW3cWVfFkxmnnw_d-nIYgHdZg2g5hFJJFZDAPFmQEA",
-        "401 hQMKv0OEzhRdsty2hbkohj_4LSoSdtfbfMOBvCcHCwGr53-2Zgm18bDTXeYcamKmdKNEcQ",
-        "401 IFNwv6kZUS77nLjJB_Fe8GfTi9Pmbr8drXP782HjRQqxVbFrwfGkOKBUTSrd2iWJnyABaw"
+        "401 -_74J_JplVdV_YsISKjjW6CpsWqknR4z5BQ9lvw9VoUchzyNh9Nw4nVj7GKTJostvqWcHQ",
+        "401 03GzxaaLfGgAbkIYtDodjL-X80utjYM5XUWVKI7iju0YhKf3-PH90kHaA4D9UA5Y08tS9Q",
+        "401 R5d9FzzKAwWEK80kvpcKIAzIE4lOFPPyQ5tqPxgsBwMhlOqGQtIwup76JjsLjT4KEHOE6g"
       ],
       "status": 200,
       "verdict": "FAIL",
@@ -86,28 +83,28 @@
           "hscroll": false,
           "textLen": 84,
           "controls": 2,
-          "title": "Trashure-Hunters"
+          "title": "Trashure-Hunters — Clean the World, Level Up"
         },
         {
           "vp": "tablet",
           "hscroll": false,
           "textLen": 84,
           "controls": 2,
-          "title": "Trashure-Hunters"
+          "title": "Trashure-Hunters — Clean the World, Level Up"
         },
         {
           "vp": "desktop",
           "hscroll": false,
           "textLen": 84,
           "controls": 2,
-          "title": "Trashure-Hunters"
+          "title": "Trashure-Hunters — Clean the World, Level Up"
         }
       ],
       "errors": [],
       "http4xx": [],
       "status": 200,
       "verdict": "PASS",
-      "title": "Trashure-Hunters"
+      "title": "Trashure-Hunters — Clean the World, Level Up"
     },
     {
       "name": "Chore Royale",
@@ -117,22 +114,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 1442,
-          "controls": 26,
+          "textLen": 1576,
+          "controls": 40,
           "title": "Chore Royale"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 1442,
-          "controls": 26,
+          "textLen": 1576,
+          "controls": 40,
           "title": "Chore Royale"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 1442,
-          "controls": 26,
+          "textLen": 1576,
+          "controls": 40,
           "title": "Chore Royale"
         }
       ],
@@ -150,22 +147,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 801,
-          "controls": 16,
+          "textLen": 942,
+          "controls": 18,
           "title": "עֶזְרָא — העוזר שעושה בשבילכם"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 807,
-          "controls": 16,
+          "textLen": 948,
+          "controls": 18,
           "title": "עֶזְרָא — העוזר שעושה בשבילכם"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 807,
-          "controls": 16,
+          "textLen": 948,
+          "controls": 18,
           "title": "עֶזְרָא — העוזר שעושה בשבילכם"
         }
       ],
@@ -320,21 +317,21 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 5016,
+          "textLen": 5000,
           "controls": 28,
           "title": "3Shamrocks Studio — Product Design that Ships"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 5046,
+          "textLen": 5030,
           "controls": 31,
           "title": "3Shamrocks Studio — Product Design that Ships"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 5046,
+          "textLen": 5030,
           "controls": 31,
           "title": "3Shamrocks Studio — Product Design that Ships"
         }
