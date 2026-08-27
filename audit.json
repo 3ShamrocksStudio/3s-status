@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-26T03:15:17.420Z",
+  "generated": "2026-08-27T12:44:22.484Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -62,12 +62,15 @@
         }
       ],
       "errors": [
+        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()",
         "CONSOLE: Failed to load resource: the server responded with a status of 401 (Unauthorized)"
       ],
       "http4xx": [
-        "401 -_74J_JplVdV_YsISKjjW6CpsWqknR4z5BQ9lvw9VoUchzyNh9Nw4nVj7GKTJostvqWcHQ",
-        "401 03GzxaaLfGgAbkIYtDodjL-X80utjYM5XUWVKI7iju0YhKf3-PH90kHaA4D9UA5Y08tS9Q",
-        "401 R5d9FzzKAwWEK80kvpcKIAzIE4lOFPPyQ5tqPxgsBwMhlOqGQtIwup76JjsLjT4KEHOE6g"
+        "404 https://www.shomer-app.co.il/'+photo+'",
+        "404 https://www.shomer-app.co.il/'+e.photo+'",
+        "401 VgoU7t9agXFu3-fG2Y6oeHE9FiY2bRQv91rIPoYl7-3aUxvhdSabXh5141k5c7Dc8B67Ug",
+        "401 qgn5GtDbwdurrEfy5B_Er1VaIVdTb4orAnA6inUxDU_FXdZMmwPUSRSEzutDCxkR5b8JcQ",
+        "401 9y8_OgVXp-B0OwfJ3fgsZLXihLbUJfy28P3WmPRtsUBsdSHwS4SFehZB8HfkJTwrGAaECg"
       ],
       "status": 200,
       "verdict": "FAIL",
@@ -114,29 +117,31 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 1576,
-          "controls": 40,
+          "textLen": 1590,
+          "controls": 41,
           "title": "Chore Royale"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 1576,
-          "controls": 40,
+          "textLen": 1590,
+          "controls": 41,
           "title": "Chore Royale"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 1576,
-          "controls": 40,
+          "textLen": 1590,
+          "controls": 41,
           "title": "Chore Royale"
         }
       ],
-      "errors": [],
+      "errors": [
+        "JS: SyntaxError: Unexpected identifier 'S'"
+      ],
       "http4xx": [],
       "status": 200,
-      "verdict": "PASS",
+      "verdict": "FAIL",
       "title": "Chore Royale"
     },
     {
@@ -302,8 +307,8 @@
         "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
       ],
       "http4xx": [
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-hero.jpg",
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-badge.png"
+        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-badge.png",
+        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-hero.jpg"
       ],
       "status": 200,
       "verdict": "FAIL",
@@ -317,30 +322,30 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 5000,
-          "controls": 28,
-          "title": "3Shamrocks Studio — Product Design that Ships"
+          "textLen": 70,
+          "controls": 33,
+          "title": "3Shamrocks Studio"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 5030,
-          "controls": 31,
-          "title": "3Shamrocks Studio — Product Design that Ships"
+          "textLen": 70,
+          "controls": 33,
+          "title": "3Shamrocks Studio"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 5030,
-          "controls": 31,
-          "title": "3Shamrocks Studio — Product Design that Ships"
+          "textLen": 96,
+          "controls": 36,
+          "title": "3Shamrocks Studio"
         }
       ],
       "errors": [],
       "http4xx": [],
       "status": 200,
       "verdict": "PASS",
-      "title": "3Shamrocks Studio — Product Design that Ships"
+      "title": "3Shamrocks Studio"
     }
   ]
 }
