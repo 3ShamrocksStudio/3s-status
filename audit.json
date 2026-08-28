@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-27T12:44:22.484Z",
+  "generated": "2026-08-28T14:17:35.558Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -62,15 +62,12 @@
         }
       ],
       "errors": [
-        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()",
         "CONSOLE: Failed to load resource: the server responded with a status of 401 (Unauthorized)"
       ],
       "http4xx": [
-        "404 https://www.shomer-app.co.il/'+photo+'",
-        "404 https://www.shomer-app.co.il/'+e.photo+'",
-        "401 VgoU7t9agXFu3-fG2Y6oeHE9FiY2bRQv91rIPoYl7-3aUxvhdSabXh5141k5c7Dc8B67Ug",
-        "401 qgn5GtDbwdurrEfy5B_Er1VaIVdTb4orAnA6inUxDU_FXdZMmwPUSRSEzutDCxkR5b8JcQ",
-        "401 9y8_OgVXp-B0OwfJ3fgsZLXihLbUJfy28P3WmPRtsUBsdSHwS4SFehZB8HfkJTwrGAaECg"
+        "401 9d9yOy2HGKkWtdPWToSqlLmtTP3Ot8RlLpxq7BwZxBNrETj7VyEiO0n7_bnPiCS107c2Ww",
+        "401 AYORfgfpYfaXFhc7a6nJ4jwSxmpobvwR_xUQZL9TysekYPDzOf7e1LWGmI80FDhvH0aUHA",
+        "401 cOaZ0P3VmfZtQKw86TDFwoAp-m0pS5erI_RuUbCVlkCTAnMHtLtgIrUqnJNrW6kjpDRrSg"
       ],
       "status": 200,
       "verdict": "FAIL",
@@ -307,8 +304,8 @@
         "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
       ],
       "http4xx": [
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-badge.png",
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-hero.jpg"
+        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-hero.jpg",
+        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-badge.png"
       ],
       "status": 200,
       "verdict": "FAIL",
@@ -322,22 +319,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 70,
-          "controls": 33,
+          "textLen": 77,
+          "controls": 22,
           "title": "3Shamrocks Studio"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 70,
-          "controls": 33,
+          "textLen": 77,
+          "controls": 22,
           "title": "3Shamrocks Studio"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 96,
-          "controls": 36,
+          "textLen": 100,
+          "controls": 24,
           "title": "3Shamrocks Studio"
         }
       ],
