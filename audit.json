@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-08T07:12:21.708Z",
+  "generated": "2026-09-09T07:19:34.775Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -66,11 +66,11 @@
         "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
       ],
       "http4xx": [
-        "401 CC1a2T48qipemN7xIpUrUecjnKVU98SuZW8pU9G05QG26sZC8sMgZygJc60tGaQI2JPS2Q",
-        "401 AHTqKqd5mEJjPRIS_qjo4apm_aJbRNAjoCsGQSyAjr60fhuyOrEW20_kd5P7HkjlVsq_oA",
-        "404 https://www.shomer-app.co.il/'+photo+'",
+        "401 O_ibqvjQNUllXdHeivruwAOKCI0IatpQ3-HdU_1pfVcxz1aGUCbeeUJQsTtUqQgmsLPYEg",
         "404 https://www.shomer-app.co.il/'+e.photo+'",
-        "401 zs7afIw9879XDdC7KEIT4-YU47FuvBDk6dVGXMN-l_7sV5nT81pp5RxgMP9sqyVrLs9MQw"
+        "404 https://www.shomer-app.co.il/'+photo+'",
+        "401 VUOcq9ek2s5A2S7Ek5_LYM1GVWy_gTq8jUu4-bQSJsRQh9wVG_Ul_gggnvU0FbmAUNwOfg",
+        "401 F7vTjdYaHOaJePFVnP1Idml0fr_UHWltR7afX46ynsBkJ3pFOc4KTFY-YtlFaI_R9rrv6A"
       ],
       "status": 200,
       "verdict": "FAIL",
@@ -119,21 +119,21 @@
           "hscroll": false,
           "textLen": 1590,
           "controls": 41,
-          "title": "Chore Royale"
+          "title": "Chore Royale — Make Chores Epic"
         },
         {
           "vp": "tablet",
           "hscroll": false,
           "textLen": 1590,
           "controls": 41,
-          "title": "Chore Royale"
+          "title": "Chore Royale — Make Chores Epic"
         },
         {
           "vp": "desktop",
           "hscroll": false,
           "textLen": 1590,
           "controls": 41,
-          "title": "Chore Royale"
+          "title": "Chore Royale — Make Chores Epic"
         }
       ],
       "errors": [
@@ -142,7 +142,7 @@
       "http4xx": [],
       "status": 200,
       "verdict": "FAIL",
-      "title": "Chore Royale"
+      "title": "Chore Royale — Make Chores Epic"
     },
     {
       "name": "Ezra",
@@ -307,8 +307,8 @@
         "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
       ],
       "http4xx": [
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-badge.png",
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-hero.jpg"
+        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-hero.jpg",
+        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-badge.png"
       ],
       "status": 200,
       "verdict": "FAIL",
@@ -322,22 +322,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 77,
-          "controls": 22,
+          "textLen": 3129,
+          "controls": 16,
           "title": "3Shamrocks Studio"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 77,
-          "controls": 22,
+          "textLen": 3129,
+          "controls": 16,
           "title": "3Shamrocks Studio"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 100,
-          "controls": 24,
+          "textLen": 3155,
+          "controls": 19,
           "title": "3Shamrocks Studio"
         }
       ],
