@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09T07:19:39.326Z",
+  "generated": "2026-09-10T07:16:01.402Z",
   "results": [
     {
       "product": "TH MVP",
@@ -16,7 +16,7 @@
       "sourcePush": "2026-09-02T07:58:17Z",
       "deployPush": "2026-09-02T07:58:17Z",
       "lagDays": 0,
-      "ageDays": 7,
+      "ageDays": 8,
       "verdict": "FRESH"
     },
     {
@@ -27,7 +27,7 @@
       "sourcePush": "2026-09-06T06:42:20Z",
       "deployPush": "2026-09-06T06:42:20Z",
       "lagDays": 0,
-      "ageDays": 3,
+      "ageDays": 4,
       "verdict": "FRESH"
     },
     {
@@ -35,8 +35,8 @@
       "source": "chore-wars",
       "deploy": "chore-wars",
       "built": false,
-      "sourcePush": "2026-09-08T14:13:10Z",
-      "deployPush": "2026-09-08T14:13:10Z",
+      "sourcePush": "2026-09-09T15:02:29Z",
+      "deployPush": "2026-09-09T15:02:29Z",
       "lagDays": 0,
       "ageDays": 1,
       "verdict": "FRESH"
@@ -49,7 +49,7 @@
       "sourcePush": "2026-09-08T07:22:03Z",
       "deployPush": "2026-09-08T07:22:03Z",
       "lagDays": 0,
-      "ageDays": 1,
+      "ageDays": 2,
       "verdict": "FRESH"
     },
     {
@@ -60,7 +60,7 @@
       "sourcePush": "2026-06-27T15:07:34Z",
       "deployPush": "2026-06-27T15:07:34Z",
       "lagDays": 0,
-      "ageDays": 74,
+      "ageDays": 75,
       "verdict": "FRESH"
     },
     {
@@ -71,7 +71,7 @@
       "sourcePush": "2026-09-06T06:42:18Z",
       "deployPush": "2026-09-06T06:42:18Z",
       "lagDays": 0,
-      "ageDays": 3,
+      "ageDays": 4,
       "verdict": "FRESH"
     },
     {
@@ -82,7 +82,7 @@
       "sourcePush": "2026-09-06T06:42:17Z",
       "deployPush": "2026-09-06T06:42:17Z",
       "lagDays": 0,
-      "ageDays": 3,
+      "ageDays": 4,
       "verdict": "FRESH"
     }
   ]
