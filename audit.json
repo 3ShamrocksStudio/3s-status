@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-11T07:15:04.723Z",
+  "generated": "2026-09-12T07:06:38.426Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -62,15 +62,15 @@
         }
       ],
       "errors": [
-        "CONSOLE: Failed to load resource: the server responded with a status of 401 (Unauthorized)",
-        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
+        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()",
+        "CONSOLE: Failed to load resource: the server responded with a status of 401 (Unauthorized)"
       ],
       "http4xx": [
-        "401 tNIEcK3BZG1e1Lmbd3duEAA2Esd0H9tyDB27hVext8oA1rZzBJyJwWf2brVOxBbxBU-AGQ",
-        "404 https://www.shomer-app.co.il/'+photo+'",
         "404 https://www.shomer-app.co.il/'+e.photo+'",
-        "401 Sg_k56F3NmOUCiSNjmnPAJo7dThhh5FAVTQpXKaR3rHOFAQEvnKsTYp8a8vbEZ1jd3eWeQ",
-        "401 4li1Q4ARJcC6KedkJN1jOTN9xvVnWv65hlZmi5tBKUbjmexVkTSiMXnqX_2HxwV8dZlf0Q"
+        "404 https://www.shomer-app.co.il/'+photo+'",
+        "401 tWvNiXZUqJNtOwkv2KQ-cc96rZ4clGW5QEM1M2xUK0bsQmBHZAioi4OHDoWEoGx5Q9KkWw",
+        "401 nYxUvTxieSCfWVRcILi5I52FHqj8lBgm7yxwyhTLEEPm1i2cULtm7dc4j72LXqwP45lcpg",
+        "401 _6jaq61oNKpbUkOCAd3Zkel_hitYKsl5JR57YmQ6kfpuj7_Va6s7OEmKV92m6GworTpXHg"
       ],
       "status": 200,
       "verdict": "FAIL",
@@ -307,8 +307,8 @@
         "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
       ],
       "http4xx": [
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-badge.png",
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-hero.jpg"
+        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-hero.jpg",
+        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-badge.png"
       ],
       "status": 200,
       "verdict": "FAIL",
