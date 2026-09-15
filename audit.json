@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-14T07:50:38.675Z",
+  "generated": "2026-09-15T07:35:34.221Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -68,9 +68,9 @@
       "http4xx": [
         "404 https://www.shomer-app.co.il/'+photo+'",
         "404 https://www.shomer-app.co.il/'+e.photo+'",
-        "401 5WGnDwlBYjS1pC6QNVmWilIDKh8bUbouH-VHH4IqDxRMx7M7VBSyeqM8aGQGa5eiyghr3A",
-        "401 W793iXOOIdh2MTgdIMI90Yulssoh8S_tg6cWK6G7clAP4_KfpXMRuHt3sNcv-Azt5HrGpA",
-        "401 PlBW5ONZKX75vleu5DrH1Hok-TQjuvDZM7zT_71ZBkfgrnv-MaPotWcGQGjAIBMHQwI4XQ"
+        "401 ZStQtjXsuF1OmknTrsFrp_yWnubdE-YGNlXzzvGrMUFDynxgGrwy9nDbF4r7b9X2BllcHg",
+        "401 Mbi41Xr-tC2c8T8Lt_3tidYEhUyrgc-k8RcoRi9B3hmXyT3wucFrYkhfb0jRPvMH1Rgfaw",
+        "401 6Q6qVq82EDAaymS6x3pM7LjOS8sOV-Zq-9i31MXLn8i-1miiqA9YoAnZMLgKcSyoo7aeGg"
       ],
       "status": 200,
       "verdict": "FAIL",
