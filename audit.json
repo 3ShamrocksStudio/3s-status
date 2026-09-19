@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-18T07:20:16.668Z",
+  "generated": "2026-09-19T07:17:07.293Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -68,9 +68,9 @@
       "http4xx": [
         "404 https://www.shomer-app.co.il/'+photo+'",
         "404 https://www.shomer-app.co.il/'+e.photo+'",
-        "401 g3lxjZRLmNNcRw3f5llaL1943HE5jiAjvT_e4qbx84HopcqSXSLqRJEwEurw3WhBRW2r5A",
-        "401 HGgAJP-zW_OGqoZqjS-qR1y95sJ5BMJOl6nN0dMKL93t_yhV74t5Npkj29lD8r4xnraH7A",
-        "401 59-GwPbXnTxmCAuNQvn4ifMkQsqGhNz2h3G9gYFsKjbwGbeb4dBJAxNqwQZWm9UiCt9gcA"
+        "401 OQCGPMiGz7XfScRiaLQCkX3d68q0_gYzkTAIsidJfRjoB6JX8MJpW8Peg8Vl_bF6H8U7eg",
+        "401 QoqUxpsBl01EuwDEVtzePEb45kTt1SnFbntRoHLlVzgwCk7YV9_RhtHzsRHQVjsqq4JaTA",
+        "401 _t2YvAbqQpjTDswwAqL3CtlaZ6v9RH00Vuy1_4EDzRMCA2cf-HISCy_l2BgJx7Tc2rwASg"
       ],
       "status": 200,
       "verdict": "FAIL",
@@ -345,8 +345,8 @@
         "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
       ],
       "http4xx": [
-        "404 https://3shamrocksstudio.github.io/assets/3shamrocks-hero.png",
-        "404 https://3shamrocksstudio.github.io/assets/3shamrocks-logo.png"
+        "404 https://3shamrocksstudio.github.io/assets/3shamrocks-logo.png",
+        "404 https://3shamrocksstudio.github.io/assets/3shamrocks-hero.png"
       ],
       "status": 200,
       "verdict": "FAIL",
