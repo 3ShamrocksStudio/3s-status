@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01T08:43:20.445Z",
+  "generated": "2026-10-02T08:20:27.695Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -9,30 +9,30 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 951,
+          "textLen": 958,
           "controls": 19,
-          "title": "SH✡MER — הרשת החברתית הראשונה בישראל של אזרחים למען אזרחים"
+          "title": "SH✡MER - הרשת החברתית הראשונה בישראל של אזרחים למען אזרחים"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 958,
+          "textLen": 969,
           "controls": 19,
-          "title": "SH✡MER — הרשת החברתית הראשונה בישראל של אזרחים למען אזרחים"
+          "title": "SH✡MER - הרשת החברתית הראשונה בישראל של אזרחים למען אזרחים"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 943,
+          "textLen": 954,
           "controls": 18,
-          "title": "SH✡MER — הרשת החברתית הראשונה בישראל של אזרחים למען אזרחים"
+          "title": "SH✡MER - הרשת החברתית הראשונה בישראל של אזרחים למען אזרחים"
         }
       ],
       "errors": [],
       "http4xx": [],
       "status": 200,
       "verdict": "PASS",
-      "title": "SH✡MER — הרשת החברתית הראשונה בישראל של אזרחים למען אזרחים"
+      "title": "SH✡MER - הרשת החברתית הראשונה בישראל של אזרחים למען אזרחים"
     },
     {
       "name": "SHOMER app",
@@ -62,15 +62,15 @@
         }
       ],
       "errors": [
-        "CONSOLE: Failed to load resource: the server responded with a status of 401 (Unauthorized)",
-        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
+        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()",
+        "CONSOLE: Failed to load resource: the server responded with a status of 401 (Unauthorized)"
       ],
       "http4xx": [
-        "401 VPT50xf1qpNNqIwsvN75jefmCLHGj94VPHDztD5pOuhlt9pVanSeddSwbdUd2H_b5LX1Tg",
-        "404 https://www.shomer-app.co.il/'+e.photo+'",
         "404 https://www.shomer-app.co.il/'+photo+'",
-        "401 kvvjX61lAjCYlOFlINkBDjVYPjBcbN2OSbT0OqZAZlFVCscymd3o0g38zD7g9XNBf41csw",
-        "401 SLejxCUVGKc5_lTQ2ctdI3cjY_XPRWVAyJiDb2IxC7eafYxTSaTt5x6gohqWKmQoJ3p4mg"
+        "404 https://www.shomer-app.co.il/'+e.photo+'",
+        "401 MS9lmOLwVtaRUXkRD9algKRysZZoatukKyVIp3WOCeH5TL5cD8AlNhZWSeJXwqF_C37_sQ",
+        "401 glBuQsyVdUrxQ53HoXFVcN7x88J0YL8-4sCXOuplyUSWN0MRyJUPqttHVjGKptZOr2dGEA",
+        "401 HbpRh8kLXXXtWqUpjvNNttyIn1LTkOt2KVjRk9syxzbDUNgn1GkkRVS2hrURI-4zxpOrmg"
       ],
       "status": 200,
       "verdict": "FAIL",
@@ -307,8 +307,8 @@
         "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
       ],
       "http4xx": [
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-hero.jpg",
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-badge.png"
+        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-badge.png",
+        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-hero.jpg"
       ],
       "status": 200,
       "verdict": "FAIL",
