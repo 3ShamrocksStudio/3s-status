@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-04T08:19:19.115Z",
+  "generated": "2026-10-05T08:49:30.518Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -42,21 +42,21 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 1274,
+          "textLen": 490,
           "controls": 16,
           "title": "SHOMER · שומר - Citizens for Citizens"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 1274,
+          "textLen": 490,
           "controls": 16,
           "title": "SHOMER · שומר - Citizens for Citizens"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 1274,
+          "textLen": 490,
           "controls": 16,
           "title": "SHOMER · שומר - Citizens for Citizens"
         }
@@ -66,11 +66,12 @@
         "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
       ],
       "http4xx": [
-        "401 b4BInr92GEvxx4X0owaBhspkRDJhUxYW70hpUvOsZ_bsXN3-JhzymG_J_HoWxy5Ci7vp3g",
+        "401 zDdWw5CVMSyJeHRQf3853bT4r8AGnKr3Dwfnkvjdtq1iL-sFGu96JNed5WL11JHmXlQdiw",
         "404 https://www.shomer-app.co.il/'+e.photo+'",
         "404 https://www.shomer-app.co.il/'+photo+'",
-        "401 jbjyMJZIEaGIZe_VGbwHe9g8oY_dgqpg6tzv-v0zENZoLRxCLZkR9p5lc0UChFm2-zeLEQ",
-        "401 S74yoNnYVC4DL5CjvdNOkm0mwUHqZ_lkyU6aGLwbtYy9l-V8wnFzhbxo2MVUGAAzhZ6RzA"
+        "404 https://www.shomer-app.co.il/'+a.subjPhoto+'",
+        "401 1C_dA_I2quNLBDuk4TEgsjnL2U4Nak8jCd_qJ4PwYMy0On5EQxMdLgfZf1LVcW4RyD-UhA",
+        "401 L8xisxcTXoNtaAUBzFBrkCJTwMugPRSU3DUTVPQ6kOzRC-F3bEY42719lLHqX6YWXHPK3g"
       ],
       "status": 200,
       "verdict": "FAIL",
@@ -345,8 +346,8 @@
         "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
       ],
       "http4xx": [
-        "404 https://3shamrocksstudio.github.io/assets/3shamrocks-logo.png",
-        "404 https://3shamrocksstudio.github.io/assets/3shamrocks-hero.png"
+        "404 https://3shamrocksstudio.github.io/assets/3shamrocks-hero.png",
+        "404 https://3shamrocksstudio.github.io/assets/3shamrocks-logo.png"
       ],
       "status": 200,
       "verdict": "FAIL",
