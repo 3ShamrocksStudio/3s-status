@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-07T08:31:34.785Z",
+  "generated": "2026-10-08T08:46:34.261Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -42,31 +42,35 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 490,
+          "textLen": 483,
           "controls": 16,
           "title": "SHOMER · שומר - Citizens for Citizens"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 490,
+          "textLen": 483,
           "controls": 16,
           "title": "SHOMER · שומר - Citizens for Citizens"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 490,
+          "textLen": 483,
           "controls": 16,
           "title": "SHOMER · שומר - Citizens for Citizens"
         }
       ],
       "errors": [
-        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
+        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1791449026646' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce",
+        "CONSOLE: Failed to load resource: net::ERR_FAILED",
+        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()",
+        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1791449032957' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce",
+        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1791449039244' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce"
       ],
       "http4xx": [
-        "404 https://www.shomer-app.co.il/'+photo+'",
         "404 https://www.shomer-app.co.il/'+e.photo+'",
+        "404 https://www.shomer-app.co.il/'+photo+'",
         "404 https://www.shomer-app.co.il/'+a.subjPhoto+'"
       ],
       "status": 200,
