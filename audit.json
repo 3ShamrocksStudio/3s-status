@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-08T08:46:34.261Z",
+  "generated": "2026-10-09T08:51:25.751Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -62,17 +62,12 @@
         }
       ],
       "errors": [
-        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1791449026646' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce",
+        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1791535714766' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce",
         "CONSOLE: Failed to load resource: net::ERR_FAILED",
-        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()",
-        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1791449032957' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce",
-        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1791449039244' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce"
+        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1791535721228' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce",
+        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1791535727685' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce"
       ],
-      "http4xx": [
-        "404 https://www.shomer-app.co.il/'+e.photo+'",
-        "404 https://www.shomer-app.co.il/'+photo+'",
-        "404 https://www.shomer-app.co.il/'+a.subjPhoto+'"
-      ],
+      "http4xx": [],
       "status": 200,
       "verdict": "FAIL",
       "title": "SHOMER · שומר - Citizens for Citizens"
@@ -346,8 +341,8 @@
         "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
       ],
       "http4xx": [
-        "404 https://3shamrocksstudio.github.io/assets/3shamrocks-logo.png",
-        "404 https://3shamrocksstudio.github.io/assets/3shamrocks-hero.png"
+        "404 https://3shamrocksstudio.github.io/assets/3shamrocks-hero.png",
+        "404 https://3shamrocksstudio.github.io/assets/3shamrocks-logo.png"
       ],
       "status": 200,
       "verdict": "FAIL",
