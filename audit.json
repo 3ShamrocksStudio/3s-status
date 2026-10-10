@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-09T08:51:25.751Z",
+  "generated": "2026-10-10T08:23:05.301Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -42,30 +42,27 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 483,
+          "textLen": 490,
           "controls": 16,
           "title": "SHOMER · שומר - Citizens for Citizens"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 483,
+          "textLen": 490,
           "controls": 16,
           "title": "SHOMER · שומר - Citizens for Citizens"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 483,
+          "textLen": 490,
           "controls": 16,
           "title": "SHOMER · שומר - Citizens for Citizens"
         }
       ],
       "errors": [
-        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1791535714766' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce",
-        "CONSOLE: Failed to load resource: net::ERR_FAILED",
-        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1791535721228' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce",
-        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1791535727685' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce"
+        "JS: InvalidStateError: Failed to update a ServiceWorker for scope ('https://www.shomer-app.co.il/') with script ('Unknown'): The object is in an invalid state."
       ],
       "http4xx": [],
       "status": 200,
@@ -148,21 +145,21 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 942,
+          "textLen": 958,
           "controls": 18,
           "title": "עֶזְרָא — העוזר שעושה בשבילכם"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 948,
+          "textLen": 964,
           "controls": 18,
           "title": "עֶזְרָא — העוזר שעושה בשבילכם"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 948,
+          "textLen": 964,
           "controls": 18,
           "title": "עֶזְרָא — העוזר שעושה בשבילכם"
         }
@@ -214,22 +211,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 2095,
-          "controls": 65,
+          "textLen": 2550,
+          "controls": 80,
           "title": "J8NIX™ — 3Shamrocks Studio Command Center"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 2143,
-          "controls": 65,
+          "textLen": 2598,
+          "controls": 80,
           "title": "J8NIX™ — 3Shamrocks Studio Command Center"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 2143,
-          "controls": 65,
+          "textLen": 2598,
+          "controls": 80,
           "title": "J8NIX™ — 3Shamrocks Studio Command Center"
         }
       ],
@@ -247,21 +244,21 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 1397,
+          "textLen": 1400,
           "controls": 11,
           "title": "הוגן · Fairent — כוח השוכרים. שכר דירה הוגן."
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 1412,
+          "textLen": 1415,
           "controls": 11,
           "title": "הוגן · Fairent — כוח השוכרים. שכר דירה הוגן."
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 1412,
+          "textLen": 1415,
           "controls": 11,
           "title": "הוגן · Fairent — כוח השוכרים. שכר דירה הוגן."
         }
@@ -280,34 +277,29 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 1197,
-          "controls": 8,
+          "textLen": 1180,
+          "controls": 7,
           "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 1197,
+          "textLen": 1195,
           "controls": 8,
           "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 1197,
+          "textLen": 1195,
           "controls": 8,
           "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
         }
       ],
-      "errors": [
-        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
-      ],
-      "http4xx": [
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-badge.png",
-        "404 https://3shamrocksstudio.github.io/shomer-nature/nature-hero.jpg"
-      ],
+      "errors": [],
+      "http4xx": [],
       "status": 200,
-      "verdict": "FAIL",
+      "verdict": "PASS",
       "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
     },
     {
