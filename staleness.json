@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-10T08:23:09.892Z",
+  "generated": "2026-10-11T08:39:56.928Z",
   "results": [
     {
       "product": "TH MVP",
@@ -13,10 +13,10 @@
       "source": "shomer-app",
       "deploy": "shomer-app",
       "built": false,
-      "sourcePush": "2026-10-09T19:32:34Z",
-      "deployPush": "2026-10-09T19:32:34Z",
+      "sourcePush": "2026-10-11T07:38:17Z",
+      "deployPush": "2026-10-11T07:38:17Z",
       "lagDays": 0,
-      "ageDays": 1,
+      "ageDays": 0,
       "verdict": "FRESH"
     },
     {
@@ -27,7 +27,7 @@
       "sourcePush": "2026-10-10T05:26:34Z",
       "deployPush": "2026-10-10T05:26:34Z",
       "lagDays": 0,
-      "ageDays": 0,
+      "ageDays": 1,
       "verdict": "FRESH"
     },
     {
@@ -38,7 +38,7 @@
       "sourcePush": "2026-09-10T08:52:26Z",
       "deployPush": "2026-09-10T08:52:26Z",
       "lagDays": 0,
-      "ageDays": 30,
+      "ageDays": 31,
       "verdict": "FRESH"
     },
     {
@@ -49,7 +49,7 @@
       "sourcePush": "2026-10-10T06:29:43Z",
       "deployPush": "2026-10-10T06:29:43Z",
       "lagDays": 0,
-      "ageDays": 0,
+      "ageDays": 1,
       "verdict": "FRESH"
     },
     {
@@ -60,7 +60,7 @@
       "sourcePush": "2026-10-10T04:43:59Z",
       "deployPush": "2026-10-10T04:43:59Z",
       "lagDays": 0,
-      "ageDays": 0,
+      "ageDays": 1,
       "verdict": "FRESH"
     },
     {
@@ -71,7 +71,7 @@
       "sourcePush": "2026-10-10T06:13:58Z",
       "deployPush": "2026-10-10T06:13:58Z",
       "lagDays": 0,
-      "ageDays": 0,
+      "ageDays": 1,
       "verdict": "FRESH"
     },
     {
@@ -82,7 +82,7 @@
       "sourcePush": "2026-10-10T04:44:25Z",
       "deployPush": "2026-10-10T04:44:25Z",
       "lagDays": 0,
-      "ageDays": 0,
+      "ageDays": 1,
       "verdict": "FRESH"
     }
   ]
