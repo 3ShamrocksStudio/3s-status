@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T07:27:24.622Z",
+  "generated": "2026-10-15T07:18:12.160Z",
   "results": [
     {
       "product": "TH MVP",
@@ -13,10 +13,10 @@
       "source": "shomer-app",
       "deploy": "shomer-app",
       "built": false,
-      "sourcePush": "2026-10-11T10:31:33Z",
-      "deployPush": "2026-10-11T10:31:33Z",
+      "sourcePush": "2026-10-15T07:00:57Z",
+      "deployPush": "2026-10-15T07:00:57Z",
       "lagDays": 0,
-      "ageDays": 3,
+      "ageDays": 0,
       "verdict": "FRESH"
     },
     {
@@ -24,10 +24,10 @@
       "source": "senior-helper",
       "deploy": "senior-helper",
       "built": false,
-      "sourcePush": "2026-10-10T05:26:34Z",
-      "deployPush": "2026-10-10T05:26:34Z",
+      "sourcePush": "2026-10-14T19:24:35Z",
+      "deployPush": "2026-10-14T19:24:35Z",
       "lagDays": 0,
-      "ageDays": 4,
+      "ageDays": 0,
       "verdict": "FRESH"
     },
     {
@@ -35,10 +35,10 @@
       "source": "chore-wars",
       "deploy": "chore-wars",
       "built": false,
-      "sourcePush": "2026-09-10T08:52:26Z",
-      "deployPush": "2026-09-10T08:52:26Z",
+      "sourcePush": "2026-10-15T05:54:05Z",
+      "deployPush": "2026-10-15T05:54:05Z",
       "lagDays": 0,
-      "ageDays": 34,
+      "ageDays": 0,
       "verdict": "FRESH"
     },
     {
@@ -49,7 +49,7 @@
       "sourcePush": "2026-10-10T06:29:43Z",
       "deployPush": "2026-10-10T06:29:43Z",
       "lagDays": 0,
-      "ageDays": 4,
+      "ageDays": 5,
       "verdict": "FRESH"
     },
     {
@@ -60,7 +60,7 @@
       "sourcePush": "2026-10-10T04:43:59Z",
       "deployPush": "2026-10-10T04:43:59Z",
       "lagDays": 0,
-      "ageDays": 4,
+      "ageDays": 5,
       "verdict": "FRESH"
     },
     {
@@ -71,7 +71,7 @@
       "sourcePush": "2026-10-10T06:13:58Z",
       "deployPush": "2026-10-10T06:13:58Z",
       "lagDays": 0,
-      "ageDays": 4,
+      "ageDays": 5,
       "verdict": "FRESH"
     },
     {
@@ -79,10 +79,10 @@
       "source": "fairent",
       "deploy": "fairent",
       "built": false,
-      "sourcePush": "2026-10-10T04:44:25Z",
-      "deployPush": "2026-10-10T04:44:25Z",
+      "sourcePush": "2026-10-14T07:52:57Z",
+      "deployPush": "2026-10-14T07:52:57Z",
       "lagDays": 0,
-      "ageDays": 4,
+      "ageDays": 1,
       "verdict": "FRESH"
     }
   ]

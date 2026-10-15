@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14T07:27:22.490Z",
+  "generated": "2026-10-15T07:18:09.327Z",
   "results": [
     {
       "repo": "senior-helper",
@@ -30,13 +30,8 @@
       "path": "index.html",
       "name": "Chore Royale",
       "blocks": 2,
-      "fails": [
-        {
-          "block": 0,
-          "error": "^"
-        }
-      ],
-      "verdict": "FAIL"
+      "fails": [],
+      "verdict": "PASS"
     },
     {
       "repo": "milo-app",
