@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-15T07:18:05.002Z",
+  "generated": "2026-10-16T07:00:50.589Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -63,14 +63,14 @@
       ],
       "errors": [
         "CONSOLE: Failed to load resource: the server responded with a status of 404 ()",
-        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1792048509343' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce",
+        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1792133882683' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce",
         "CONSOLE: Failed to load resource: net::ERR_FAILED",
-        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1792048515749' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce",
-        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1792048522106' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce"
+        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1792133889032' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce",
+        "CONSOLE: Access to fetch at 'https://shomer-app.co.il/version.json?cb=1792133895461' from origin 'https://www.shomer-app.co.il' has been blocked by CORS policy: No 'Acce"
       ],
       "http4xx": [
-        "404 https://www.shomer-app.co.il/'+photo+'",
         "404 https://www.shomer-app.co.il/'+e.photo+'",
+        "404 https://www.shomer-app.co.il/'+photo+'",
         "404 https://www.shomer-app.co.il/'+a.subjPhoto+'"
       ],
       "status": 200,
@@ -118,21 +118,21 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 2245,
+          "textLen": 2243,
           "controls": 51,
           "title": "Chore Royale — Make Chores Epic"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 2369,
+          "textLen": 2367,
           "controls": 51,
           "title": "Chore Royale — Make Chores Epic"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 2369,
+          "textLen": 2367,
           "controls": 51,
           "title": "Chore Royale — Make Chores Epic"
         }
@@ -151,22 +151,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 942,
-          "controls": 18,
+          "textLen": 998,
+          "controls": 22,
           "title": "עֶזְרָא — העוזר שעושה בשבילכם"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 948,
-          "controls": 18,
+          "textLen": 1004,
+          "controls": 22,
           "title": "עֶזְרָא — העוזר שעושה בשבילכם"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 948,
-          "controls": 18,
+          "textLen": 1004,
+          "controls": 22,
           "title": "עֶזְרָא — העוזר שעושה בשבילכם"
         }
       ],
@@ -316,34 +316,29 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 4471,
-          "controls": 18,
+          "textLen": 3983,
+          "controls": 17,
           "title": "3Shamrocks Studio"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 4471,
-          "controls": 18,
+          "textLen": 4006,
+          "controls": 20,
           "title": "3Shamrocks Studio"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 4498,
-          "controls": 21,
+          "textLen": 4057,
+          "controls": 20,
           "title": "3Shamrocks Studio"
         }
       ],
-      "errors": [
-        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
-      ],
-      "http4xx": [
-        "404 https://3shamrocksstudio.github.io/assets/work/aposhealth/thumb.jpg",
-        "404 https://3shamrocksstudio.github.io/assets/work/vibrant/thumb.jpg"
-      ],
+      "errors": [],
+      "http4xx": [],
       "status": 200,
-      "verdict": "FAIL",
+      "verdict": "PASS",
       "title": "3Shamrocks Studio"
     }
   ]
