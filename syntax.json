@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17T06:51:34.669Z",
+  "generated": "2026-10-18T07:11:39.699Z",
   "results": [
     {
       "repo": "senior-helper",
@@ -13,7 +13,7 @@
       "repo": "shomer-app",
       "path": "shomer.html",
       "name": "SHOMER app",
-      "blocks": 4,
+      "blocks": 7,
       "fails": [],
       "verdict": "PASS"
     },
