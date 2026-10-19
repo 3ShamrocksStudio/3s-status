@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-18T07:11:37.375Z",
+  "generated": "2026-10-19T07:38:12.046Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -42,36 +42,32 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 558,
+          "textLen": 546,
           "controls": 16,
           "title": "SHOMER · שומר - Citizens for Citizens"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 558,
+          "textLen": 546,
           "controls": 16,
           "title": "SHOMER · שומר - Citizens for Citizens"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 558,
+          "textLen": 546,
           "controls": 16,
           "title": "SHOMER · שומר - Citizens for Citizens"
         }
       ],
       "errors": [
-        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()",
-        "CONSOLE: Failed to load resource: the server responded with a status of 401 (Unauthorized)"
+        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
       ],
       "http4xx": [
         "404 https://www.shomer-app.co.il/'+e.photo+'",
         "404 https://www.shomer-app.co.il/'+photo+'",
-        "404 https://www.shomer-app.co.il/'+a.subjPhoto+'",
-        "401 li1vfMA5mU7YC76uadQaohSELuCPkT-jUNUV0EzBC6a7wlhX0vyC1H3mUSoSVojXUW8xmQ",
-        "401 YCBAP6KmtKv8aGn4SvWdyl16x30JSnFXWxUOZbQoAFM7_C5D14zoRRqBmmFY6NoivcAcqA",
-        "401 ZhVNMbq7jq5OT6OQzSBMIyodr33XFJDrFkoqE7SJecuCgsoIo2PAkjazW8Xuf-l-QkAPUg"
+        "404 https://www.shomer-app.co.il/'+a.subjPhoto+'"
       ],
       "status": 200,
       "verdict": "FAIL",
