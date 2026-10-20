@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-19T07:38:12.046Z",
+  "generated": "2026-10-20T07:26:00.483Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -61,16 +61,10 @@
           "title": "SHOMER · שומר - Citizens for Citizens"
         }
       ],
-      "errors": [
-        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
-      ],
-      "http4xx": [
-        "404 https://www.shomer-app.co.il/'+e.photo+'",
-        "404 https://www.shomer-app.co.il/'+photo+'",
-        "404 https://www.shomer-app.co.il/'+a.subjPhoto+'"
-      ],
+      "errors": [],
+      "http4xx": [],
       "status": 200,
-      "verdict": "FAIL",
+      "verdict": "PASS",
       "title": "SHOMER · שומר - Citizens for Citizens"
     },
     {
@@ -114,21 +108,21 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 2061,
+          "textLen": 2062,
           "controls": 48,
           "title": "Chore Royale — Make Chores Epic"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 2185,
+          "textLen": 2186,
           "controls": 48,
           "title": "Chore Royale — Make Chores Epic"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 2185,
+          "textLen": 2186,
           "controls": 48,
           "title": "Chore Royale — Make Chores Epic"
         }
