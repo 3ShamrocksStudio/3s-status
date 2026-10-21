@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-20T07:26:03.615Z",
+  "generated": "2026-10-21T07:26:49.934Z",
   "results": [
     {
       "repo": "senior-helper",
       "path": "index.html",
       "name": "Ezra",
-      "blocks": 4,
+      "blocks": 2,
       "fails": [],
       "verdict": "PASS"
     },

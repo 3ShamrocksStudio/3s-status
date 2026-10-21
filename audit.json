@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-20T07:26:00.483Z",
+  "generated": "2026-10-21T07:26:46.799Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -77,28 +77,28 @@
           "hscroll": false,
           "textLen": 84,
           "controls": 2,
-          "title": "Trashure-Hunters — Clean the World, Level Up"
+          "title": "Trashure-Hunters"
         },
         {
           "vp": "tablet",
           "hscroll": false,
           "textLen": 84,
           "controls": 2,
-          "title": "Trashure-Hunters — Clean the World, Level Up"
+          "title": "Trashure-Hunters"
         },
         {
           "vp": "desktop",
           "hscroll": false,
           "textLen": 84,
           "controls": 2,
-          "title": "Trashure-Hunters — Clean the World, Level Up"
+          "title": "Trashure-Hunters"
         }
       ],
       "errors": [],
       "http4xx": [],
       "status": 200,
       "verdict": "PASS",
-      "title": "Trashure-Hunters — Clean the World, Level Up"
+      "title": "Trashure-Hunters"
     },
     {
       "name": "Chore Royale",
@@ -108,21 +108,21 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 2062,
+          "textLen": 2064,
           "controls": 48,
           "title": "Chore Royale — Make Chores Epic"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 2186,
+          "textLen": 2188,
           "controls": 48,
           "title": "Chore Royale — Make Chores Epic"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 2186,
+          "textLen": 2188,
           "controls": 48,
           "title": "Chore Royale — Make Chores Epic"
         }
@@ -141,22 +141,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 998,
-          "controls": 22,
+          "textLen": 841,
+          "controls": 20,
           "title": "עֶזְרָא — העוזר שעושה בשבילכם"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 1004,
-          "controls": 22,
+          "textLen": 847,
+          "controls": 20,
           "title": "עֶזְרָא — העוזר שעושה בשבילכם"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 1004,
-          "controls": 22,
+          "textLen": 847,
+          "controls": 20,
           "title": "עֶזְרָא — העוזר שעושה בשבילכם"
         }
       ],
@@ -240,22 +240,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 1439,
-          "controls": 12,
+          "textLen": 1463,
+          "controls": 13,
           "title": "הוגן · Fairent — כוח השוכרים. שכר דירה הוגן."
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 1454,
-          "controls": 12,
+          "textLen": 1478,
+          "controls": 13,
           "title": "הוגן · Fairent — כוח השוכרים. שכר דירה הוגן."
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 1454,
-          "controls": 12,
+          "textLen": 1478,
+          "controls": 13,
           "title": "הוגן · Fairent — כוח השוכרים. שכר דירה הוגן."
         }
       ],
@@ -273,22 +273,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 1180,
-          "controls": 7,
+          "textLen": 1198,
+          "controls": 8,
           "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 1195,
-          "controls": 8,
+          "textLen": 1213,
+          "controls": 9,
           "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 1195,
-          "controls": 8,
+          "textLen": 1213,
+          "controls": 9,
           "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
         }
       ],
