@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-21T07:26:46.799Z",
+  "generated": "2026-10-22T07:27:00.221Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -61,10 +61,16 @@
           "title": "SHOMER · שומר - Citizens for Citizens"
         }
       ],
-      "errors": [],
-      "http4xx": [],
+      "errors": [
+        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
+      ],
+      "http4xx": [
+        "404 https://www.shomer-app.co.il/'+photo+'",
+        "404 https://www.shomer-app.co.il/'+e.photo+'",
+        "404 https://www.shomer-app.co.il/'+a.subjPhoto+'"
+      ],
       "status": 200,
-      "verdict": "PASS",
+      "verdict": "FAIL",
       "title": "SHOMER · שומר - Citizens for Citizens"
     },
     {
@@ -108,21 +114,21 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 2064,
+          "textLen": 2063,
           "controls": 48,
           "title": "Chore Royale — Make Chores Epic"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 2188,
+          "textLen": 2187,
           "controls": 48,
           "title": "Chore Royale — Make Chores Epic"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 2188,
+          "textLen": 2187,
           "controls": 48,
           "title": "Chore Royale — Make Chores Epic"
         }
@@ -273,22 +279,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 1198,
-          "controls": 8,
+          "textLen": 1312,
+          "controls": 7,
           "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 1213,
-          "controls": 9,
+          "textLen": 1327,
+          "controls": 8,
           "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 1213,
-          "controls": 9,
+          "textLen": 1327,
+          "controls": 8,
           "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
         }
       ],
