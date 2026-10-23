@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22T07:27:00.221Z",
+  "generated": "2026-10-23T07:20:49.235Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -11,28 +11,28 @@
           "hscroll": false,
           "textLen": 1001,
           "controls": 19,
-          "title": "SH✡MER - הרשת החברתית הראשונה בישראל של אזרחים למען אזרחים"
+          "title": "SHOMER app · שומר – הרשת הראשונה בישראל של אזרחים למען אזרחי"
         },
         {
           "vp": "tablet",
           "hscroll": false,
           "textLen": 1012,
           "controls": 19,
-          "title": "SH✡MER - הרשת החברתית הראשונה בישראל של אזרחים למען אזרחים"
+          "title": "SHOMER app · שומר – הרשת הראשונה בישראל של אזרחים למען אזרחי"
         },
         {
           "vp": "desktop",
           "hscroll": false,
           "textLen": 997,
           "controls": 18,
-          "title": "SH✡MER - הרשת החברתית הראשונה בישראל של אזרחים למען אזרחים"
+          "title": "SHOMER app · שומר – הרשת הראשונה בישראל של אזרחים למען אזרחי"
         }
       ],
       "errors": [],
       "http4xx": [],
       "status": 200,
       "verdict": "PASS",
-      "title": "SH✡MER - הרשת החברתית הראשונה בישראל של אזרחים למען אזרחים"
+      "title": "SHOMER app · שומר – הרשת הראשונה בישראל של אזרחים למען אזרחי"
     },
     {
       "name": "SHOMER app",
@@ -44,34 +44,34 @@
           "hscroll": false,
           "textLen": 546,
           "controls": 16,
-          "title": "SHOMER · שומר - Citizens for Citizens"
+          "title": "SHOMER app · שומר - Citizens for Citizens"
         },
         {
           "vp": "tablet",
           "hscroll": false,
           "textLen": 546,
           "controls": 16,
-          "title": "SHOMER · שומר - Citizens for Citizens"
+          "title": "SHOMER app · שומר - Citizens for Citizens"
         },
         {
           "vp": "desktop",
           "hscroll": false,
           "textLen": 546,
           "controls": 16,
-          "title": "SHOMER · שומר - Citizens for Citizens"
+          "title": "SHOMER app · שומר - Citizens for Citizens"
         }
       ],
       "errors": [
         "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
       ],
       "http4xx": [
+        "404 https://www.shomer-app.co.il/'+a.subjPhoto+'",
         "404 https://www.shomer-app.co.il/'+photo+'",
-        "404 https://www.shomer-app.co.il/'+e.photo+'",
-        "404 https://www.shomer-app.co.il/'+a.subjPhoto+'"
+        "404 https://www.shomer-app.co.il/'+e.photo+'"
       ],
       "status": 200,
       "verdict": "FAIL",
-      "title": "SHOMER · שומר - Citizens for Citizens"
+      "title": "SHOMER app · שומר - Citizens for Citizens"
     },
     {
       "name": "TH MVP",
@@ -114,21 +114,21 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 2063,
+          "textLen": 2061,
           "controls": 48,
           "title": "Chore Royale — Make Chores Epic"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 2187,
+          "textLen": 2185,
           "controls": 48,
           "title": "Chore Royale — Make Chores Epic"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 2187,
+          "textLen": 2185,
           "controls": 48,
           "title": "Chore Royale — Make Chores Epic"
         }
@@ -279,22 +279,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 1312,
-          "controls": 7,
+          "textLen": 2090,
+          "controls": 18,
           "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 1327,
-          "controls": 8,
+          "textLen": 2105,
+          "controls": 19,
           "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 1327,
-          "controls": 8,
+          "textLen": 2105,
+          "controls": 19,
           "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
         }
       ],
@@ -312,29 +312,33 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 6033,
-          "controls": 28,
+          "textLen": 6718,
+          "controls": 32,
           "title": "3Shamrocks Studio"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 6033,
-          "controls": 28,
+          "textLen": 6718,
+          "controls": 32,
           "title": "3Shamrocks Studio"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 6150,
-          "controls": 31,
+          "textLen": 6738,
+          "controls": 35,
           "title": "3Shamrocks Studio"
         }
       ],
-      "errors": [],
-      "http4xx": [],
+      "errors": [
+        "CONSOLE: Failed to load resource: the server responded with a status of 503 ()"
+      ],
+      "http4xx": [
+        "503 https://3shamrocksstudio.github.io/assets/studio/3shamrocks.png"
+      ],
       "status": 200,
-      "verdict": "PASS",
+      "verdict": "FAIL",
       "title": "3Shamrocks Studio"
     }
   ]
