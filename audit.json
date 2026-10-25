@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-24T07:09:27.310Z",
+  "generated": "2026-10-25T07:32:48.936Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -108,21 +108,21 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 2063,
+          "textLen": 2061,
           "controls": 48,
           "title": "Chore Royale — Make Chores Epic"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 2187,
+          "textLen": 2185,
           "controls": 48,
           "title": "Chore Royale — Make Chores Epic"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 2187,
+          "textLen": 2185,
           "controls": 48,
           "title": "Chore Royale — Make Chores Epic"
         }
