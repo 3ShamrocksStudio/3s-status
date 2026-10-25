@@ -42,3 +42,4 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 - 2026-10-25 — Outbound list done: 31 companies, top fits Zenzap, Loora, Chamelio, enso, Euno. Spot-check: Zenzap $44M confirmed (TechCrunch 14 Oct). Now: queue item 2.
 - 2026-10-25 — Offer page staged and verified (claims match site, prices match board, EN/HE render clean). Now: queue item 3.
 - 2026-10-25 — Offer page rebuilt on site branding; prices cut to ₪18k/mo · ₪24k · from ₪45k. Awaiting Dave's OK.
+- 2026-10-25 — Full studio review; TLDB (ops board) rebuilt: 2 focus, 7 parked-built, 6 paused, 3 retired/unknown. Open questions to Dave: Fairent state, WH33LZ/AXIS, Chabad pilot, Vibrant reply.
