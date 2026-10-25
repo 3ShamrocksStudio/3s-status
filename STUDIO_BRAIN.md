@@ -12,7 +12,7 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 ## Revenue engines — next action
 | Engine | Status | Claude does | Dave must do to unlock |
 |---|---|---|---|
-| Services (retainer ₪35–40k/mo, sprint ₪55k, DS install ₪110k) | 31-company list + drafts ready | Next: offer page on 3S site | Approve top 10 drafts, send from LinkedIn |
+| Services (retainer ₪35–40k/mo, sprint ₪55k, DS install ₪110k) | 31-company list + drafts + offer page staged | Next: SH✡MER pilot one-pager | Approve top 10 drafts, send from LinkedIn |
 | SH✡MER pilots (₪2.5k 90-day → ₪25k/yr) | Drafts to Ohad, Natan, Mitronis waiting since 22 Oct | — | Approve & send the 4 messages |
 | Grants & CSR | Not started | Shortlist Innovation Authority / security-tech calls | Nothing yet |
 | Products | Frozen (no payments rail) | — | Open MoR payments account when M1 hits |
@@ -33,10 +33,11 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 
 ## Execution queue (highest value first)
 1. **[DONE — awaiting Dave]** Services outbound list: 31 Israeli startups funded Aug–Oct 2026, sourced, with draft LinkedIn messages. Kept private (not in this public repo). Nothing sent.
-2. 3S portfolio site: offer page for the 3 service packages (Hebrew + English) linked from home.
+2. **[STAGED — NEEDS YOUR EYES]** Offer page `3shamrocksstudio.github.io/work-with-me.html` (EN/HE). Unlinked + noindex until Dave approves; then link from home and from outreach.
 3. SH✡MER pilot one-pager (Hebrew) for the pilot calls.
 4. Grants shortlist with deadlines.
 
 ## Log
 - 2026-10-25 — Brain initialised from ops/data.json, BLOCKERS.md, nightly audit. Started queue item 1.
 - 2026-10-25 — Outbound list done: 31 companies, top fits Zenzap, Loora, Chamelio, enso, Euno. Spot-check: Zenzap $44M confirmed (TechCrunch 14 Oct). Now: queue item 2.
+- 2026-10-25 — Offer page staged and verified (claims match site, prices match board, EN/HE render clean). Now: queue item 3.
