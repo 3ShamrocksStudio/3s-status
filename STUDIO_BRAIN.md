@@ -12,7 +12,7 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 ## Revenue engines — next action
 | Engine | Status | Claude does | Dave must do to unlock |
 |---|---|---|---|
-| Services (retainer ₪35–40k/mo, sprint ₪55k, DS install ₪110k) | 31-company list + drafts + offer page staged | Next: SH✡MER pilot one-pager | Approve top 10 drafts, send from LinkedIn |
+| Services (retainer ₪18k/mo, sprint ₪24k, DS install from ₪45k — pending Dave OK) | 31-company list + drafts + offer page staged | Next: SH✡MER pilot one-pager | Approve top 10 drafts, send from LinkedIn |
 | SH✡MER pilots (₪2.5k 90-day → ₪25k/yr) | Drafts to Ohad, Natan, Mitronis waiting since 22 Oct | — | Approve & send the 4 messages |
 | Grants & CSR | Not started | Shortlist Innovation Authority / security-tech calls | Nothing yet |
 | Products | Frozen (no payments rail) | — | Open MoR payments account when M1 hits |
@@ -41,3 +41,4 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 - 2026-10-25 — Brain initialised from ops/data.json, BLOCKERS.md, nightly audit. Started queue item 1.
 - 2026-10-25 — Outbound list done: 31 companies, top fits Zenzap, Loora, Chamelio, enso, Euno. Spot-check: Zenzap $44M confirmed (TechCrunch 14 Oct). Now: queue item 2.
 - 2026-10-25 — Offer page staged and verified (claims match site, prices match board, EN/HE render clean). Now: queue item 3.
+- 2026-10-25 — Offer page rebuilt on site branding; prices cut to ₪18k/mo · ₪24k · from ₪45k. Awaiting Dave's OK.
