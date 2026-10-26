@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25T07:32:48.936Z",
+  "generated": "2026-10-26T07:42:30.502Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -306,22 +306,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 6718,
+          "textLen": 5934,
           "controls": 32,
           "title": "3Shamrocks Studio"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 6718,
+          "textLen": 5934,
           "controls": 32,
           "title": "3Shamrocks Studio"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 6738,
-          "controls": 35,
+          "textLen": 5946,
+          "controls": 34,
           "title": "3Shamrocks Studio"
         }
       ],
