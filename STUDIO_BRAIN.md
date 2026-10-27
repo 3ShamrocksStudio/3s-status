@@ -12,7 +12,7 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 ## Revenue engines — next action
 | Engine | Status | Claude does | Dave must do to unlock |
 |---|---|---|---|
-| Services (retainer ₪18k/mo, sprint ₪24k, DS install from ₪45k — pending Dave OK) | 31-company list + drafts + offer page staged | Next: SH✡MER pilot one-pager | Approve top 10 drafts, send from LinkedIn |
+| Services (retainer ₪18k/mo, sprint ₪24k, DS install from ₪45k — pending Dave OK) | 8 LinkedIn requests sent 25 Oct · Alex (Chamelio) DM drafted · offer page staged | Next: SH✡MER pilot one-pager | Approve top 10 drafts, send from LinkedIn |
 | SH✡MER pilots (₪2.5k 90-day → ₪25k/yr) | Drafts to Ohad, Natan, Mitronis waiting since 22 Oct | — | Approve & send the 4 messages |
 | Grants & CSR | Not started | Shortlist Innovation Authority / security-tech calls | Nothing yet |
 | Products | Frozen (no payments rail) | — | Open MoR payments account when M1 hits |
@@ -20,7 +20,7 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 ## Products — technical state (nightly audit 2026-10-25)
 | Product | Live check | Hard blocker |
 |---|---|---|
-| SH✡MER site + app | PASS | Firebase `deploy --only database` (security hole); Twilio Fraud Guard re-enable |
+| SH✡MER site + app | PASS | Firebase `deploy --only database` (security hole). Twilio done. |
 | SH✡MER Nature | PASS | Missing `nature-hero.jpg`, `nature-badge.png` |
 | Trashure Hunters MVP | Loads, sign-in dead | Supabase project URL + keys |
 | Chore Royale / Chore Wars | PASS | Trademark check open |
@@ -43,3 +43,4 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 - 2026-10-25 — Offer page staged and verified (claims match site, prices match board, EN/HE render clean). Now: queue item 3.
 - 2026-10-25 — Offer page rebuilt on site branding; prices cut to ₪18k/mo · ₪24k · from ₪45k. Awaiting Dave's OK.
 - 2026-10-25 — Full studio review; TLDB (ops board) rebuilt: 2 focus, 7 parked-built, 6 paused, 3 retired/unknown. Open questions to Dave: Fairent state, WH33LZ/AXIS, Chabad pilot, Vibrant reply.
+- 2026-10-27 — Status check: 8 LinkedIn requests were sent 25 Oct (board missed it; fixed). SH✡MER v292. Twilio resolved. LickPick still getting releases while paused.

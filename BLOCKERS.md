@@ -10,7 +10,7 @@ Rules are written and committed. Clears live 401s **and** closes a security hole
 any signed-in user could write to or delete another user's live SOS.
 Alternative: send a `firebase login:ci` token and Claude runs it.
 
-## 2. Twilio — SHOMER public launch
+## 2. ~~Twilio — SHOMER public launch~~ RESOLVED 25 Oct (Dave: Fraud Guard already on)
 Re-enable Verify Fraud Guard → Standard on service `VAa6d1d6e530cbcd67bda268bb22dc0ace`
 (disabled 09.07.26 to release a blocked prefix). Not required for the Chabad pilot.
 
