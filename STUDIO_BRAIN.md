@@ -46,3 +46,4 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 - 2026-10-27 — Status check: 8 LinkedIn requests were sent 25 Oct (board missed it; fixed). SH✡MER v292. Twilio resolved. LickPick still getting releases while paused.
 - 2026-10-27 — Agents: batch-2 outreach + follow-ups → to-do list; SH✡MER pilot one-pager staged; grants shortlist (Tnufa 9 Nov is the only strong open fit); Tnufa drafting started; TH backend wake-up running. Morning plan rewritten to execute, not just report.
 - 2026-10-27 — Tnufa drafts done; IIA email in Dave's Gmail drafts (unsent). Rule found: 3Shamrocks can't be paid from the grant → Dave applies personally.
+- 2026-10-27 — Dave delegated the Tnufa call to Claude → GO on both (A TH, B SH✡MER); applicant Dave personally; start Feb 2027; global pitch as drafted. Co-funding only if approved (Jan). Open from Dave: עוסק/בע"מ, portal registration (1 Nov), ID + LinkedIn (5 Nov), submit (8 Nov).
