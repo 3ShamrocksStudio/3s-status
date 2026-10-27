@@ -35,7 +35,7 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 1. **[DONE — awaiting Dave]** Services outbound list: 31 Israeli startups funded Aug–Oct 2026, sourced, with draft LinkedIn messages. Kept private (not in this public repo). Nothing sent.
 2. **[STAGED — NEEDS YOUR EYES]** Offer page `3shamrocksstudio.github.io/work-with-me.html` (EN/HE). Unlinked + noindex until Dave approves; then link from home and from outreach.
 3. **[STAGED — NEEDS YOUR EYES]** SH✡MER pilot one-pager (HE): 3shamrocksstudio.github.io/shomer-pilot.html (unlinked, noindex).
-4. **[DONE]** Grants shortlist. 5. **[RUNNING]** Tnufa drafts A (Trashure-Hunters) + B (SH✡MER) — due 9 Nov. 6. **[DONE — awaiting Dave]** Outreach batch 2 (10 notes) + 7 follow-up DMs, in Dave's to-do list. 7. **[RUNNING]** TH backend on Supabase free tier + staging web build wired.
+4. **[DONE]** Grants shortlist. 5. **[DRAFTED — awaiting Dave]** Tnufa A (TH) + B (SH✡MER), ₪250k budgets each; drafts sent to Dave in chat (not in this public repo). Dave decisions by 29 Oct, docs by 5 Nov, submit 8 Nov. 6. **[DONE — awaiting Dave]** Outreach batch 2 (10 notes) + 7 follow-up DMs, in Dave's to-do list. 7. **[RUNNING]** TH backend on Supabase free tier + staging web build wired.
 
 ## Log
 - 2026-10-25 — Brain initialised from ops/data.json, BLOCKERS.md, nightly audit. Started queue item 1.
@@ -45,3 +45,4 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 - 2026-10-25 — Full studio review; TLDB (ops board) rebuilt: 2 focus, 7 parked-built, 6 paused, 3 retired/unknown. Open questions to Dave: Fairent state, WH33LZ/AXIS, Chabad pilot, Vibrant reply.
 - 2026-10-27 — Status check: 8 LinkedIn requests were sent 25 Oct (board missed it; fixed). SH✡MER v292. Twilio resolved. LickPick still getting releases while paused.
 - 2026-10-27 — Agents: batch-2 outreach + follow-ups → to-do list; SH✡MER pilot one-pager staged; grants shortlist (Tnufa 9 Nov is the only strong open fit); Tnufa drafting started; TH backend wake-up running. Morning plan rewritten to execute, not just report.
+- 2026-10-27 — Tnufa drafts done; IIA email in Dave's Gmail drafts (unsent). Rule found: 3Shamrocks can't be paid from the grant → Dave applies personally.
