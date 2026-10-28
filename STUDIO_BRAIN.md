@@ -22,7 +22,7 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 | Engine | Status | Claude does | Dave must do to unlock |
 |---|---|---|---|
 | Services | Alex DM sent 28 Oct · 13 connect requests pending, 0 accepted · 4 batch-2 requests didn't go through (re-send queued) · offer page: images + lighter sections + Launch Package in progress | Check accepts daily (LinkedIn Sent list via Chrome) → move matching follow-up to Today; teardowns for each reply | Re-send 4 requests |
-| SH✡MER | Reminder email sent by Dave 28 Oct · 3 of 14 opted in (recheck 30 Oct) | Role-matched pilot messages once Ohad/Natan roles known | Answer Ohad/Natan roles |
+| SH✡MER | Pilot page + Command buying page staged, pricing set, role-matched messages drafted (28 Oct) · 3 of 14 testers opted in (recheck 30 Oct) | Plug Morning links into checkout; lock dashboard to paid plans after OK | Review pages + messages; Morning plan check + 4 payment links; OK dashboard lock; Ohad/Natan roles |
 | Grants | Tnufa: GO on SH✡MER only (decided 28 Oct), resize draft to ~₪125k budget (grant ~₪100k, Dave 20% only if approved); TH → next Tnufa round | Resize SH✡MER application + budget; global angle = US communities | Portal registration by 1 Nov; CV + ID by 5 Nov; submit 8 Nov |
 | Passive apps | Frozen pending payments | Wire Lemon Squeezy when account exists | Open Lemon Squeezy |
 
