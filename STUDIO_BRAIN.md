@@ -12,7 +12,7 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 ## STRATEGY v2 (28 Oct 2026 — Claude decides; never ask Dave "is X a money product")
 1. **Cash now — Design Services.** Sprint ₪32k (2 wks) → **Launch Package ₪120k** (brand + product UI + design system, 6 wks, pitched right after a funding round) → retainer ₪24k/mo (2 days) or ₪38k/mo (full-time). All + VAT. Bench of 2 from the 3rd client.
 2. **Big contracts — SH✡MER.** Testers opt-in → Play production → pilots. Buyers by speed: communities/yishuvim → schools & youth movements → regional councils → US communities (Miami foothold). Free for residents always. Founding-partner offer (free 90 days for feedback + case study) only for the first 1–2 communities; everyone else ₪2.5k pilot. Nature = add-on only, after Dave tests it himself.
-3. **Grants & sponsors.** Tnufa ×2 (TH + SH✡MER) pending Dave go/no — it's a grant repaid only via royalties on sales. Govtech-type programs for SH✡MER. Rotary/CSR for Trashure-Hunters (lead: Suzan Kagan, Rotary D-2490).
+3. **Grants & sponsors.** Tnufa: SH✡MER only, ~₪125k budget (decided 28 Oct; Dave pays 20% of invoices, 80% reimbursed from Feb 2027); TH next round — it's a grant repaid only via royalties on sales. Govtech-type programs for SH✡MER. Rotary/CSR for Trashure-Hunters (lead: Suzan Kagan, Rotary D-2490).
 4. **Passive, no new build.** LickPick Pro $9.99/yr, AI Brand Kit $29, Chore Wars family plan. Payments (Lemon Squeezy) + one launch post each; pour effort only if one earns in 30 days. No more LickPick feature work.
 - **Parked:** Ezra, Milo, Fairent, Rookie & King, J8N.IX, Design System (becomes the ₪55k install), TH extras, WH33LZ, AXIS, Media Network.
 - **Messaging rule:** nothing is sent on Dave's behalf; every message is matched to the recipient's role (buyer / design partner / connector / endorser / tester) before it goes in his to-do list.
@@ -21,9 +21,9 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 ## Revenue engines — next action
 | Engine | Status | Claude does | Dave must do to unlock |
 |---|---|---|---|
-| Services | 7 connect requests + Alex DM pending; 10 batch-2 notes queued; prices set 28 Oct | Add Launch Package to offer page; follow-ups for accepts; teardown per reply | Send Alex DM; report accepts |
-| SH✡MER | 3 of 14 testers opted in; reminder email in Dave's Gmail drafts | Role-matched pilot messages once Ohad/Natan roles known | Send reminder; answer Ohad/Natan roles |
-| Grants | Tnufa drafts done, deadline 9 Nov | Finish both apps | Go/no; portal by 1 Nov; CV + ID by 5 Nov |
+| Services | Alex DM sent 28 Oct · 13 connect requests pending, 0 accepted · 4 batch-2 requests didn't go through (re-send queued) · offer page: images + lighter sections + Launch Package in progress | Check accepts daily (LinkedIn Sent list via Chrome) → move matching follow-up to Today; teardowns for each reply | Re-send 4 requests |
+| SH✡MER | Reminder email sent by Dave 28 Oct · 3 of 14 opted in (recheck 30 Oct) | Role-matched pilot messages once Ohad/Natan roles known | Answer Ohad/Natan roles |
+| Grants | Tnufa: GO on SH✡MER only (decided 28 Oct), resize draft to ~₪125k budget (grant ~₪100k, Dave 20% only if approved); TH → next Tnufa round | Resize SH✡MER application + budget; global angle = US communities | Portal registration by 1 Nov; CV + ID by 5 Nov; submit 8 Nov |
 | Passive apps | Frozen pending payments | Wire Lemon Squeezy when account exists | Open Lemon Squeezy |
 
 ## Products — technical state (nightly audit 2026-10-25)
@@ -58,3 +58,5 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 - 2026-10-27 — Dave delegated the Tnufa call to Claude → GO on both (A TH, B SH✡MER); applicant Dave personally; start Feb 2027; global pitch as drafted. Co-funding only if approved (Jan). Open from Dave: עוסק/בע"מ, portal registration (1 Nov), ID + LinkedIn (5 Nov), submit (8 Nov).
 - 2026-10-27 — Dave: 3Shamrocks is עוסק מורשה → IP already his personally; no transfer paper. Drafts updated.
 - 2026-10-28 — TH backend done: all migrations applied (seasonal events + security lock-down, old reward function renamed not dropped), rewards server-only verified, staging sign-in verified end to end. 2 harmless test accounts left on staging (deletion blocked).
+
+- 2026-10-28 — Afternoon: Alex DM sent; tester reminder sent; batch 2 = 6/10 sent; 0/13 accepted (LinkedIn checked). Tnufa decided: SH✡MER only, smaller budget. Offer page redesign + Launch Package card in progress.
