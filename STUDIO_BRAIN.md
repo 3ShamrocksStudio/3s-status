@@ -1,5 +1,5 @@
 # STUDIO BRAIN — 3Shamrocks Studio
-Single source of truth. Updated: 2026-10-25 (day 4 of 182).
+Single source of truth. Updated: 2026-10-28 (day 8 of 182).
 Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKERS.md` · Nightly checks: `audit.json`, `staleness.json`.
 
 ## Goal vs reality
@@ -9,13 +9,22 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 - Revenue split (live board): services $600k · SH✡MER B2B2C $220k · grants $130k · products $50k.
 - Rule: product work paused until a first call is booked (weekly review #2).
 
+## STRATEGY v2 (28 Oct 2026 — Claude decides; never ask Dave "is X a money product")
+1. **Cash now — Design Services.** Sprint ₪32k (2 wks) → **Launch Package ₪120k** (brand + product UI + design system, 6 wks, pitched right after a funding round) → retainer ₪24k/mo (2 days) or ₪38k/mo (full-time). All + VAT. Bench of 2 from the 3rd client.
+2. **Big contracts — SH✡MER.** Testers opt-in → Play production → pilots. Buyers by speed: communities/yishuvim → schools & youth movements → regional councils → US communities (Miami foothold). Free for residents always. Founding-partner offer (free 90 days for feedback + case study) only for the first 1–2 communities; everyone else ₪2.5k pilot. Nature = add-on only, after Dave tests it himself.
+3. **Grants & sponsors.** Tnufa ×2 (TH + SH✡MER) pending Dave go/no — it's a grant repaid only via royalties on sales. Govtech-type programs for SH✡MER. Rotary/CSR for Trashure-Hunters (lead: Suzan Kagan, Rotary D-2490).
+4. **Passive, no new build.** LickPick Pro $9.99/yr, AI Brand Kit $29, Chore Wars family plan. Payments (Lemon Squeezy) + one launch post each; pour effort only if one earns in 30 days. No more LickPick feature work.
+- **Parked:** Ezra, Milo, Fairent, Rookie & King, J8N.IX, Design System (becomes the ₪55k install), TH extras, WH33LZ, AXIS, Media Network.
+- **Messaging rule:** nothing is sent on Dave's behalf; every message is matched to the recipient's role (buyer / design partner / connector / endorser / tester) before it goes in his to-do list.
+- **Honest range by 21 Apr:** $250–550k on the current path; $1M needs ~4 Launch Packages + 6 retainers + 1 council deal.
+
 ## Revenue engines — next action
 | Engine | Status | Claude does | Dave must do to unlock |
 |---|---|---|---|
-| Services (retainer ₪18k/mo, sprint ₪24k, DS install from ₪45k — pending Dave OK) | 8 LinkedIn requests sent 25 Oct · Alex (Chamelio) DM drafted · offer page staged | Next: SH✡MER pilot one-pager | Approve top 10 drafts, send from LinkedIn |
-| SH✡MER pilots (₪2.5k 90-day → ₪25k/yr) | Drafts to Ohad, Natan, Mitronis waiting since 22 Oct | — | Approve & send the 4 messages |
-| Grants & CSR | Shortlist done (grants/GRANTS_SHORTLIST.md). Tnufa closes 9 Nov 12:00 — up to ₪200k × 2 apps | Drafting both Tnufa applications | Decide applicant entity; ID/company docs + CVs by 5 Nov; sign |
-| Products | Frozen (no payments rail) | — | Open MoR payments account when M1 hits |
+| Services | 7 connect requests + Alex DM pending; 10 batch-2 notes queued; prices set 28 Oct | Add Launch Package to offer page; follow-ups for accepts; teardown per reply | Send Alex DM; report accepts |
+| SH✡MER | 3 of 14 testers opted in; reminder email in Dave's Gmail drafts | Role-matched pilot messages once Ohad/Natan roles known | Send reminder; answer Ohad/Natan roles |
+| Grants | Tnufa drafts done, deadline 9 Nov | Finish both apps | Go/no; portal by 1 Nov; CV + ID by 5 Nov |
+| Passive apps | Frozen pending payments | Wire Lemon Squeezy when account exists | Open Lemon Squeezy |
 
 ## Products — technical state (nightly audit 2026-10-25)
 | Product | Live check | Hard blocker |
