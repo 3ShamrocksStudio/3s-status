@@ -18,7 +18,7 @@ Re-enable Verify Fraud Guard → Standard on service `VAa6d1d6e530cbcd67bda268bb
 `nature-hero.jpg` and `nature-badge.png` are referenced but absent from the repo.
 Claude will not invent brand imagery. Supply the files or name a substitute.
 
-## 4. Supabase — TH MVP (blocks the entire product)
+## 4. ~~Supabase — TH MVP~~ RESOLVED 28 Oct: free project woken, 13/13 migrations + 3 edge functions live, staging sign-in verified
 Live bundle points at `placeholder.supabase.co`. Nobody can get past sign-in.
 Need: Project URL, anon key, project ref, access token.
 Unblocks 11 migrations + 3 edge functions that are written but never deployed.

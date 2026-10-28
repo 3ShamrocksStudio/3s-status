@@ -22,7 +22,7 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 |---|---|---|
 | SH✡MER site + app | PASS | Firebase `deploy --only database` (security hole). Twilio done. |
 | SH✡MER Nature | PASS | Missing `nature-hero.jpg`, `nature-badge.png` |
-| Trashure Hunters MVP | Loads, sign-in dead | Supabase project URL + keys |
+| Trashure Hunters MVP | Staging sign-in works on real backend (28 Oct) | Optional: Anthropic key for AI photo checks (photos auto-approve until then) |
 | Chore Royale / Chore Wars | PASS | Trademark check open |
 | Ezra | PASS | — |
 | MILO | PASS | — |
@@ -35,7 +35,7 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 1. **[DONE — awaiting Dave]** Services outbound list: 31 Israeli startups funded Aug–Oct 2026, sourced, with draft LinkedIn messages. Kept private (not in this public repo). Nothing sent.
 2. **[STAGED — NEEDS YOUR EYES]** Offer page `3shamrocksstudio.github.io/work-with-me.html` (EN/HE). Unlinked + noindex until Dave approves; then link from home and from outreach.
 3. **[STAGED — NEEDS YOUR EYES]** SH✡MER pilot one-pager (HE): 3shamrocksstudio.github.io/shomer-pilot.html (unlinked, noindex).
-4. **[DONE]** Grants shortlist. 5. **[DRAFTED — awaiting Dave]** Tnufa A (TH) + B (SH✡MER), ₪250k budgets each; drafts sent to Dave in chat (not in this public repo). Dave decisions by 29 Oct, docs by 5 Nov, submit 8 Nov. 6. **[DONE — awaiting Dave]** Outreach batch 2 (10 notes) + 7 follow-up DMs, in Dave's to-do list. 7. **[RUNNING]** TH backend on Supabase free tier + staging web build wired.
+4. **[DONE]** Grants shortlist. 5. **[DRAFTED — awaiting Dave]** Tnufa A (TH) + B (SH✡MER), ₪250k budgets each; drafts sent to Dave in chat (not in this public repo). Dave decisions by 29 Oct, docs by 5 Nov, submit 8 Nov. 6. **[DONE — awaiting Dave]** Outreach batch 2 (10 notes) + 7 follow-up DMs, in Dave's to-do list. 7. **[DONE]** TH backend live on Supabase free tier; staging web build signs up, signs in, reaches the map; rewards locked to server.
 
 ## Log
 - 2026-10-25 — Brain initialised from ops/data.json, BLOCKERS.md, nightly audit. Started queue item 1.
@@ -48,3 +48,4 @@ Live board data: `3shamrocksstudio.github.io/ops/data.json` · Blockers: `BLOCKE
 - 2026-10-27 — Tnufa drafts done; IIA email in Dave's Gmail drafts (unsent). Rule found: 3Shamrocks can't be paid from the grant → Dave applies personally.
 - 2026-10-27 — Dave delegated the Tnufa call to Claude → GO on both (A TH, B SH✡MER); applicant Dave personally; start Feb 2027; global pitch as drafted. Co-funding only if approved (Jan). Open from Dave: עוסק/בע"מ, portal registration (1 Nov), ID + LinkedIn (5 Nov), submit (8 Nov).
 - 2026-10-27 — Dave: 3Shamrocks is עוסק מורשה → IP already his personally; no transfer paper. Drafts updated.
+- 2026-10-28 — TH backend done: all migrations applied (seasonal events + security lock-down, old reward function renamed not dropped), rewards server-only verified, staging sign-in verified end to end. 2 harmless test accounts left on staging (deletion blocked).
