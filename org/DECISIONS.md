@@ -22,3 +22,14 @@ Pace: $0 booked vs $8.9k linear (M1 $25k by 21 Nov, $1,250/day needed). Weighted
    - Cheapest disproof: one WhatsApp; a named yishuv + KABAT within 3 days, else drop to cold council list.
    - Metric: names received · check 4 Nov.
 - CMO: Instagram + content stay PARKED (board 1 Nov); no UTM data exists yet; spend 0. CFO: possible spend flag — 5 Grok xAI receipts ($20) + SpaceXSI prepaid invoice in Gmail; asked Dave studio vs personal.
+
+## 2026-11-01 — Full audit of today's revenue work (CRO + CMO + CFO, at Dave's request)
+Evidence: LinkedIn read-only (messages, connections, own profile), Gmail, web sources, repos.
+- **Pipeline was wrong.** 5 founder DMs went out 28 Oct (Alex/Chamelio, Mickey/enso, Sarah/Euno, Efrat/June, Shahar/Pluto); the board only knew Alex. 0 replies after 4 days. The "message Mickey" draft from the batch-4 run would have double-pitched him → REMOVED; replaced by 5 short follow-ups for Wed 4 Nov.
+- **Kill reason #1 for services: positioning.** Live profile About says "open to Head of Design / VP Design roles"; recent posts say budget ran out / looking for salaried work; the 28 Oct DMs ask "do you need someone like me". Founders read a job application, not a studio. Fix before any send: About swap + follow-up line "I'm not looking for a job". Headline "+68% user retention" is wrong maths (68 vs 34 = 2×) → fix to "2× patient retention".
+- **Claim check:** "TIME Best Inventions 2023" VERIFIED (time.com: "Vibrant System: The 200 Best Inventions of 2023"). 68% vs 34% = Dave's own data, kept.
+- **Batch 4 fit test:** HIGH = DataAgent, HydroSight, HyperGuest, Rig; MEDIUM = Huskeys, Dalet Labs; LOW = AIR Security ($50M, will hire in-house), Lasso (has designer + CPO), Wint (Series D). Kept but ranked; security/infra notes now lead with AposHealth dashboards (closer proof than a consumer health app). Free-LinkedIn note limit: send without a note if blocked.
+- **Budget test: FAIL.** xAI API auto top-up: six $20 charges on 1 Nov 09:22–13:17 UTC + $100 on 25 Oct + more. No xAI key/call in any 3S repo or history. Escalated to Dave as item 0 (only his login can stop it).
+- **Service/delivery test:** Launch Package scope (brand + UI + DS + code in 6 weeks, solo) is the overrun risk → one-pager now says "up to 3 core flows". VIBRANT IFU quote: text must come from their regulatory-approved wording (added).
+- **Monetize test:** services cash is invoice + bank transfer via Morning — not blocked by Grow card clearing or Lemon Squeezy. Don't let payment-rail work delay outbound.
+- Cheapest disproof of the whole services motion: profile fixed by Tue 3 Nov + 5 new DMs + 5 follow-ups by Wed 4 Nov → ≥1 reply by Fri 6 Nov. 0/10 → switch channel (warm intros from 1,198 connections, VIBRANT referral, direct founder email). Check 6 Nov.
