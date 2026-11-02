@@ -33,3 +33,11 @@ Evidence: LinkedIn read-only (messages, connections, own profile), Gmail, web so
 - **Service/delivery test:** Launch Package scope (brand + UI + DS + code in 6 weeks, solo) is the overrun risk → one-pager now says "up to 3 core flows". VIBRANT IFU quote: text must come from their regulatory-approved wording (added).
 - **Monetize test:** services cash is invoice + bank transfer via Morning — not blocked by Grow card clearing or Lemon Squeezy. Don't let payment-rail work delay outbound.
 - Cheapest disproof of the whole services motion: profile fixed by Tue 3 Nov + 5 new DMs + 5 follow-ups by Wed 4 Nov → ≥1 reply by Fri 6 Nov. 0/10 → switch channel (warm intros from 1,198 connections, VIBRANT referral, direct founder email). Check 6 Nov.
+
+## 2026-11-02 — Studio site: one page per product, one brand (CEO + CDO + CMO, Dave's direction)
+- Found: each product had two studio pages in different brands (e.g. j8nix-case.html "AI workflow platform, research phase" vs products/j8nix.html "studio command center"), plus an old studio/ copy, th.html, an empty studio/studio/studio/studio/th.html, a dead Ezra link (404), a dead #process anchor, and contact on a personal Gmail.
+- Decision: 4 short case pages in /work in the 3S brand (SH✡MER, LickPick, Trashure-Hunters, Chore Royale); 20 old URLs redirect; parked products leave the showcase; contact → dave@3shamrocks.com; light-mode logo fixed. Old case pages also carried unsupported claims (iOS for SH✡MER, "14.2K licks saved", a ₪29.90 price) — gone with them.
+- Kill-test: (a) fewer projects reads as a thinner portfolio → client work (VIBRANT, AposHealth) stays on the home page; (b) old links in sent messages break → redirects, not deletes; (c) 4 pages still too long → each is one screen + 3 facts + CTA.
+- Launch Package one-pager rebuilt on the studio brand, week-by-week plan removed (unsupported).
+- Not done: night-shift scheduled-task prompt update was refused by permissions; rules written into ORG.md instead (every run reads it). Domain move waits on Dave's Wix login.
+- Metric: studio-site → "Let's talk" emails; check 9 Nov.

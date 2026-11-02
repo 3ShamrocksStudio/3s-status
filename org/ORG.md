@@ -42,6 +42,14 @@
 - Never ask Dave whether something is a money product; decide from the plans. Ask him only facts only he knows.
 - Prefer recurring revenue (subscriptions/retainers) over one-time.
 
+## Studio site & brand rules (Dave, 2 Nov 2026 — all seats, all runs)
+- One page per product on the studio site: /work/<product>.html, 3Shamrocks Studio brand only (Syne / Inter / Space Grotesk, purple #8239ea + green #3dcc6e, assets/studio logos, light + dark). Short: hero, screens, 3 facts, one CTA.
+- Showcase = SH✡MER, LickPick, Trashure-Hunters, Chore Royale. Parked products (J8N.IX, Ezra, Milo, Fairent, Rookie & King, Media Network) stay off the studio site. Old URLs redirect; never re-create duplicate product or case pages.
+- Product brands live only on product surfaces (shomer-app.co.il, /lickpick/, /shomer-command/, /th-site/), never as a second studio page.
+- Every studio deliverable (one-pagers, proposals, decks, PDFs) uses the studio brand above. Contact: dave@3shamrocks.com.
+- Build parked this week (board 1 Nov): Trashure-Hunters features, LickPick features, Instagram. Night shift works on payments/privacy, studio lead-gen pages, SH✡MER Command.
+- Domain: the studio site moves to 3shamrocks.com once Dave opens Wix (to-do item); github.io is never shown publicly after the switch.
+
 ## Where things live
 - Dashboard: https://3shamrocksstudio.github.io/ops/ (repo 3shamrocksstudio.github.io, ops/ — DATA ONLY edits) + ops/data.json log.
 - Dave's to-do: https://claude.ai/artifact/K6JrRs66KSQseksQgEMbyh (slug 9282376f-d9cf-4721-8b12-a2f7fdcae5b0; db collection "todo").
