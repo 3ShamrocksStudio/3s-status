@@ -41,3 +41,22 @@ Evidence: LinkedIn read-only (messages, connections, own profile), Gmail, web so
 - Launch Package one-pager rebuilt on the studio brand, week-by-week plan removed (unsupported).
 - Not done: night-shift scheduled-task prompt update was refused by permissions; rules written into ORG.md instead (every run reads it). Domain move waits on Dave's Wix login.
 - Metric: studio-site → "Let's talk" emails; check 9 Nov.
+
+## 2026-11-02 — Revenue desk #2 (CRO + CMO + CFO, Mon 12:47)
+Evidence: LinkedIn read-only 13:00 Israel (messages + connections), Gmail (last 3 days), Dave's to-do notes up to 10:40 UTC, repos.
+Pace: $0 booked vs ~$9.7k linear (M1 $25k by 21 Nov, 19 days). Weighted M1-window pipeline ≈ $2k (7 accepted founders × Sprint ₪32k ≈ $8.6k × 3% ≈ $1.8k; VIBRANT ₪800 × 60% ≈ $130; SH✡MER pilot ₪2.5k × 20% ≈ $135; ₪3.7/$). M1 is missed unless a Sprint signs; no kill rule due (M2 checkpoint 21 Dec).
+Found: 2 new accepts today (Eran Heffetz, Bites $40M A; Joel Bar-El, Swish) + Noa Turgeman (menta, founder mentor → connector role). 0 replies anywhere. The 5 founders who accepted 28 Oct still have NO message: no chat exists, although their v3 items were ticked at 10:37 (ticks reset, item explains). Typing drafts into Dave's LinkedIn chat stays blocked (platform safety check + run rules); copy buttons + direct profile links instead.
+1. **Send the 7 founder DMs (Dave's own template) by Tue 3 Nov + 5 follow-ups Wed 4 Nov** — POUR.
+   - Fails if: (a) 5 days of silence after accepting has cooled 5 of them; (b) the template has no product-specific hook, reads generic; (c) Dave's recent job-hunting threads (e.g. Sunflower recruiter) make the studio offer look like a fallback.
+   - Cheapest disproof: all 12 messages out by Wed 4 Nov → ≥1 reply by Mon 9 Nov. 0/12 → switch to warm intros (Noa, Ben Feldman, VIBRANT referral) + LinkedIn post #1 before any more cold notes.
+   - Metric: replies / calls · check 9 Nov.
+2. **7 council emails (v2 wording: SOS or shake, nearby users + chosen contacts, "social network of citizens for citizens"; no price)** — FIRE.
+   - Fails if: (a) councils buy by tender, not cold email; (b) security heads ignore unknown vendors in wartime load; (c) role mailboxes (Kedumim, Golan, Gilboa) never reach the named person.
+   - Cheapest disproof: send all 7 from dave@3shamrocks.com by Wed 4 Nov → ≥1 reply or call by Wed 11 Nov; else route via Asaf's named KABAT only.
+   - Metric: replies · check 11 Nov.
+3. **VIBRANT ₪800 quote → monthly support** — FIRE (unchanged).
+   - Fails if: (a) one-off only; (b) no backlog; (c) silence (sent 1 Nov, no answer).
+   - Cheapest disproof: one polite follow-up Thu 5 Nov; on yes, ask for the 3-month design backlog on delivery.
+   - Metric: accepted · check 6 Nov.
+- CMO: Instagram stays PARKED (board 1 Nov); Mac folder not linked this run, SCHEDULE.csv not read; no UTM data; LinkedIn post #1 waits on Dave. D (posting) not granted.
+- CFO: spend 0 — no xAI receipts since 1 Nov 16:25 UTC (top-up looks stopped; confirm on next statement). Morning sent its regular monthly bill 1 Nov (existing account, not new spend). Price sheet: Dave said "take it away" → CFO owns it; prices unchanged, sheet stays internal, council minimum ₪40k fits the ₪84.2k no-tender cap. **Pricing mismatch flag:** ops/data.json products detail says LickPick Pro $4.99 once / Backstage $9.99/yr, but the app and CFO charter say $2.99/mo or $14.99/yr → night shift (CPO+CFO) to reconcile before any LickPick checkout goes on.
