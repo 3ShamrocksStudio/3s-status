@@ -48,3 +48,6 @@
 - Brain: this repo, STUDIO_BRAIN.md, BLOCKERS.md, org/.
 - Dave's Mac: ~/Desktop/3S Projects (GTM, Grants, Shomer, Trashure-Hunters, Media-Network) via the device bridge when linked.
 - Linear team "3Shamrocks Studio". Chrome (Claude in Chrome) for logged-in sites — read/act only within the rules above.
+
+## Autonomy system
+Every run reads org/AUTONOMY.md right after this file and executes its layers, daily quota, scorecard and standing approvals.
