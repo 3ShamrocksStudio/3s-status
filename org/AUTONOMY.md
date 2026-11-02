@@ -25,7 +25,7 @@ Scope A — LinkedIn outreach: connection notes + first DMs to founders/heads of
 Scope B — follow-ups: one polite follow-up 5 days after no reply, same style.
 Scope C — replies, quotes, proposals, invoices: NEVER without Dave's per-item OK.
 Scope D — posts on Instagram/LinkedIn: only from an approved batch (Dave GO on the batch).
-Status: A = NOT GRANTED · B = NOT GRANTED · D = NOT GRANTED   (update with "granted YYYY-MM-DD by Dave in chat")
+Status: A = granted 2026-11-02 by Dave in chat ("Do all that's necessary. Take over all your assumed responsibilities", after the GO LINKEDIN proposal: About swap + headline fix, 5 DMs, 8 connects, then ≤10/day) · B = granted 2026-11-02 (same) · D = NOT GRANTED
 
 ## Hard limits (never)
 No spend. No passwords/2FA/recovery/ID/bank entry. No legal or price commitments. No public launch of staged products. No data that breaks the SH✡MER privacy policy. Nothing invented (stats, clients, quotes).
