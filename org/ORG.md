@@ -51,3 +51,6 @@
 
 ## Autonomy system
 Every run reads org/AUTONOMY.md right after this file and executes its layers, daily quota, scorecard and standing approvals.
+
+## Money rule (Dave 2 Nov: never spend)
+Never spend, buy, subscribe, upgrade, top up or pay for anything without Dave's explicit consent for that exact item in chat. This includes free trials that need a card. Any charge seen in his email or accounts is reported to him the same day.
