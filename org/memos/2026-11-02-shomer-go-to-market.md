@@ -15,7 +15,7 @@ Price facts from the staged Command page (internal, never in a first contact): 9
 |---|---|---|---|
 | Councils (7 emails ready) | ₪2,500 pilot → ₪40k+/yr licence | 30–60 (reply → call → purchase order → invoice) | $0 / $676 / $11.5k |
 | Chabad house / community (paid pilot, donor can fund) | ₪2,500 pilot → ₪9,900/yr | 14–30 | $0 / $340 / $1.35k |
-| Founding communities (Ohad, Natan: free 90 days) | $0 now; case study; ₪9,900/yr from ~Feb 2027 | ~95 | $0 / $0 / $0 |
+| Founding communities (2 warm contacts, free 90 days) | $0 now; case study; ₪9,900/yr from ~Feb 2027 | ~95 | $0 / $0 / $0 |
 | השומר החדש (partner, not buyer) | Distribution to yishuvim + credibility | 60–120 | $0 / $0 / $0 |
 | Family & friends (as Android testers) | $0; unlocks Google Play production (12 testers opted in for 14 days) | n/a | $0 / $0 / $0 |
 | Social media | $0 until there is a real story | 45+ | $0 / $0 / $0 |
@@ -71,7 +71,7 @@ Draft (WhatsApp):
 > דייב
 
 ### Day 1–3 · Founding communities (free 90 days, max 2)
-Who: Ohad Shamur and Natan Levi (message already in to-do item "Ohad + Natan"). Offer: 90 days free, Dave sets it up, in return honest feedback + permission to tell the story. Only these 2 get "free"; everyone after pays the pilot.
+Who: the 2 warm community contacts named in the private to-do (the founding-communities WhatsApp item; message already there). Offer: 90 days free, Dave sets it up, in return honest feedback + permission to tell the story. Only these 2 get "free"; everyone after pays the pilot.
 
 ### Day 2–4 · Chabad (paid pilot, donor can fund it)
 Who: the Chabad contact the 25 Oct brain called "already in discussion". **Question for you:** which Chabad house / shaliach, and his phone? Offer: 90-day pilot; if both founding slots are taken, the pilot is paid, and a donor or the community's own fund can cover it (stated on the call, not in the message).
@@ -84,7 +84,7 @@ Draft (WhatsApp, warm contact):
 > דייב
 
 ### Day 3–5 · השומר החדש (partnership, not a sale)
-Who: the partnerships desk (batel@hashomer.org.il, found 27 Oct). **Before it reaches your list:** CRO re-checks the name and role (the 7-day role-check rule); not re-verified tonight. Do not route through Asaf (he left on bad terms; he is an advisor, not an intro). Offer: a joint pilot with one region's volunteers; SH✡MER free for the volunteers; no price.
+Who: the partnerships desk (address found 27 Oct; kept in the private to-do, not in this public repo). **Before it reaches your list:** CRO re-checks the name and role (the 7-day role-check rule); not re-verified tonight. Do not route this through the southern-region advisor (advisor, not an intro; reason in the private to-do). Offer: a joint pilot with one region's volunteers; SH✡MER free for the volunteers; no price.
 Draft (email from dave@3shamrocks.com, subject: SH✡MER: היכרות והצעה לשיתוף פעולה):
 > שלום [שם],
 >
@@ -110,7 +110,7 @@ Why: no public announcement of staged products (hard rule), Instagram/LinkedIn p
 ## 7. What Dave does (in this order, ~20 min total)
 1. Send the council emails already in the to-do (biggest money).
 2. Send the F&F tester WhatsApp to 15–20 Android friends (unlocks Play).
-3. Send Ohad + Natan (already in to-do).
+3. Send the 2 founding-community WhatsApps (already in to-do).
 4. Answer 2 questions: who is the Chabad contact (name + phone)? What is TJE?
 5. Reply "OK lock dashboard" so paid plans can be enforced.
 

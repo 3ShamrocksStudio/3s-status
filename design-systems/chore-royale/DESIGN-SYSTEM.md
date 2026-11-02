@@ -37,7 +37,7 @@ Display **Fredoka** 600 (the marquee) · Body **Nunito**. Sizes from the 3SDS sc
 Rounded filled icons with 2px outlines; stars and crown in gold; wheel segments in ramp violets; avatars round. Every state = colour + icon + word.
 
 ## 5. Imagery
-No photos (Dave's 17 Oct direction: logo, no photos, per-player app). Illustration and UI only: the wheel, the battle arena, the splat, avatars of the household (The M Clan in demos).
+No photos (Dave's 17 Oct direction: logo, no photos, per-player app). Illustration and UI only: the wheel, the battle arena, the splat, avatars of the household.
 
 ## 6. Voice: "The Host"
 Warm, hyped family game-show host. Brings the energy, fair to a fault, kid-friendly never babyish, roots for the player, tight.
