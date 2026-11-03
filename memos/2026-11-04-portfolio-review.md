@@ -38,7 +38,7 @@ Evidence: offer page staged (https://3shamrocksstudio.github.io/work-with-me.htm
 3. The 32% accept rate (7 of 22) is healthy; 0 replies so far is because 7 of 12 accepted founders were never messaged.
 
 ### 2 · SH✡MER — POUR (score 5.7; Tnufa 45)
-Evidence: v312 app fixes on main (fb412cd), live site still v311 at 18:11; in-app SOS alarm takeover on main (3b70529); closed-app push on branch sos-push-alarm; lifecycle spec reviewed (8be87aa, 9 decisions for Dave); iOS prepared on branch ios-native; 11 council emails ready, none sent; 3 of 14 Play testers opted in.
+Evidence: v312 app fixes on main (fb412cd), live site at v314 by 20:38; in-app SOS alarm takeover on main (3b70529); closed-app push on branch sos-push-alarm; lifecycle spec reviewed (8be87aa, 9 decisions for Dave); iOS prepared on branch ios-native; 11 council emails ready, none sent; 3 of 14 Play testers opted in.
 1. A single council deal is worth ₪50–300k a year, the largest ticket we have after services.
 2. The Tnufa grant (~₪100k, submit 8 Nov) depends on SH✡MER being real and moving.
 3. But pilots cannot be paid until the Morning payment links and the dashboard lock exist, so near-term $ is small: send the no-price emails now, keep build work to what Dave's test asked for.
@@ -124,7 +124,7 @@ What it is: a LinkedIn chess ice-breaker prototype (dashboard: "Prototype on sta
 10. Confirm the portfolio calls: kill J8NIX + R&K, park Ezra/Fairent/Milo.
 
 ### Claude
-- CTO: confirm v312 is served on shomer-app.co.il; fix the app feedback address (still markodave@gmail.com on main) in the next version; build the closed-app push APK for the Play testing track (server part only after Blaze yes).
+- CTO: popups + update notices (v314 already live); fix the app feedback address (still markodave@gmail.com on main) in the next version; build the closed-app push APK for the Play testing track (server part only after Blaze yes).
 - CRO: role-check the 8 founders before Dave sends; draft replies the same day; 10 new qualified funded-startup contacts with sources.
 - CFO: create the 4 Morning payment links for SH✡MER pilots/licences (test mode) and reconcile LickPick pricing in data.json.
 - Grants: finish both Tnufa files the hour Dave drops them.
