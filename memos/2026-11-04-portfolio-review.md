@@ -4,7 +4,7 @@ Prepared 3 Nov 2026 evening by Claude (COO seat) for Dave (CEO). Staged products
 
 ## Where we stand
 - Booked: **$0**. M1 = $25k by 21 Nov: 18 days left, about $1,390/day needed. Source: ops/data.json (`booked: []`, score `booked_ils: 0`).
-- Pipeline: 27 sent, 7 accepted, 0 replies, 0 calls, 0 proposals, ₪800 quoted (VIBRANT). Source: ops/data.json `score`.
+- Pipeline: 27 sent, 8 accepted (Catch, Modelyo, Rein, Keewano, Mave on 28 Oct; Bites, Swish, Marquee on 2 Nov), 0 replies, 0 calls, 0 proposals, ₪800 quoted (VIBRANT). Source: ops/data.json `score`.
 - Only one product can still put cash in by 21 Nov: **studio services**. Everything else is slower.
 
 ## Method
@@ -32,13 +32,13 @@ Verdicts: **fire** = all-out push now · **pour** = keep investing · **park** =
 ## Product by product
 
 ### 1 · Studio services — FIRE (score 52)
-Evidence: offer page staged (https://3shamrocksstudio.github.io/work-with-me.html); 7 founders accepted on LinkedIn, messages ready in Dave's own template but not sent (to-do, checked 2 Nov 13:00); 5 DMs of 28 Oct unanswered.
+Evidence: offer page staged (https://3shamrocksstudio.github.io/work-with-me.html); 8 founders accepted on LinkedIn, messages ready in Dave's own template but not sent (to-do, checked 2 Nov 13:00); 5 DMs of 28 Oct unanswered.
 1. It is the only engine that can pay before 21 Nov. One Sprint is a third of M1.
 2. Everything is ready: the only missing step is Dave pressing Send (about 30 s each).
-3. The 32% accept rate (7 of 22) is healthy; 0 replies so far is because 7 of 12 accepted founders were never messaged.
+3. The 36% accept rate (8 of 22) is healthy; 0 replies so far is because none of the 8 accepted founders has been messaged yet (only the 5 DMs of 28 Oct went out).
 
 ### 2 · SH✡MER — POUR (score 5.7; Tnufa 45)
-Evidence: v312 app fixes on main (fb412cd), live site at v314 by 20:38; in-app SOS alarm takeover on main (3b70529); closed-app push on branch sos-push-alarm; lifecycle spec reviewed (8be87aa, 9 decisions for Dave); iOS prepared on branch ios-native; 11 council emails ready, none sent; 3 of 14 Play testers opted in.
+Evidence: v312 app fixes on main (fb412cd), live site at v318 (3 Nov: popups, update notices, 'הידעת?' tips, status dot; events preview visible to Dave only); in-app SOS alarm takeover on main (3b70529); closed-app push on branch sos-push-alarm; lifecycle spec reviewed (8be87aa, 9 decisions for Dave); iOS prepared on branch ios-native; 11 council emails ready, none sent; 3 of 14 Play testers opted in.
 1. A single council deal is worth ₪50–300k a year, the largest ticket we have after services.
 2. The Tnufa grant (~₪100k, submit 8 Nov) depends on SH✡MER being real and moving.
 3. But pilots cannot be paid until the Morning payment links and the dashboard lock exist, so near-term $ is small: send the no-price emails now, keep build work to what Dave's test asked for.
@@ -68,7 +68,7 @@ Evidence: app on staging, last push 2 Nov (repo fairent); its own audit (FAIRENT
 3. Strong PR/civic story: keep the staged app, revisit when SH✡MER pays.
 
 ### 7 · Media Network (6 IG accounts) — POUR at low cost (score 0.3 + indirect)
-Evidence: first posts live on all 6; free pages live at /n/<account>/free/ (HTTP 200, 3 Nov); 18 proof pieces made, 4 verified; Chrome logged out of all 6 on 3 Nov.
+Evidence: first posts live on all 6; 4 free pages live (getfetch, dealxscout, meetinq, echoxreels) at /n/<account>/free/ (HTTP 200, 3 Nov); 18 proof pieces made, 4 verified; Chrome logged out of all 6 on 3 Nov.
 1. Runs almost fully on Claude's time (scheduled daily/weekly tasks), so the cost to Dave is one log-in.
 2. Direct income is small; the value is leads for services and LickPick, and proof for every product.
 3. Dave rejected the old post style on 3 Nov; only verified proof reels go out from now on.
@@ -112,10 +112,10 @@ What it is: a LinkedIn chess ice-breaker prototype (dashboard: "Prototype on sta
 ## Plan for Wed 4 Nov
 
 ### Dave (ordered by $ impact; every item is in the to-do, self-contained)
-1. Send the 8 founder messages already written in your template (Eran, Joel, Dean, Benny, Matan, Mark, Raziel, Nir). Services, score 52.
-2. Send the 5 follow-ups due Wed 4 Nov (Alex, Mickey, Sarah, Efrat, Shahar).
-3. Tnufa: answer the Asaf yes/no and drop the 2 filled files into the chat (needed by Thu 5 Nov; submit Sun 8 Nov).
-4. Send the 7 council emails from dave@3shamrocks.com, then the Ohad + Natan WhatsApp.
+1. Send the 8 founder messages already written in your template (founders of Bites, Swish, Marquee, Modelyo, Rein, Keewano, Mave, Catch). Services, score 52.
+2. Send the 5 follow-ups due Wed 4 Nov (Chamelio, enso, Euno, June, Pluto founders).
+3. Tnufa: answer the advisor yes/no and drop the 2 filled files into the chat (needed by Thu 5 Nov; submit Sun 8 Nov).
+4. Send the 7 council emails from dave@3shamrocks.com, then the 2 community-lead WhatsApps.
 5. Wix: change the 4 DNS lines so 3shamrocks.com shows the new studio site founders will open.
 6. Lemon Squeezy identity step (5 min): switches on LickPick subscriptions.
 7. SH✡MER: answer the 9 SOS decisions (incl. Firebase Blaze yes/no), and GO on the 3 site text fixes.
@@ -124,7 +124,7 @@ What it is: a LinkedIn chess ice-breaker prototype (dashboard: "Prototype on sta
 10. Confirm the portfolio calls: kill J8NIX + R&K, park Ezra/Fairent/Milo.
 
 ### Claude
-- CTO: popups + update notices (v314 already live); fix the app feedback address (still markodave@gmail.com on main) in the next version; build the closed-app push APK for the Play testing track (server part only after Blaze yes).
+- CTO: popups, update notices, 'הידעת?' tips + status dot done (v318 live); events preview live for Dave only; fix the app feedback address (still markodave@gmail.com on main) in the next version; build the closed-app push APK for the Play testing track (server part only after Blaze yes).
 - CRO: role-check the 8 founders before Dave sends; draft replies the same day; 10 new qualified funded-startup contacts with sources.
 - CFO: create the 4 Morning payment links for SH✡MER pilots/licences (test mode) and reconcile LickPick pricing in data.json.
 - Grants: finish both Tnufa files the hour Dave drops them.

@@ -8,7 +8,7 @@
 - Kill-test: one domain concentrates SEO and costs ₪0; separate domains now would split thin traffic and cost money we don't have.
 
 ## 2026-11-01 — Revenue desk #1: kill-test of the week's top 3 money moves (CRO + CMO + CFO)
-Pace: $0 booked vs $8.9k linear (M1 $25k by 21 Nov, $1,250/day needed). Weighted M1-window pipeline ≈ $1.6k (5 accepted founders × Sprint ₪32k ≈ $8.6k × 3% ≈ $1.3k; VIBRANT ₪800 × 60% ≈ $130; Asaf → SH✡MER pilot ₪2.5k × 20% ≈ $135). Assumes ₪3.7/$.
+Pace: $0 booked vs $8.9k linear (M1 $25k by 21 Nov, $1,250/day needed). Weighted M1-window pipeline ≈ $1.6k (5 accepted founders × Sprint ₪32k ≈ $8.6k × 3% ≈ $1.3k; VIBRANT ₪800 × 60% ≈ $130; advisor → SH✡MER pilot ₪2.5k × 20% ≈ $135). Assumes ₪3.7/$.
 1. **5 LinkedIn DMs to founders who accepted (Catch, Modelyo, Rein, Keewano + Mave, new today)** — FIRE.
    - Fails if: (a) founders ignore cold DMs ~90% of the time; (b) they already have a design lead/agency; (c) 4 days of silence after accepting cools the thread.
    - Cheapest disproof: send all 5 by Tue 3 Nov; ≥1 reply by Fri 6 Nov. 0/5 → switch to direct founder email + 1 LinkedIn post before more DMs.
@@ -17,15 +17,15 @@ Pace: $0 booked vs $8.9k linear (M1 $25k by 21 Nov, $1,250/day needed). Weighted
    - Fails if: (a) they treat it as a one-off; (b) price anchors Dave low; (c) delivery eats a day of outbound.
    - Cheapest disproof: quote includes the "bundle other updates" line; if they accept, ask for their 3-month design backlog on the delivery call.
    - Metric: quote accepted + backlog conversation · check 6 Nov.
-3. **WhatsApp Asaf → first SH✡MER yishuv + council KABAT** — FIRE.
-   - Fails if: (a) Asaf no longer has the network after 7 Oct; (b) yishuv wants it free forever; (c) the council buys by tender, not by a pilot fee.
+3. **WhatsApp the SH✡MER advisor → first SH✡MER yishuv + council KABAT** — FIRE.
+   - Fails if: (a) the advisor no longer has the network after 7 Oct; (b) yishuv wants it free forever; (c) the council buys by tender, not by a pilot fee.
    - Cheapest disproof: one WhatsApp; a named yishuv + KABAT within 3 days, else drop to cold council list.
    - Metric: names received · check 4 Nov.
 - CMO: Instagram + content stay PARKED (board 1 Nov); no UTM data exists yet; spend 0. CFO: possible spend flag — 5 Grok xAI receipts ($20) + SpaceXSI prepaid invoice in Gmail; asked Dave studio vs personal.
 
 ## 2026-11-01 — Full audit of today's revenue work (CRO + CMO + CFO, at Dave's request)
 Evidence: LinkedIn read-only (messages, connections, own profile), Gmail, web sources, repos.
-- **Pipeline was wrong.** 5 founder DMs went out 28 Oct (Alex/Chamelio, Mickey/enso, Sarah/Euno, Efrat/June, Shahar/Pluto); the board only knew Alex. 0 replies after 4 days. The "message Mickey" draft from the batch-4 run would have double-pitched him → REMOVED; replaced by 5 short follow-ups for Wed 4 Nov.
+- **Pipeline was wrong.** 5 founder DMs went out 28 Oct (Chamelio, enso, Euno, June, Pluto founders); the board only knew Chamelio. 0 replies after 4 days. The "message enso founder" draft from the batch-4 run would have double-pitched him → REMOVED; replaced by 5 short follow-ups for Wed 4 Nov.
 - **Kill reason #1 for services: positioning.** Live profile About says "open to Head of Design / VP Design roles"; recent posts say budget ran out / looking for salaried work; the 28 Oct DMs ask "do you need someone like me". Founders read a job application, not a studio. Fix before any send: About swap + follow-up line "I'm not looking for a job". Headline "+68% user retention" is wrong maths (68 vs 34 = 2×) → fix to "2× patient retention".
 - **Claim check:** "TIME Best Inventions 2023" VERIFIED (time.com: "Vibrant System: The 200 Best Inventions of 2023"). 68% vs 34% = Dave's own data, kept.
 - **Batch 4 fit test:** HIGH = DataAgent, HydroSight, HyperGuest, Rig; MEDIUM = Huskeys, Dalet Labs; LOW = AIR Security ($50M, will hire in-house), Lasso (has designer + CPO), Wint (Series D). Kept but ranked; security/infra notes now lead with AposHealth dashboards (closer proof than a consumer health app). Free-LinkedIn note limit: send without a note if blocked.
@@ -45,14 +45,14 @@ Evidence: LinkedIn read-only (messages, connections, own profile), Gmail, web so
 ## 2026-11-02 — Revenue desk #2 (CRO + CMO + CFO, Mon 12:47)
 Evidence: LinkedIn read-only 13:00 Israel (messages + connections), Gmail (last 3 days), Dave's to-do notes up to 10:40 UTC, repos.
 Pace: $0 booked vs ~$9.7k linear (M1 $25k by 21 Nov, 19 days). Weighted M1-window pipeline ≈ $2k (7 accepted founders × Sprint ₪32k ≈ $8.6k × 3% ≈ $1.8k; VIBRANT ₪800 × 60% ≈ $130; SH✡MER pilot ₪2.5k × 20% ≈ $135; ₪3.7/$). M1 is missed unless a Sprint signs; no kill rule due (M2 checkpoint 21 Dec).
-Found: 2 new accepts today (Eran Heffetz, Bites $40M A; Joel Bar-El, Swish) + Noa Turgeman (menta, founder mentor → connector role). 0 replies anywhere. The 5 founders who accepted 28 Oct still have NO message: no chat exists, although their v3 items were ticked at 10:37 (ticks reset, item explains). Typing drafts into Dave's LinkedIn chat stays blocked (platform safety check + run rules); copy buttons + direct profile links instead.
+Found: 2 new accepts today (Bites founder, $40M A; Swish founder) + a menta founder mentor (connector role). 0 replies anywhere. The 5 founders who accepted 28 Oct still have NO message: no chat exists, although their v3 items were ticked at 10:37 (ticks reset, item explains). Typing drafts into Dave's LinkedIn chat stays blocked (platform safety check + run rules); copy buttons + direct profile links instead.
 1. **Send the 7 founder DMs (Dave's own template) by Tue 3 Nov + 5 follow-ups Wed 4 Nov** — POUR.
    - Fails if: (a) 5 days of silence after accepting has cooled 5 of them; (b) the template has no product-specific hook, reads generic; (c) Dave's recent job-hunting threads (e.g. Sunflower recruiter) make the studio offer look like a fallback.
-   - Cheapest disproof: all 12 messages out by Wed 4 Nov → ≥1 reply by Mon 9 Nov. 0/12 → switch to warm intros (Noa, Ben Feldman, VIBRANT referral) + LinkedIn post #1 before any more cold notes.
+   - Cheapest disproof: all 12 messages out by Wed 4 Nov → ≥1 reply by Mon 9 Nov. 0/12 → switch to warm intros (menta mentor, a second warm connector, VIBRANT referral) + LinkedIn post #1 before any more cold notes.
    - Metric: replies / calls · check 9 Nov.
 2. **7 council emails (v2 wording: SOS or shake, nearby users + chosen contacts, "social network of citizens for citizens"; no price)** — FIRE.
    - Fails if: (a) councils buy by tender, not cold email; (b) security heads ignore unknown vendors in wartime load; (c) role mailboxes (Kedumim, Golan, Gilboa) never reach the named person.
-   - Cheapest disproof: send all 7 from dave@3shamrocks.com by Wed 4 Nov → ≥1 reply or call by Wed 11 Nov; else route via Asaf's named KABAT only.
+   - Cheapest disproof: send all 7 from dave@3shamrocks.com by Wed 4 Nov → ≥1 reply or call by Wed 11 Nov; else route via the advisor's named KABAT only.
    - Metric: replies · check 11 Nov.
 3. **VIBRANT ₪800 quote → monthly support** — FIRE (unchanged).
    - Fails if: (a) one-off only; (b) no backlog; (c) silence (sent 1 Nov, no answer).
@@ -60,3 +60,10 @@ Found: 2 new accepts today (Eran Heffetz, Bites $40M A; Joel Bar-El, Swish) + No
    - Metric: accepted · check 6 Nov.
 - CMO: Instagram stays PARKED (board 1 Nov); Mac folder not linked this run, SCHEDULE.csv not read; no UTM data; LinkedIn post #1 waits on Dave. D (posting) not granted.
 - CFO: spend 0 — no xAI receipts since 1 Nov 16:25 UTC (top-up looks stopped; confirm on next statement). Morning sent its regular monthly bill 1 Nov (existing account, not new spend). Price sheet: Dave said "take it away" → CFO owns it; prices unchanged, sheet stays internal, council minimum ₪40k fits the ₪84.2k no-tender cap. **Pricing mismatch flag:** ops/data.json products detail says LickPick Pro $4.99 once / Backstage $9.99/yr, but the app and CFO charter say $2.99/mo or $14.99/yr → night shift (CPO+CFO) to reconcile before any LickPick checkout goes on.
+
+## 2026-11-03 — Private contact names removed from public pages (COO, verifier finding)
+- Found: private contact names (founders, SH✡MER advisor, community leads, endorsers, connectors) in public files: ops/index.html, ops/data.json, ops/brain/brain.json (3shamrocksstudio.github.io) and memos/, org/, STUDIO_BRAIN.md here (this repo is public too).
+- Decision: every name replaced with a role or company label (e.g. "Bites founder", "SH✡MER advisor", "community lead A"). Dave Markovich's own name stays. Real names live only in Dave's private to-do artifact; the missing ones were added there 3 Nov.
+- Rule: no private person's name in any public repo file from now on; use role/company labels. Council officials named on their councils' own public sites stay out of public pages too.
+- **Known residual:** git history of both public repos still holds the old names. Not rewritten: a public history rewrite needs Dave's OK (force-push). Ask Dave.
+- Check: re-grep live pages every shift for the names list (0 hits on 3 Nov).

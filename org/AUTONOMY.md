@@ -15,7 +15,7 @@ Every scheduled run reads this file after ORG.md and executes it. It overrides s
 ## Daily quota (counts only real, verifiable actions)
 - 10 new qualified buyer contacts prepared (services founders, SH✡MER security coordinators/councils) — each with a 1-line why-now and a message in the approved style.
 - 100% of replies answered same day with next step (call link, proposal, quote).
-- 1 SH✡MER buyer action (pilot lead, council contact, Asaf chain).
+- 1 SH✡MER buyer action (pilot lead, council contact, advisor chain).
 - 1 product monetization step shipped (payment link, checkout, listing fix, pricing page) — verified live.
 - Scorecard updated on ops/data.json `score` (sent, accepted, replies, calls, proposals, ₪ quoted, ₪ booked).
 Missed quota → the run states why in one line and fixes the cause before doing anything else next run.
