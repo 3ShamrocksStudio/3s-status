@@ -6,11 +6,7 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 ## SH✡MER
 - DONE v318: move shomers between circles; map zoom; green SOS banner; one-line labels; popup scheduler; update card for everyone; SOS stays red; "הידעת?" tips; status dot; in-app SOS takeover
 - DONE: events preview for Dave only (Zalka as a regular event plus 5 sourced events, rating, 3-tap report, dashboard ?evp=1)
-- OPEN: events polish
-  - show event time instead of publish time
-  - make the summary look tappable
-  - stop the tip popup opening over the first card
-  - wire shomer-command
+- DONE v319 (379bf9a): events polish - event time (not publish) on cards and SH✡MER Command popups, tappable summary, "הידעת?" tip never covers the event card
 - OPEN (awaiting Dave's yes): rename "עדכונים" to "באזור שלי", one feed matching the map
 - BLOCKED (Dave): locked-phone push alarm, build 1.0.64. Needs GO Blaze, Firebase key, google-services.json, GO Play, and approval of the privacy text
 - BLOCKED (Dave): the 9 event-lifecycle decisions, then build steps 0–7 (EVENT-LIFECYCLE-SPEC.md)
