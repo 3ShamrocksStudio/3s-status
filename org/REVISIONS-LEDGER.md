@@ -47,7 +47,7 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 
 ## Chore Wars / R&K (Rookie & King)
 - OPEN (night lab 01:23): game rethink (one fantasy, clear win/lose, pass cards) plus a playable prototype; R&K concept/design/monetization upgrade. Game part replaced by the 4 Nov rebuild below
-- OPEN (awaiting verifier + Dave, 4 Nov): Dave rejected the overnight v2 prototype. Rebuilt as Chore Wars at https://3shamrocksstudio.github.io/lab/chore-wars/ (old /lab/chore-royale-v2/ redirects there). Each complaint and the fix:
+- OPEN (superseded by the fix pass below, 4 Nov): Dave rejected the overnight v2 prototype. Rebuilt as Chore Wars at https://3shamrocksstudio.github.io/lab/chore-wars/ (old /lab/chore-royale-v2/ redirects there). Each complaint and the fix:
   - "Boring, dull, design is lame": new bright game look. Purple arena, chunky ink outlines, hard shadows, springy reward motion, sounds and haptics.
   - "No branding, identity, iconography, typography or style": spray-blaster logo and wordmark (SVG + PNG), 6-colour system, Bungee + Nunito, 33 custom icons, 4 ranks, 8 player avatars. Brand sheet at /lab/chore-wars/brand.html
   - "Lots of words, kids won't read": icon-first screens, labels of 6 words or fewer, onboarding is 3 swipes
@@ -56,7 +56,14 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
   - "Users fight for points, XP, chore-switching": grab, steal (Steal card), Shield block, swap offer/accept/counter, parent bounty, weekly duels, weekly leaderboard with crown, streaks, parent photo approval
   - "Nobody will pay ₪20/month; use paid ads and paid users": free to play, opt-in rewarded ad slot (placeholder, no SDK), per-player extras (skins, season pass, card packs, price TBD). Sourced 1-page model at /lab/chore-wars/model.html
   - Old names (Chore Royale, ClanForge, ChoreQuest) removed from the new build, the lab path and the chore-wars README
-- BLOCKED (Dave): prices for extras; ad network choice after a kids-ads legal check; change the M Clan demo parent PIN (now 1234)
+- OPEN (awaiting verifier + Dave, 4 Nov fix pass after verifier review; chore-wars 85a99a5, site 7da526c):
+  - Security: a code alone shows nothing; new phones wait until a parent taps "Let in" (freed kid seats too). Code, join and PIN tries locked after 5 per 15 min (joins 8). PINs bcrypt. Unreviewed proof photos auto-delete after 7 days (pg_cron); photos max 720 px JPEG
+  - Public demo is the invented "Thunder House" (Captain, Zap, Nova), in-browser only, resets on reload. M Clan is off every public path; its code was rotated and is not in any repo. Test households (incl. verifier's 56XTCH) deleted
+  - Name: /chore-wars/ and /royale/ etc. redirect to the new app; studio home, footer and every work page menu say Chore Wars; work/chore-wars.html (old path redirects)
+  - Design: Check it shows the photo big or a "No photo" badge, big Approve/Redo; labelled "Ad" countdown + card flip; kids open on Chores with Grab pulsing; rarity board (Bounty/Legend wide + glowing, Epic/Rare/Common), flip + points burst; badges at join, rank tiers, crown ceremony, streak flames, sound toggle with synth SFX
+  - Model page: Israeli Privacy Law Amendment 13 (in force 14 Aug 2025), COPPA/GDPR-K: contextual ads only
+  - QA (live staging, 390x844): 19/19 checks PASS incl. parent-approved join, stranger sees nothing, 6 wrong PINs lock. Screens: chore-wars-qa/2026-11-04b/live
+- BLOCKED (Dave): prices for extras; ad network choice after a kids-ads legal check. NEEDS YOUR EYES: design score (identity, teen appeal, 2-second clarity)
 
 ## LinkedIn / leads
 - OPEN (night 02:43): review the new accepts, check current roles, build a private pipeline with a next-steps timeline, draft messages for Dave to send
