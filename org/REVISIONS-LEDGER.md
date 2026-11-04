@@ -7,6 +7,12 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 - DONE v318: move shomers between circles; map zoom; green SOS banner; one-line labels; popup scheduler; update card for everyone; SOS stays red; "הידעת?" tips; status dot; in-app SOS takeover
 - DONE: events preview for Dave only (Zalka as a regular event plus 5 sourced events, rating, 3-tap report, dashboard ?evp=1)
 - DONE v319 (379bf9a): events polish - event time (not publish) on cards and SH✡MER Command popups, tappable summary, "הידעת?" tip never covers the event card
+- DONE v320 (45c186d): removed the gold "+ דיווח" button and its report sheet from the map (events preview); older report entry points kept
+- DONE v320 (326cdad): map - only my own position shows the gold ✡; every other user (incl. the founder) is a green pulsing dot, ~1 km rounding kept
+- DONE v320 (c83b2b6): CPR card - 110/min beep metronome (Web Audio), big start/stop, pulse on beat, screen kept awake, stops when the card closes
+- DONE v320 (f5949a4): event card shows only on a tap; X, map tap or another sheet closes it; sits above the bottom safe area
+- DONE v320 (71ddde3): "עדכונים" renamed "באזור שלי" - real rows (SOS, nearby, recent; archive = last 90 days), new filters, one-line rows open the event card
+- DONE v320 (636db16): version bump, live version.json = v320
 - OPEN (awaiting Dave's yes): rename "עדכונים" to "באזור שלי", one feed matching the map
 - BLOCKED (Dave): locked-phone push alarm, build 1.0.64. Needs GO Blaze, Firebase key, google-services.json, GO Play, and approval of the privacy text
 - BLOCKED (Dave): the 9 event-lifecycle decisions, then build steps 0–7 (EVENT-LIFECYCLE-SPEC.md)
