@@ -18,7 +18,9 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 
 ## LickPick
 - DONE lp-2026-11-03e: audio damage fixed; band accuracy improved; "licks"/"jams" wording; edge cases handled
-- OPEN: band key detection (relative major/minor) and half-tempo above 130 BPM
+- DONE lp-2026-11-04a (dbe0816): band key detection tells a key from its relative major/minor
+- DONE lp-2026-11-04a (e5d6cff): fast tempos kept at half-time and labelled, band no longer races
+- DONE lp-2026-11-04a: "licks" wording checked, no user-visible "takes" left
 - OPEN: check the landing page "pops" and the LickPick folder in 3S Projects with brand and business files
 - BLOCKED (Dave): Lemon Squeezy "Activate your store"
 
