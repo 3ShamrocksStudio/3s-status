@@ -13,6 +13,7 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 - DONE v320 (f5949a4): event card shows only on a tap; X, map tap or another sheet closes it; sits above the bottom safe area
 - DONE v320 (71ddde3): "עדכונים" renamed "באזור שלי" - real rows (SOS, nearby, recent; archive = last 90 days), new filters, one-line rows open the event card
 - DONE v320 (636db16): version bump, live version.json = v320
+- DONE v322 (8e2312d, 0b6050b, 8382971; verifier pending): events on the map for ALL users (no preview gate, pill "N אירועים"); 90 days from event time on map, באזור שלי and SH✡MER Command (Zalka pinned); +8 sourced events (fire, medical, suspicious, weather/quake), 2 sources each, credited "צוות SH✡MER · לפי <outlet>", linked "מקור:", category image + "מה עושים במצב כזה" + 100 · 101 · 102; sources in docs/events-sources.md. NEEDS YOUR EYES: confirm/dispute votes stay preview-only until the votes rules are deployed
 - OPEN (awaiting Dave's yes): rename "עדכונים" to "באזור שלי", one feed matching the map
 - BLOCKED (Dave): locked-phone push alarm, build 1.0.64. Needs GO Blaze, Firebase key, google-services.json, GO Play, and approval of the privacy text
 - BLOCKED (Dave): the 9 event-lifecycle decisions, then build steps 0–7 (EVENT-LIFECYCLE-SPEC.md)
