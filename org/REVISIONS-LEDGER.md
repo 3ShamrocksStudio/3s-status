@@ -36,7 +36,16 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 - DONE: all 16 homepage items, work-with-me, pilot page, floating-device portfolio per the reference, animated minime
 - OPEN: verifier fixes in progress (carousel slides, tap copy, Nature page eyebrows/footer/link, pilot monthly prices, work-with-me style, demo names)
 - BLOCKED (Dave): 5 Wix DNS changes, then migrate to www.3shamrocks.com (old Wix design retired)
-- OPEN (Dave's eyes): homepage quote; small starter offer
+- OPEN (Dave's eyes): small starter offer
+- OPEN, awaiting verifier + Dave (4 Nov homepage pass, site 469f4df, staging https://3shamrocksstudio.github.io/):
+  - Name: Chore Wars only. Work pages/menus/redirects back to the 1e591ae rename, ops text fixed, old preview-home.html now redirects home (59270ca)
+  - 1 Minime devices: right phone removed; one phone left of the minime cycles 11 real screens (SH✡MER v322 x3, LickPick x2, Chore Wars demo x3, TH x2, FaiRent x2) with a brand tag; no welcome/splash screens
+  - 2 "2×" stat: on the same line as 20+, 10+, 11 at 1440 and 390
+  - 3 68% vs 34% strip: removed with all its text; logo strip AposHealth, VIBRANT, Guberman, Eldan, Winplant (mono, colour on hover). VIBRANT logo cut from its own brand book. Visualed left out: no real logo on the Mac or in the repo
+  - 4 Things I build: 1-2-3-4 flow removed; 4 product-led tiles (Trashure-Hunters, LickPick, Chore Wars, SH✡MER) with real screens/art, no numbers
+  - 5 Portfolio: f7e2f7b floating-device stage restored (splash when off, hover plays screens, click opens the page, Coming soon for J8NIX/EZRA/Milo/Media Network); Chore Wars tile uses its own logo + current screens
+  - 6 Quote: removed; brand wall of real marks (SH✡MER + Nature, Chore Wars, LickPick, TH cast, FaiRent, J8NIX, Milo, EZRA, R&K) + moving Chore Wars icon set
+  - 7 Overall: light page (no dark/green theme), Bricolage Grotesque + Instrument Sans, one hero load sequence, 0 console errors, 0 broken images, no image over 400 KB, no sideways scroll at 390
 
 ## Instagram
 - DONE: first posts on 6 accounts; bios; 4 free pages; 3 proof reels scheduled for 4 Nov; old posts removed on shomer, meetinq and dealxscout
