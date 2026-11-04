@@ -46,6 +46,19 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
   - 5 Portfolio: f7e2f7b floating-device stage restored (splash when off, hover plays screens, click opens the page, Coming soon for J8NIX/EZRA/Milo/Media Network); Chore Wars tile uses its own logo + current screens
   - 6 Quote: removed; brand wall of real marks (SH✡MER + Nature, Chore Wars, LickPick, TH cast, FaiRent, J8NIX, Milo, EZRA, R&K) + moving Chore Wars icon set
   - 7 Overall: light page (no dark/green theme), Bricolage Grotesque + Instrument Sans, one hero load sequence, 0 console errors, 0 broken images, no image over 400 KB, no sideways scroll at 390
+- OPEN, awaiting verifier + Dave (4 Nov homepage pass "s4", site 658f49f/078efca/0ecc785/32f4b8e, staging https://3shamrocksstudio.github.io/):
+  - Name: Chore Royale on the whole studio site (home, footer, work/chore-royale.html is the page again; work/chore-wars.html, chorewars-case.html, products/chore-royale.html redirect to it; ops product label). Game app links /lab/chore-wars/ and /chore-wars/app/ unchanged
+  - 1 Minime: clean cutout (minime_nobg.webp, alpha checked), no box; SVG eye layer on his eyes only: irises follow the cursor, drift gently on touch, lids blink every 2.4-6 s; one phone on his left
+  - 2 XP bar: "Level 20+ · since 2007", fills to 100% on load with glow, glint and sparkles; "Next quest: your product →" links to #contact
+  - 3 Background: black page, fixed canvas with brand-purple aurora and particles that swirl round the cursor, ripple on click and drift with scroll; low alpha behind text; static frame on reduced motion
+  - 4 Devices: new titanium phone and laptop frames, dynamic island, glass glare, coloured under-glow, floor reflection, float motion; real screens at 2x
+  - 5 Logo strip under the hero: removed
+  - 6 One section "Things I build.": 9 floating devices, branded splash when off, hover plays real screens, click opens the page, Coming soon on Milo/EZRA/J8NIX/R&K. Phones: SH✡MER, Chore Royale, LickPick, FaiRent, TH, Milo, EZRA, R&K. J8NIX = only laptop, real platform screens (live /j8nix/ captures, internal items hidden). SH✡MER Nature and Media Network gone from the site (Nature pages redirect to work/shomer.html)
+  - 7 Marks wall: SH✡MER badge + 9 real map markers + 4 emergency icons + 8 first-aid cards; LickPick logo + 12 app icons; Chore Royale mark + 45-icon band; J8NIX wordmark, app icon, status chips and platform colours; full TH cast (5 eggs, 5 Elemonsters, 5 kings, Orbo, King Grime). FaiRent/EZRA/Milo/R&K removed from the wall
+  - 8 Contact: no screens; one line, one "Start a project" button, email + LinkedIn
+  - 9 Facts: 20+ yrs since 2007, 10+ HealthTech, 9 products = 9 devices, 2x retention once (hero), TIME Best Invention 2023 once (VIBRANT card), AposHealth brand and product marketing
+  - Brand-v3: assets/brand-v3/rk/ exists locally but is not committed; R&K stays on assets/studio/rk/logo.png until that team pushes. No milo/ezra folders yet
+  - QA: screens /tmp/claude-0/pw/s4-*.png (1440 + 390), 0 console errors, 0 broken images, no sideways scroll at 390, no image over 400 KB
 
 ## Instagram
 - DONE: first posts on 6 accounts; bios; 4 free pages; 3 proof reels scheduled for 4 Nov; old posts removed on shomer, meetinq and dealxscout
