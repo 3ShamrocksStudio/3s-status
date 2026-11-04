@@ -59,6 +59,20 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
   - 9 Facts: 20+ yrs since 2007, 10+ HealthTech, 9 products = 9 devices, 2x retention once (hero), TIME Best Invention 2023 once (VIBRANT card), AposHealth brand and product marketing
   - Brand-v3: assets/brand-v3/rk/ exists locally but is not committed; R&K stays on assets/studio/rk/logo.png until that team pushes. No milo/ezra folders yet
   - QA: screens /tmp/claude-0/pw/s4-*.png (1440 + 390), 0 console errors, 0 broken images, no sideways scroll at 390, no image over 400 KB
+- OPEN, awaiting verifier + Dave (4 Nov homepage pass "s7", site b73b60e..9ceb40e, staging https://3shamrocksstudio.github.io/):
+  - 1 Minime: 13% smaller; Grok Imagine idle loop (breath, head turn, blinks), keyed to alpha webm (472 KB) + poster; Safari and reduced motion keep the still with live eyes
+  - 2 Career level bar (2007 Studio, HealthTech VIBRANT/AposHealth, TIME 2023, Now 9 products) fills node by node; hero logo pill under the phone removed
+  - 3 Eyebrow "Product Design Director · since 2007"; heart icon removed
+  - 4 "See the 4 ways" link removed (footer "Work with me" too)
+  - 5 Particles pulled in and magnified near the cursor, slower; click burst throws shamrock leaves (3S greens, teal, purple)
+  - 6 Stats in first screen (bottom 838/900 desktop, 714/844 phone); "built in weeks" no lone word
+  - 7 Order: SH✡MER, J8NIX laptop, LickPick, TH, Chore Royale, FaiRent, then Milo, EZRA, R&K (coming soon); nothing removed; J8NIX uses Dave's real logo and icon.svg (assets/brand/j8nix-real), brand-v3/j8nix no longer used
+  - 8 Marks: kept, rebuilt as 5 tabbed 3SDS brand sheets with each brand's palette, type and motion
+  - 9 "Product and brand leadership in HealthTech": AposHealth laptop, VIBRANT laptop + phone, real slides and app screens
+  - 10 Contact: River of Three background (crop, no watermark, 64 KB); 3S mark draws itself, sprout unfurls, glitch; leaves lean to cursor, bloom + leaf burst on click
+  - 11 Photo stickers: hat, hair, pixel shades, moustache, shamrock pin; drag, tap, drag off, Reset
+  - NEEDS YOUR EYES: "9 products" label avoids "shipped" because 4 are coming soon
+  - QA: /tmp/claude-0/pw/s7-*.png (1440 + 390), live check 0 console errors, 0 broken images, no sideways scroll, images under 400 KB, video under 2.5 MB, reduced motion OK
 
 ## Instagram
 - DONE: first posts on 6 accounts; bios; 4 free pages; 3 proof reels scheduled for 4 Nov; old posts removed on shomer, meetinq and dealxscout
