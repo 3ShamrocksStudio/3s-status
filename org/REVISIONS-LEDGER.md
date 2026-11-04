@@ -20,7 +20,7 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 - DONE lp-2026-11-03e: audio damage fixed; band accuracy improved; "licks"/"jams" wording; edge cases handled
 - DONE lp-2026-11-04a (dbe0816): band key detection tells a key from its relative major/minor
 - REOPENED (verifier B2 FAIL on lp-2026-11-04a, e5d6cff): half-time cutoff was 140 not ~130, flag never shown, click and notes paths disagreed at 150 BPM
-- OPEN, awaiting verifier: lp-2026-11-04b (ec66f17) one half-time rule (above 130 BPM) for audio and sung notes, band stays on the real beat, small "½×" next to BPM; key no longer confused with its fifth (E minor vs B minor). Staging: https://3shamrocksstudio.github.io/lickpick/app/
+- OPEN, awaiting verifier: lp-2026-11-04c (ec135a3) key vs its fifth now decided by the scale notes (C major with F stays C even ending on G; G major needs F#), one 130 BPM half-time cutoff everywhere, "½×" also on the Groove button. Supersedes lp-2026-11-04b (ec66f17), which read a C-major lick ending on G as G major. Staging: https://3shamrocksstudio.github.io/lickpick/app/
 - DONE lp-2026-11-04a: "licks" wording checked, no user-visible "takes" left
 - OPEN: check the landing page "pops" and the LickPick folder in 3S Projects with brand and business files
 - BLOCKED (Dave): Lemon Squeezy "Activate your store"
