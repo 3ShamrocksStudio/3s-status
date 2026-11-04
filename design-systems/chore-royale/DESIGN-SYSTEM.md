@@ -45,7 +45,7 @@ Warm, hyped family game-show host. Brings the energy, fair to a fault, kid-frien
 |---|---|
 | "No records found." | "No chores yet. Spin to win one! 🎡" |
 | "Task submitted for approval." | "Sent to Dad to confirm ✓" |
-| "You lost the match." | "Dean takes the round. Your turn's coming!" |
+| "You lost the match." | "Zap takes the round. Your turn's coming!" |
 | "Invalid: insufficient balance." | "Need ⭐ 12 more for that. Keep finishing chores!" |
 | "Purchase subscription." | "Unlock the whole show: Chore Royale Plus 👑" |
 
