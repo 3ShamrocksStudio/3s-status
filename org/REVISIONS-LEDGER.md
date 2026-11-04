@@ -63,6 +63,8 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
   - Design: Check it shows the photo big or a "No photo" badge, big Approve/Redo; labelled "Ad" countdown + card flip; kids open on Chores with Grab pulsing; rarity board (Bounty/Legend wide + glowing, Epic/Rare/Common), flip + points burst; badges at join, rank tiers, crown ceremony, streak flames, sound toggle with synth SFX
   - Model page: Israeli Privacy Law Amendment 13 (in force 14 Aug 2025), COPPA/GDPR-K: contextual ads only
   - QA (live staging, 390x844): 19/19 checks PASS incl. parent-approved join, stranger sees nothing, 6 wrong PINs lock. Screens: chore-wars-qa/2026-11-04b/live
+- OPEN (awaiting verifier, 4 Nov final fix pass "c"; chore-wars 6dacdb3, site 2ff00eb): global code-guess budget (30 misses/10 min across all callers, then 5 min cool-down) + backoff per /24; 8-char codes (no 0/O/1/I), M Clan code rotated (not in any repo); server refuses photos over 250 KB; shop shows "Coming soon" locks (TBD stays on model.html only); ad countdown shows a spinning card, reward name and ring; PIN shows dots with a brief last-digit peek; toasts moved off the header; victory screen + rank-up, rival callout, avatar streak flame. "Jakob" placeholder replaced (SH✡MER, nature preview). QA live 390x844: all PASS, 0 console errors, 40 rotating-device bad codes hit the global limit. Screens: chore-wars-qa/2026-11-04c/live
+- BLOCKED (Dave): approve the Supabase delete prompt (it auto-cancelled) so test households (Verifier Owl Den x2, QA House x3) are removed and the admin cleanup function is added
 - BLOCKED (Dave): prices for extras; ad network choice after a kids-ads legal check. NEEDS YOUR EYES: design score (identity, teen appeal, 2-second clarity)
 
 ## LinkedIn / leads
