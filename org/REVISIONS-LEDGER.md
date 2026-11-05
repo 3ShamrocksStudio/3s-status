@@ -118,3 +118,10 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 - BLOCKED (Dave): GO private for the 3s-status repo; GO scrub of repo history
 - BLOCKED (Dave): backups to the external drive (needs folder access)
 - Rule: $0 budget; token-lean runs
+
+## Weekend shift (Thu 5 Nov 22:31 → Sun), goal: income toward M1 $25k by 21 Nov
+- OPEN: fractional design pipeline, 30 real prospects plus draft first-touches (private, drafts only)
+- OPEN: SH✡MER municipal pilot pack: targets, Hebrew proposal, outreach drafts (private, drafts only)
+- OPEN: homepage follow-ups: real J8NIX/FaiRent screens, mosaic dedupe, R&K brand check
+- OPEN: verifier sweep of every "awaiting verifier" item in this ledger
+- BLOCKED (Dave): Milo Grok brief needs Grok sign-in; J8NIX public exposure; SH✡MER live-site AI photos; R&K board level; FaiRent wordmark
