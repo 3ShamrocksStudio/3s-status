@@ -121,8 +121,12 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 - Rule: $0 budget; token-lean runs
 
 ## Weekend shift (Thu 5 Nov 22:31 → Sun), goal: income toward M1 $25k by 21 Nov
-- OPEN: fractional design pipeline, 30 real prospects plus draft first-touches (private, drafts only)
-- OPEN: SH✡MER municipal pilot pack: targets, Hebrew proposal, outreach drafts (private, drafts only)
-- OPEN: homepage follow-ups: real J8NIX/FaiRent screens, mosaic dedupe, R&K brand check
-- OPEN: verifier sweep of every "awaiting verifier" item in this ledger. 2026-11-05 sweep: SH✡MER v322–v326, LickPick lp-2026-11-04c, Chore Wars "c" and "d" VERIFIED PASS. Still awaiting verifier: homepage passes (4 Nov, s4, s7) and the Chore Wars 85a99a5 pass (its security part is covered by the "d" check)
+- DONE (verified 15/15): fractional pipeline, 30 prospects, 15 first-touches + 30 follow-ups, offer one-pager; HealthTech case page work/healthtech.html (verified 8/10). Awaiting Dave: approve drafts, offer prices
+- DONE: SH✡MER pilot pack (20 targets, Hebrew proposal, 10 drafts). Awaiting Dave: price. Dashboard fixes v328-v330 live and verified (mobile, honest demo labels, founders reads own entry only). BLOCKED (Dave: 'yes Firebase'): deploy tightened rules + strip one old account-id field
+- DONE (verified 7/7): homepage real screens, mosaic dedupe, R&K brand, CONCEPT banners
+- DONE: verifier sweep, all PASS (SH✡MER v320-v327, LickPick lp-2026-11-04c, Chore Wars c/d). 2026-11-05 sweep: SH✡MER v322–v326, LickPick lp-2026-11-04c, Chore Wars "c" and "d" VERIFIED PASS. Still awaiting verifier: homepage passes (4 Nov, s4, s7) and the Chore Wars 85a99a5 pass (its security part is covered by the "d" check)
 - BLOCKED (Dave): Milo Grok brief needs Grok sign-in; J8NIX public exposure; SH✡MER live-site AI photos; R&K board level; FaiRent wordmark
+
+- DONE (verified 10/10): Milo app reset per Grok brief on branch grok-reset, preview /milo-reset-preview/. Awaiting Dave: merge to public, crisis numbers professional check
+- DONE (verified): Milo brand v2 proposal, shades removed, assets/brand-proposals/milo-v2/. Awaiting Dave: chain keep/drop, ice-cube dot
+- OPEN (Dave): VIBRANT '2x retention' / '68% vs 34%' on homepage and CVs: confirm or remove
