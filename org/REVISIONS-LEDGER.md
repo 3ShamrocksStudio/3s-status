@@ -130,3 +130,22 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 - DONE (verified 10/10): Milo app reset per Grok brief on branch grok-reset, preview /milo-reset-preview/. Awaiting Dave: merge to public, crisis numbers professional check
 - DONE (verified): Milo brand v2 proposal, shades removed, assets/brand-proposals/milo-v2/. Awaiting Dave: chain keep/drop, ice-cube dot
 - OPEN (Dave): VIBRANT '2x retention' / '68% vs 34%' on homepage and CVs: confirm or remove
+
+## Week of 8 Nov (Sun 8 – Sat 14 Nov; work paused Fri 6–Sat 7, restarted Sun 8 Nov 13:30)
+Goal check: booked $0 · M1 $25k by 21 Nov · 13 days left · ~$1,920/day. Full plan with prices and names is private (Dave's outputs folder), not in this repo.
+- DONE (8 Nov, ops 3e40254): ops board brought up to date for the week: every product's status, milestones and "your move" line; week plan block; log entry. Playwright 1440 + 390: 0 errors, no sideways scroll. No names, no new prices
+- OPEN (Dave, today): fractional offer prices + "drafts OK", then send the 15 first messages (Israel Sun–Mon 08:30–09:30, US Tue 16:00–17:30)
+- OPEN (Dave, deadline Mon 9 Nov 12:00): Tnufa personal fields + answers, upload, sign, submit. The prepared files are not edited (7 Nov rule)
+- OPEN (Dave): SH✡MER Android testers, 4 of 12 opted in (6 Nov); 14-day clock starts at 12; Android public earliest ~early Dec
+- BLOCKED (Dave: "yes Firebase"): deploy tightened SH✡MER database rules. City emails wait on this
+- BLOCKED (Dave): SH✡MER city pilot price (pilot pack ready)
+- BLOCKED (Dave): Apple Developer enrolment (approved 3 Nov) for SH✡MER iOS
+- NEW DECISION (7 Nov, approved direction, staging only): SH✡MER Nature becomes a layer inside SH✡MER. One free app, one SOS; an unclassified SOS is always a person event (Person layer only); a separate "Nature report" goes to the Nature layer; wildfire near a community goes to both; when in doubt, Person. One dashboard with Person and Nature layers; plans Person only, Nature only or combined, priced by org size and type. No separate store app. Engineering is building it on a staging branch. NEEDS YOUR EYES: nothing goes live (app, site, dashboard, live GitHub) until Dave says GO
+- OPEN (CTO): SH✡MER dashboard demo gaps D3–D6 on staging; `dashboard-lock` merge waits on Dave
+- WAITING (outside): LickPick, Lemon Squeezy application under review, store in test mode; Play closed test has no active testers
+- BLOCKED (Dave: "OK cleanup"): Chore Royale test-data cleanup (demo staged, security verified)
+- BLOCKED (Dave): Milo brand v2, chain keep/drop + ice-cube dot. Value-proposition study in progress
+- BLOCKED (Dave): J8NIX is an internal tool reachable by anyone: private, keep or retire
+- BLOCKED (Dave): R&K, run the free 2-week test or kill
+- OPEN (Dave): VIBRANT 2× retention stat, confirm or remove
+- Week bar (check Fri 13 Nov): 3 calls booked · 1 proposal out · Tnufa submitted · testers 12/12 · privacy rules deployed
