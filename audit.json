@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T07:42:30.502Z",
+  "generated": "2026-11-09T05:26:15.096Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -9,22 +9,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 1001,
-          "controls": 19,
+          "textLen": 968,
+          "controls": 18,
           "title": "SHOMER app · שומר – הרשת הראשונה בישראל של אזרחים למען אזרחי"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 1012,
-          "controls": 19,
+          "textLen": 979,
+          "controls": 18,
           "title": "SHOMER app · שומר – הרשת הראשונה בישראל של אזרחים למען אזרחי"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 997,
-          "controls": 18,
+          "textLen": 964,
+          "controls": 17,
           "title": "SHOMER app · שומר – הרשת הראשונה בישראל של אזרחים למען אזרחי"
         }
       ],
@@ -108,30 +108,30 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 2061,
-          "controls": 48,
-          "title": "Chore Royale — Make Chores Epic"
+          "textLen": 69,
+          "controls": 1,
+          "title": "Chore Wars"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 2185,
-          "controls": 48,
-          "title": "Chore Royale — Make Chores Epic"
+          "textLen": 69,
+          "controls": 1,
+          "title": "Chore Wars"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 2185,
-          "controls": 48,
-          "title": "Chore Royale — Make Chores Epic"
+          "textLen": 69,
+          "controls": 1,
+          "title": "Chore Wars"
         }
       ],
       "errors": [],
       "http4xx": [],
       "status": 200,
       "verdict": "PASS",
-      "title": "Chore Royale — Make Chores Epic"
+      "title": "Chore Wars"
     },
     {
       "name": "Ezra",
@@ -240,22 +240,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 1463,
-          "controls": 13,
+          "textLen": 3316,
+          "controls": 50,
           "title": "הוגן · Fairent — כוח השוכרים. שכר דירה הוגן."
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 1478,
-          "controls": 13,
+          "textLen": 3316,
+          "controls": 50,
           "title": "הוגן · Fairent — כוח השוכרים. שכר דירה הוגן."
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 1478,
-          "controls": 13,
+          "textLen": 3349,
+          "controls": 53,
           "title": "הוגן · Fairent — כוח השוכרים. שכר דירה הוגן."
         }
       ],
@@ -273,22 +273,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 2090,
-          "controls": 18,
+          "textLen": 165,
+          "controls": 4,
           "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 2105,
-          "controls": 19,
+          "textLen": 180,
+          "controls": 5,
           "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 2105,
-          "controls": 19,
+          "textLen": 180,
+          "controls": 5,
           "title": "SH✡MER Nature — שומרים על מי שאין לו קול"
         }
       ],
@@ -306,22 +306,22 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 5934,
-          "controls": 32,
+          "textLen": 3898,
+          "controls": 49,
           "title": "3Shamrocks Studio"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 5934,
-          "controls": 32,
+          "textLen": 3931,
+          "controls": 46,
           "title": "3Shamrocks Studio"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 5946,
-          "controls": 34,
+          "textLen": 3931,
+          "controls": 46,
           "title": "3Shamrocks Studio"
         }
       ],

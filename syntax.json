@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-26T07:42:33.509Z",
+  "generated": "2026-11-09T05:26:18.242Z",
   "results": [
     {
       "repo": "senior-helper",
@@ -13,7 +13,7 @@
       "repo": "shomer-app",
       "path": "shomer.html",
       "name": "SHOMER app",
-      "blocks": 7,
+      "blocks": 8,
       "fails": [],
       "verdict": "PASS"
     },
@@ -34,7 +34,7 @@
       "repo": "chore-wars",
       "path": "index.html",
       "name": "Chore Royale",
-      "blocks": 2,
+      "blocks": 1,
       "fails": [],
       "verdict": "PASS"
     },
@@ -58,7 +58,7 @@
       "repo": "shomer-nature",
       "path": "index.html",
       "name": "SHOMER Nature",
-      "blocks": 2,
+      "blocks": 1,
       "fails": [],
       "verdict": "PASS"
     },
