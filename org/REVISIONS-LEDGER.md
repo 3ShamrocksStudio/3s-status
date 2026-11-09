@@ -15,14 +15,15 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 - DONE v320 (636db16): version bump, live version.json = v320
 - DONE v322 (8e2312d, 0b6050b, 8382971; VERIFIED PASS 2026-11-05: live v327 as a non-preview user loads 13 events with no gate, the 8 new ones carry src + src2, live events-seed.json = repo md5; the "N אירועים" pill was later removed in v324 as asked): events on the map for ALL users (no preview gate, pill "N אירועים"); 90 days from event time on map, באזור שלי and SH✡MER Command (Zalka pinned); +8 sourced events (fire, medical, suspicious, weather/quake), 2 sources each, credited "צוות SH✡MER · לפי <outlet>", linked "מקור:", category image + "מה עושים במצב כזה" + 100 · 101 · 102; sources in docs/events-sources.md. NEEDS YOUR EYES: confirm/dispute votes stay preview-only until the votes rules are deployed
 - VERIFIED PASS (2026-11-05, live www.shomer-app.co.il/shomer.html v327, Playwright 390x844, cache-buster, SW and every Firebase call blocked, nothing sent): v324 bb18736 no events counter (no #evp-pill, no "N אירועים" text); v325 f6bb63e bell gold for new events (class has-new, border + badge rgb(201,168,76), bellGlow); v326 e86a283/903de75 bell red during an active circle SOS (has-sos, border/icon/badge rgb(204,20,38), badge "SOS" with 0 new; an 'old' SOS or a cleared one drops it); own position = gold ✡ (meIcon mk-me-founder svg), others/circle/presence = green dot rgb(43,196,126), no crest; CPR beep measured 110.0 bpm (0.545 s apart); no "+ דיווח" anywhere; "באזור שלי" opens with real sourced rows (Petah Tikva, Route 232, Dimona…); 0 page errors
-- OPEN (awaiting Dave's yes): rename "עדכונים" to "באזור שלי", one feed matching the map
+- DONE (stale line, reconciled 9 Nov): rename "עדכונים" to "באזור שלי" shipped in v320 (71ddde3, line above); live v332 shomer.html shows "באזור שלי" and no "עדכונים" label (curl with cache-buster, 9 Nov)
 - BLOCKED (Dave): locked-phone push alarm, build 1.0.64. Needs GO Blaze, Firebase key, google-services.json, GO Play, and approval of the privacy text
 - BLOCKED (Dave): the 9 event-lifecycle decisions, then build steps 0–7 (EVENT-LIFECYCLE-SPEC.md)
 - BLOCKED (Dave): GO on live fixes: iPhone SOS instruction text, 5 vs 6 shakes, privacy policy
 - BLOCKED (Dave): iOS native. Needs Xcode plus Apple Developer enrolment, then "Apple done"
-- OPEN: Arabic role term شومير vs حارس (Dave decides)
-- OPEN: LinkedIn tester post image, built from current v318 screens with the PNG logo, simple and fitted to the cause
+- BLOCKED (Dave): Arabic role term. Ask: "شومير" or "حارس"
+- BLOCKED (Dave): LinkedIn tester post image is ready since 3 Nov (outputs/linkedin-shomer-beta.png: v318 screens, PNG logo). Ask: "post it" or "skip". It says 15 testers; Claude updates the number to the live opt-in count before you post
 - BLOCKED (Dave GO Nature): SH✡MER Nature page on the brand domain
+- OPEN (privacy, advanced 9 Nov): person alerts carry the subject's account id (`subjUid`) in a record every signed-in user can read. Plan written: private `pasubj` record + per-alert hash tag, rules switch, 90-day expiry, privacy-page wording (644ca91, branch subjuid-plan, docs/SUBJUID-PLAN.md). Build waits on the "yes Firebase" rules batch. NEEDS YOUR EYES: the privacy-page sentence
 
 ## LickPick
 - DONE lp-2026-11-03e: audio damage fixed; band accuracy improved; "licks"/"jams" wording; edge cases handled
@@ -30,7 +31,7 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 - REOPENED (verifier B2 FAIL on lp-2026-11-04a, e5d6cff): half-time cutoff was 140 not ~130, flag never shown, click and notes paths disagreed at 150 BPM
 - VERIFIED PASS (2026-11-05; live staging LP_VER lp-2026-11-04c, deployed index.html = repo md5; tempoOctave 129/130 → 1×, 131/140/150 → ½× with halfTime; sung-notes grid 120/128 full, 135/150 half-time; keyOfNotes: C-major lick with F ending on long G → C, G-major lick with F# → G; Groove button "½×" in deployed code; bandA and notes paths both use tempoOctave. Note: a lick with no C or C# ending on D reads D, by the tonic tie-break): lp-2026-11-04c (ec135a3) key vs its fifth now decided by the scale notes (C major with F stays C even ending on G; G major needs F#), one 130 BPM half-time cutoff everywhere, "½×" also on the Groove button. Supersedes lp-2026-11-04b (ec66f17), which read a C-major lick ending on G as G major. Staging: https://3shamrocksstudio.github.io/lickpick/app/
 - DONE lp-2026-11-04a: "licks" wording checked, no user-visible "takes" left
-- OPEN: check the landing page "pops" and the LickPick folder in 3S Projects with brand and business files
+- OPEN (half done 9 Nov): landing page checked live (https://3shamrocksstudio.github.io/lickpick/, Playwright 1440 + 390, full scroll: 0 console errors, 0 failed requests, 0 broken images, nothing stuck hidden, no "takes", no sideways scroll). Left: the LickPick folder in 3S Projects (brand and business files) needs the Mac folder connected; next shift with device access
 - BLOCKED (Dave): Lemon Squeezy "Activate your store"
 
 ## Studio site / portfolio
@@ -38,6 +39,10 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 - OPEN: verifier fixes in progress (carousel slides, tap copy, Nature page eyebrows/footer/link, pilot monthly prices, work-with-me style, demo names)
 - BLOCKED (Dave): 5 Wix DNS changes, then migrate to www.3shamrocks.com (old Wix design retired)
 - OPEN (Dave's eyes): small starter offer
+- DONE 8 Nov (Dave approved): Concept Lab tile and page (3e01e23, 3fdd5a1), fit quiz linked from nav, hero and work pages (6421820), quiz prices removed (b9ed26d), J8NIX off the site (52d58b6)
+- DONE 9 Nov (c252d3b): J8NIX residue removed: homepage brand-sheet tab gone, work/j8nix.html redirects home. Live with cache-buster: 0 "bt-j8" on index.html, work/j8nix.html title "Moved"; Playwright 1440 + 390: 4 brand tabs switch, no J8NIX text or image, no sideways scroll
+- DONE 9 Nov (7612b50): carousel approval board says "licks", not "takes" (LickPick rule). Live https://3shamrocksstudio.github.io/review/carousel/: 0 "takes"
+- DONE 8 Nov (b9ed26d + work-with-me.html): fractional offer prices removed; page reads "Fixed price, agreed after a 20-minute call"
 - OPEN, awaiting verifier + Dave (4 Nov homepage pass, site 469f4df, staging https://3shamrocksstudio.github.io/):
   - Name: Chore Wars only. Work pages/menus/redirects back to the 1e591ae rename, ops text fixed, old preview-home.html now redirects home (59270ca)
   - 1 Minime devices: right phone removed; one phone left of the minime cycles 11 real screens (SH✡MER v322 x3, LickPick x2, Chore Wars demo x3, TH x2, FaiRent x2) with a brand tag; no welcome/splash screens
@@ -116,6 +121,7 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 
 ## Ops
 - DONE: dashboard, brain and to-do updated; private names removed from public files
+- DONE 9 Nov (341906d): Nightly Watchtower CI fixed. It failed every night since 5 Nov because ubuntu-latest moved to 26.04, where Playwright 1.56 cannot install; pinned to ubuntu-24.04. Manual run 42566947943: all 9 steps success, published 35b1c34
 - BLOCKED (Dave): GO private for the 3s-status repo; GO scrub of repo history
 - BLOCKED (Dave): backups to the external drive (needs folder access)
 - Rule: $0 budget; token-lean runs
@@ -129,23 +135,24 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 
 - DONE (verified 10/10): Milo app reset per Grok brief on branch grok-reset, preview /milo-reset-preview/. Awaiting Dave: merge to public, crisis numbers professional check
 - DONE (verified): Milo brand v2 proposal, shades removed, assets/brand-proposals/milo-v2/. Awaiting Dave: chain keep/drop, ice-cube dot
-- OPEN (Dave): VIBRANT '2x retention' / '68% vs 34%' on homepage and CVs: confirm or remove
+- DONE 8 Nov (8b86d19): VIBRANT stat. Dave: the 68% vs 34% figure is from the real research. Homepage reads "Refill reorders with the VIBRANT app (68% vs 34%, ACG 2024)"
 
 ## Week of 8 Nov (Sun 8 – Sat 14 Nov; work paused Fri 6–Sat 7, restarted Sun 8 Nov 13:30)
 Goal check: booked $0 · M1 $25k by 21 Nov · 13 days left · ~$1,920/day. Full plan with prices and names is private (Dave's outputs folder), not in this repo.
 - DONE (8 Nov, ops 3e40254): ops board brought up to date for the week: every product's status, milestones and "your move" line; week plan block; log entry. Playwright 1440 + 390: 0 errors, no sideways scroll. No names, no new prices
-- OPEN (Dave, today): fractional offer prices + "drafts OK", then send the 15 first messages (Israel Sun–Mon 08:30–09:30, US Tue 16:00–17:30)
-- OPEN (Dave, deadline Mon 9 Nov 12:00): Tnufa personal fields + answers, upload, sign, submit. The prepared files are not edited (7 Nov rule)
+- DONE 8 Nov: fractional offer prices: removed from work-with-me.html, now "Fixed price, agreed after a 20-minute call"
+- BLOCKED (Dave): the first messages. Ask: today 08:30–09:30 send the LinkedIn kit (1 reply, 2 warm-intro asks, 7 connect notes); Tue 10 Nov 16:00–17:30 the 5 US connects. Exact texts and links are one-tap items at the top of the private to-do
+- DONE (Sun 8 Nov 20:56, submitted by Dave via the portal): Tnufa request 01185745, form 718686. No repo commit. Follow-up task checks Gmail for the intake answer Wed 11 Nov
 - OPEN (Dave): SH✡MER Android testers, 4 of 12 opted in (6 Nov); 14-day clock starts at 12; Android public earliest ~early Dec
 - BLOCKED (Dave: "yes Firebase"): deploy tightened SH✡MER database rules. City emails wait on this
 - BLOCKED (Dave): SH✡MER city pilot price (pilot pack ready)
 - BLOCKED (Dave): Apple Developer enrolment (approved 3 Nov) for SH✡MER iOS
 - NEW DECISION (7 Nov, approved direction, staging only): SH✡MER Nature becomes a layer inside SH✡MER. One free app, one SOS; an unclassified SOS is always a person event (Person layer only); a separate "Nature report" goes to the Nature layer; wildfire near a community goes to both; when in doubt, Person. One dashboard with Person and Nature layers; plans Person only, Nature only or combined, priced by org size and type. No separate store app. Engineering is building it on a staging branch. NEEDS YOUR EYES: nothing goes live (app, site, dashboard, live GitHub) until Dave says GO
-- OPEN (CTO): SH✡MER dashboard demo gaps D3–D6 on staging; `dashboard-lock` merge waits on Dave
+- DONE on staging 9 Nov (71bcc12, https://3shamrocksstudio.github.io/shomer-command/app/dashboard.html?demo=1): D5 demo header follows the chosen city (?terr=כפר סבא shows "כפר סבא · דמו", map centre 32.177, 34.901); D6 population for all 60 crime-data cities from the CBS 2024 localities file (bycode2024.xlsx), Modi'in alias, e.g. מודיעין-מכבים-רעות 100,052 and ראש העין 79,023; D3 demo makes 0 requests to dashfeed or Nominatim; D4 scrollWidth 390 at 390 px. Playwright 390 + 1440, 5 cases, 0 errors. Live dashboard (v332) untouched; porting to live waits on Dave's GO for `dashboard-lock`
 - WAITING (outside): LickPick, Lemon Squeezy application under review, store in test mode; Play closed test has no active testers
 - BLOCKED (Dave: "OK cleanup"): Chore Royale test-data cleanup (demo staged, security verified)
 - BLOCKED (Dave): Milo brand v2, chain keep/drop + ice-cube dot. Value-proposition study in progress
-- BLOCKED (Dave): J8NIX is an internal tool reachable by anyone: private, keep or retire
+- BLOCKED (Dave): the J8NIX tool itself is still public at https://3shamrocksstudio.github.io/j8nix/ (it left the studio site 8–9 Nov). Ask: "J8NIX private" or "keep"
 - BLOCKED (Dave): R&K, run the free 2-week test or kill
-- OPEN (Dave): VIBRANT 2× retention stat, confirm or remove
+- DONE 8 Nov (8b86d19): VIBRANT stat confirmed by Dave as real research; homepage cites ACG 2024
 - Week bar (check Fri 13 Nov): 3 calls booked · 1 proposal out · Tnufa submitted · testers 12/12 · privacy rules deployed
