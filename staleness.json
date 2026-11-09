@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-09T05:26:21.049Z",
+  "generated": "2026-11-09T09:35:59.758Z",
   "results": [
     {
       "product": "TH MVP",
@@ -60,7 +60,7 @@
       "sourcePush": "2026-11-05T20:55:51Z",
       "deployPush": "2026-11-05T20:55:51Z",
       "lagDays": 0,
-      "ageDays": 3,
+      "ageDays": 4,
       "verdict": "FRESH"
     },
     {
@@ -82,7 +82,7 @@
       "sourcePush": "2026-11-02T19:18:15Z",
       "deployPush": "2026-11-02T19:18:15Z",
       "lagDays": 0,
-      "ageDays": 6,
+      "ageDays": 7,
       "verdict": "FRESH"
     }
   ]
