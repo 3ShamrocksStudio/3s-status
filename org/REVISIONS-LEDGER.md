@@ -156,3 +156,31 @@ Goal check: booked $0 · M1 $25k by 21 Nov · 13 days left · ~$1,920/day. Full 
 - BLOCKED (Dave): R&K, run the free 2-week test or kill
 - DONE 8 Nov (8b86d19): VIBRANT stat confirmed by Dave as real research; homepage cites ACG 2024
 - Week bar (check Fri 13 Nov): 3 calls booked · 1 proposal out · Tnufa submitted · testers 12/12 · privacy rules deployed
+
+## Audit of Dave's chat revisions, 8 Nov 18:31 – 9 Nov 22:54 (checked live 9 Nov 23:20)
+Every atomic request from Dave's chat messages. Staging = https://3shamrocksstudio.github.io/ (Playwright 390 + 1440, cache-buster, 0 page errors). Full table is private in Dave's outputs (ops/REVISIONS-AUDIT-2026-11-09.md).
+- OPEN (9 Nov 22:40 "post reels in ig accounts… prepare and post"): no reel confirmed scheduled tonight. The IG weekly content run fired 22:24 and ended 22:26; ops funnel shows IG scheduled/posted unknown and shomer.app logged out since 8 Nov. Plan: re-run IG scheduling in Chrome with the verified Shorts, screenshot Scheduled content per account; Dave logs shomer.app back in
+- DONE 9 Nov (c54dc79; was only on home-staging.html): Dave's carousel picks on the staging homepage (SH slot 2 route screen, SH slot 3 out, LP-1, CR-2, TH-5 splash, FR-2 + FR-3). Live: index.html = home-staging.html minus noindex; 6 new screens 200; old app-cpr/th-cine/live-grid gone; 0 errors. Verifier agent still to run
+- BLOCKED (Dave): TH carousel movie-scene mockup needs his Gemini reference image
+- DONE 9 Nov (96df391): Tnufa intake confirmed by email 9 Nov 14:17; ops funnel no longer says "awaiting intake"
+- DONE 9 Nov (Dave's outputs ops/ULTRA-PROMPT.md): the "ULTRA-PROMPT" he asked for at 17:34, saved as a file (was chat-only)
+- OPEN (Score v4 B worker running now): site background music (8 Nov "gaming background music", "changes by section", "per product in portfolio", "play on load"; 9 Nov "annoying… low quality", "sounds like the Shire… masculine, relaxing, chill"). v2 and v3 rejected; music:false on staging since 612f9d6; B (night drive) being wired. Browsers allow sound only after the first tap. Then BLOCKED (Dave): "B OK" or "A"
+- BLOCKED (Dave): forest tap ripple, fix cap 2 reached. Ask: "forest A" (keep) or "forest B" (phone crop shows the stream)
+- DONE 8 Nov (ee3935f, 43992e0): living forest at contact: full-bleed, flowing water, swaying leaves, fireflies follow the finger, shamrock glow (seen live 390 + 1440)
+- DONE 8 Nov (a8f8319): mosaic 1,813 unique tiles, max 2 repeats, incl. past studio work
+- DONE 8 Nov (dc8f135, 3d500a8): Trashure Hunters page rebuilt from Dave's real game and onboarding screens
+- DONE 8 Nov (051a343): per-product swipe SFX (SH✡MER, LickPick, TH, Chore Royale, FaiRent, Concepts) + click/coin/level-up cues live. Needs Dave's ear
+- DONE 8 Nov (d85c084): endless products carousel on phones (items on both sides from load)
+- DONE 8 Nov (29e4ba9, 67be40b, a64e61b, 8b971f5): R&K rook + king mark (no pawn), darker Night mockup background, new glass board and pieces on work/rk.html
+- DONE 8 Nov (083df88): branded gamified pop-ups (achievement toasts, XP badges) and Mini-Dave scripted guide ("Davebot")
+- DONE 8 Nov (b7a3df3, 6f2b14b, 3b0cec1, a03582b): Google reviews badge + 2 quotes, visit counter, 404, share images
+- DONE 9 Nov (dcaa2f9, d8cd468, 29e034e, 2ad72c9, 8181e08, 72f0cec, bb7e8dc; verifier PASS): inner-page fixes. BLOCKED (Dave): shared "Next project" + footer on every case page, "Trashure Hunters" vs "Trashure-Hunters", sound pill covering headings on phones
+- DONE 9 Nov (3f6ee42): premium carousel candidates on https://3shamrocksstudio.github.io/review/carousel/
+- DONE 9 Nov (f7db14c): live revenue funnel panel on the ops dashboard
+- BLOCKED (Dave): new-site reel v2 (outputs reels/3S-new-site-reel-v2.mp4). Ask: "reel OK" or a new end-card line
+- BLOCKED (Dave): EZRA brand proposal (outputs ezra-brand/EZRA-BRAND.html, verified 6/7). Ask: "EZRA A" or "EZRA B"
+- BLOCKED (Dave): TH trailer script + storyboards (outputs th-video/, verified). Ask: King Grime "real" or "comic"
+- BLOCKED (Dave): LinkedIn (Dave + studio page) and YouTube Shorts content pack (outputs content/, 22 items, verifier running). Ask: "approve 1–22" and which YouTube channel
+- OPEN (scheduled 10 Nov 08:05): SH✡MER.app AI brand film, one message ("שומר אחי אנוכי"), app users only. Grok weekly limit; treatment in outputs shomer-film/TREATMENT.md. Faster if Dave says "Firefly in"
+- DONE 9 Nov (outputs shomer-reels/): boy and woman reels delivered; superseded by Dave's 17:21 rejection (brand film above)
+- OPEN (scheduled): night shift 23:05 with repo attach step; watchdogs 23:45 and 03:45; IG engagement 17:23 + 23:23; relay 06:40 builds the 08:30 morning pack
