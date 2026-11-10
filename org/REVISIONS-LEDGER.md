@@ -28,7 +28,7 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 ## LickPick
 - DONE lp-2026-11-03e: audio damage fixed; band accuracy improved; "licks"/"jams" wording; edge cases handled
 - DONE lp-2026-11-04a (dbe0816): band key detection tells a key from its relative major/minor
-- REOPENED (verifier B2 FAIL on lp-2026-11-04a, e5d6cff): half-time cutoff was 140 not ~130, flag never shown, click and notes paths disagreed at 150 BPM
+- DONE (night 10 Nov 03:55, superseded by lp-2026-11-04c ec135a3, VERIFIED PASS line below; live https://3shamrocksstudio.github.io/lickpick/app/ serves LP_VER lp-2026-11-04c, curl with cache-buster). Was: REOPENED (verifier B2 FAIL on lp-2026-11-04a, e5d6cff): half-time cutoff was 140 not ~130, flag never shown, click and notes paths disagreed at 150 BPM
 - VERIFIED PASS (2026-11-05; live staging LP_VER lp-2026-11-04c, deployed index.html = repo md5; tempoOctave 129/130 → 1×, 131/140/150 → ½× with halfTime; sung-notes grid 120/128 full, 135/150 half-time; keyOfNotes: C-major lick with F ending on long G → C, G-major lick with F# → G; Groove button "½×" in deployed code; bandA and notes paths both use tempoOctave. Note: a lick with no C or C# ending on D reads D, by the tonic tie-break): lp-2026-11-04c (ec135a3) key vs its fifth now decided by the scale notes (C major with F stays C even ending on G; G major needs F#), one 130 BPM half-time cutoff everywhere, "½×" also on the Groove button. Supersedes lp-2026-11-04b (ec66f17), which read a C-major lick ending on G as G major. Staging: https://3shamrocksstudio.github.io/lickpick/app/
 - DONE lp-2026-11-04a: "licks" wording checked, no user-visible "takes" left
 - OPEN (half done 9 Nov): landing page checked live (https://3shamrocksstudio.github.io/lickpick/, Playwright 1440 + 390, full scroll: 0 console errors, 0 failed requests, 0 broken images, nothing stuck hidden, no "takes", no sideways scroll). Left: the LickPick folder in 3S Projects (brand and business files) needs the Mac folder connected; next shift with device access
@@ -36,7 +36,7 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 
 ## Studio site / portfolio
 - DONE: all 16 homepage items, work-with-me, pilot page, floating-device portfolio per the reference, animated minime
-- OPEN: verifier fixes in progress (carousel slides, tap copy, Nature page eyebrows/footer/link, pilot monthly prices, work-with-me style, demo names)
+- DONE (night 10 Nov 03:55, live check with cache-buster): verifier fixes (carousel slides, tap copy, Nature page eyebrows/footer/link, pilot monthly prices, work-with-me style, demo names). Pilot monthly prices 1e65f6c: live shomer-pilot.html = repo md5, shows ₪890 / ₪1,590 / ₪2,190 a month. Tap copy f7e2f7b: homepage reads "Tap a screen to switch it on". Demo names 283da90: live shomer-app-circles.webp and chore-royale scr-clan.jpg = repo md5. Nature page a9844be: page later removed (0ecc785), live work/shomer-nature.html redirects to work/shomer.html. Work-with-me style: superseded by the questionnaire (65db7db) and 8 Nov price removal (live "Fixed price, agreed after a 20-minute call"). Carousel slides: superseded by Dave's picks (c54dc79)
 - BLOCKED (Dave): 5 Wix DNS changes, then migrate to www.3shamrocks.com (old Wix design retired)
 - OPEN (Dave's eyes): small starter offer
 - DONE 8 Nov (Dave approved): Concept Lab tile and page (3e01e23, 3fdd5a1), fit quiz linked from nav, hero and work pages (6421820), quiz prices removed (b9ed26d), J8NIX off the site (52d58b6)
@@ -88,8 +88,8 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 - Rule: stay logged in, never log out, switch between accounts
 
 ## Chore Wars / R&K (Rookie & King)
-- OPEN (night lab 01:23): game rethink (one fantasy, clear win/lose, pass cards) plus a playable prototype; R&K concept/design/monetization upgrade. Game part replaced by the 4 Nov rebuild below
-- OPEN (superseded by the fix pass below, 4 Nov): Dave rejected the overnight v2 prototype. Rebuilt as Chore Wars at https://3shamrocksstudio.github.io/lab/chore-wars/ (old /lab/chore-royale-v2/ redirects there). Each complaint and the fix:
+- DONE (superseded; night 10 Nov 03:55): replaced by the 4 Nov rebuild and passes c/d below. Live https://3shamrocksstudio.github.io/lab/chore-wars/?demo=1 Playwright 390 + 1440: 0 page errors, 0 failed requests, no sideways scroll. Was: OPEN (night lab 01:23): game rethink (one fantasy, clear win/lose, pass cards) plus a playable prototype; R&K concept/design/monetization upgrade. Game part replaced by the 4 Nov rebuild below
+- DONE (superseded by passes c/d; night 10 Nov 03:55): live /lab/chore-wars/ 200, /lab/chore-royale-v2/ redirects to ../chore-wars/, brand.html and model.html 200. Was: OPEN (superseded by the fix pass below, 4 Nov): Dave rejected the overnight v2 prototype. Rebuilt as Chore Wars at https://3shamrocksstudio.github.io/lab/chore-wars/ (old /lab/chore-royale-v2/ redirects there). Each complaint and the fix:
   - "Boring, dull, design is lame": new bright game look. Purple arena, chunky ink outlines, hard shadows, springy reward motion, sounds and haptics.
   - "No branding, identity, iconography, typography or style": spray-blaster logo and wordmark (SVG + PNG), 6-colour system, Bungee + Nunito, 33 custom icons, 4 ranks, 8 player avatars. Brand sheet at /lab/chore-wars/brand.html
   - "Lots of words, kids won't read": icon-first screens, labels of 6 words or fewer, onboarding is 3 swipes
@@ -98,7 +98,7 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
   - "Users fight for points, XP, chore-switching": grab, steal (Steal card), Shield block, swap offer/accept/counter, parent bounty, weekly duels, weekly leaderboard with crown, streaks, parent photo approval
   - "Nobody will pay ₪20/month; use paid ads and paid users": free to play, opt-in rewarded ad slot (placeholder, no SDK), per-player extras (skins, season pass, card packs, price TBD). Sourced 1-page model at /lab/chore-wars/model.html
   - Old names (Chore Royale, ClanForge, ChoreQuest) removed from the new build, the lab path and the chore-wars README
-- OPEN (awaiting verifier + Dave, 4 Nov fix pass after verifier review; chore-wars 85a99a5, site 7da526c):
+- VERIFIED PASS (night 10 Nov 03:55, live, nothing written): security part covered by the "d" check above; demo ?demo=1 shows "The Thunder House" with Nova and Zap, 0 page errors at 390 + 1440; "M Clan" in 0 files of the site and chore-wars repos; /chore-wars/, /chore-wars/royale/, /chore-wars/preview/ redirect to /chore-wars/app/ (200, 0 errors); work/chore-wars.html redirects to work/chore-royale.html (studio name is Chore Royale since s4); model.html cites Amendment 13 (14 August 2025) and COPPA/GDPR-K; "No photo", "Ad" and "Let in" in the deployed app.js. Design score stays BLOCKED (Dave) below. Was: OPEN (awaiting verifier + Dave, 4 Nov fix pass after verifier review; chore-wars 85a99a5, site 7da526c):
   - Security: a code alone shows nothing; new phones wait until a parent taps "Let in" (freed kid seats too). Code, join and PIN tries locked after 5 per 15 min (joins 8). PINs bcrypt. Unreviewed proof photos auto-delete after 7 days (pg_cron); photos max 720 px JPEG
   - Public demo is the invented "Thunder House" (Captain, Zap, Nova), in-browser only, resets on reload. M Clan is off every public path; its code was rotated and is not in any repo. Test households (incl. verifier's 56XTCH) deleted
   - Name: /chore-wars/ and /royale/ etc. redirect to the new app; studio home, footer and every work page menu say Chore Wars; work/chore-wars.html (old path redirects)
@@ -130,7 +130,7 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 - DONE (verified 15/15): fractional pipeline, 30 prospects, 15 first-touches + 30 follow-ups, offer one-pager; HealthTech case page work/healthtech.html (verified 8/10). Awaiting Dave: approve drafts, offer prices
 - DONE: SH✡MER pilot pack (20 targets, Hebrew proposal, 10 drafts). Awaiting Dave: price. Dashboard fixes v328-v330 live and verified (mobile, honest demo labels, founders reads own entry only). BLOCKED (Dave: 'yes Firebase'): deploy tightened rules + strip one old account-id field
 - DONE (verified 7/7): homepage real screens, mosaic dedupe, R&K brand, CONCEPT banners
-- DONE: verifier sweep, all PASS (SH✡MER v320-v327, LickPick lp-2026-11-04c, Chore Wars c/d). 2026-11-05 sweep: SH✡MER v322–v326, LickPick lp-2026-11-04c, Chore Wars "c" and "d" VERIFIED PASS. Still awaiting verifier: homepage passes (4 Nov, s4, s7) and the Chore Wars 85a99a5 pass (its security part is covered by the "d" check)
+- DONE: verifier sweep, all PASS (SH✡MER v320-v327, LickPick lp-2026-11-04c, Chore Wars c/d). 2026-11-05 sweep: SH✡MER v322–v326, LickPick lp-2026-11-04c, Chore Wars "c" and "d" VERIFIED PASS. Still awaiting verifier: homepage passes (4 Nov, s4, s7). Chore Wars 85a99a5 pass VERIFIED PASS 10 Nov
 - BLOCKED (Dave): Milo Grok brief needs Grok sign-in; J8NIX public exposure; SH✡MER live-site AI photos; R&K board level; FaiRent wordmark
 
 - DONE (verified 10/10): Milo app reset per Grok brief on branch grok-reset, preview /milo-reset-preview/. Awaiting Dave: merge to public, crisis numbers professional check
