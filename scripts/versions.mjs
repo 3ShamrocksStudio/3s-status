@@ -93,11 +93,14 @@ async function fairentData() {
   // CBS publishes table 4.9 per year at a predictable path. If next year's is up,
   // the page is quoting an out-of-date table while claiming it is the newest.
   const next = String(Number(cited) + 1);
+  // CBS answers 200 for ANY year in this path, including 2099 — a soft 404.
+  // Only a real table comes back with content-type application/pdf, so status
+  // alone reports a new table every single night.
   let newer = false;
   try {
     const r = await fetch(`https://www.cbs.gov.il/he/publications/Madad/DocLib/${next}/price09a/a4_9_e.pdf`,
       { method: 'HEAD' });
-    newer = r.ok;
+    newer = r.ok && (r.headers.get('content-type') || '').includes('application/pdf');
   } catch {}
   if (newer) {
     note('Fairent CBS data', 'STALE',
