@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-11T09:12:02.146Z",
+  "generated": "2026-11-12T09:39:07.383Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -61,10 +61,18 @@
           "title": "SHOMER app · שומר - Citizens for Citizens"
         }
       ],
-      "errors": [],
-      "http4xx": [],
+      "errors": [
+        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()",
+        "CONSOLE: Failed to load resource: the server responded with a status of 503 ()"
+      ],
+      "http4xx": [
+        "404 https://www.shomer-app.co.il/'+e.photo+'",
+        "404 https://www.shomer-app.co.il/'+photo+'",
+        "503 https://www.shomer-app.co.il/'+a.subjPhoto+'",
+        "404 https://www.shomer-app.co.il/'+a.subjPhoto+'"
+      ],
       "status": 200,
-      "verdict": "PASS",
+      "verdict": "FAIL",
       "title": "SHOMER app · שומר - Citizens for Citizens"
     },
     {
