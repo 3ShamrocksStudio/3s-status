@@ -43,7 +43,7 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
 - DONE 9 Nov (c252d3b): J8NIX residue removed: homepage brand-sheet tab gone, work/j8nix.html redirects home. Live with cache-buster: 0 "bt-j8" on index.html, work/j8nix.html title "Moved"; Playwright 1440 + 390: 4 brand tabs switch, no J8NIX text or image, no sideways scroll
 - DONE 9 Nov (7612b50): carousel approval board says "licks", not "takes" (LickPick rule). Live https://3shamrocksstudio.github.io/review/carousel/: 0 "takes"
 - DONE 8 Nov (b9ed26d + work-with-me.html): fractional offer prices removed; page reads "Fixed price, agreed after a 20-minute call"
-- OPEN, awaiting verifier + Dave (4 Nov homepage pass, site 469f4df, staging https://3shamrocksstudio.github.io/):
+- DONE (superseded, night 12 Nov: later homepage passes replaced it; Dave graded the site "pass" in to-do n11-site, 12 Nov; live https://3shamrocks.com/ index.html md5 = repo at site 6d56d69 (cache-buster, 12 Nov 23:40 Israel)). Was: OPEN, awaiting verifier + Dave (4 Nov homepage pass, site 469f4df, staging https://3shamrocksstudio.github.io/):
   - Name: Chore Wars only. Work pages/menus/redirects back to the 1e591ae rename, ops text fixed, old preview-home.html now redirects home (59270ca)
   - 1 Minime devices: right phone removed; one phone left of the minime cycles 11 real screens (SH✡MER v322 x3, LickPick x2, Chore Wars demo x3, TH x2, FaiRent x2) with a brand tag; no welcome/splash screens
   - 2 "2×" stat: on the same line as 20+, 10+, 11 at 1440 and 390
@@ -52,7 +52,7 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
   - 5 Portfolio: f7e2f7b floating-device stage restored (splash when off, hover plays screens, click opens the page, Coming soon for J8NIX/EZRA/Milo/Media Network); Chore Wars tile uses its own logo + current screens
   - 6 Quote: removed; brand wall of real marks (SH✡MER + Nature, Chore Wars, LickPick, TH cast, FaiRent, J8NIX, Milo, EZRA, R&K) + moving Chore Wars icon set
   - 7 Overall: light page (no dark/green theme), Bricolage Grotesque + Instrument Sans, one hero load sequence, 0 console errors, 0 broken images, no image over 400 KB, no sideways scroll at 390
-- OPEN, awaiting verifier + Dave (4 Nov homepage pass "s4", site 658f49f/078efca/0ecc785/32f4b8e, staging https://3shamrocksstudio.github.io/):
+- DONE (superseded, night 12 Nov: later homepage passes replaced it; Dave graded the site "pass" in to-do n11-site, 12 Nov; live https://3shamrocks.com/ index.html md5 = repo at site 6d56d69 (cache-buster, 12 Nov 23:40 Israel)). Was: OPEN, awaiting verifier + Dave (4 Nov homepage pass "s4", site 658f49f/078efca/0ecc785/32f4b8e, staging https://3shamrocksstudio.github.io/):
   - Name: Chore Royale on the whole studio site (home, footer, work/chore-royale.html is the page again; work/chore-wars.html, chorewars-case.html, products/chore-royale.html redirect to it; ops product label). Game app links /lab/chore-wars/ and /chore-wars/app/ unchanged
   - 1 Minime: clean cutout (minime_nobg.webp, alpha checked), no box; SVG eye layer on his eyes only: irises follow the cursor, drift gently on touch, lids blink every 2.4-6 s; one phone on his left
   - 2 XP bar: "Level 20+ · since 2007", fills to 100% on load with glow, glint and sparkles; "Next quest: your product →" links to #contact
@@ -65,7 +65,7 @@ Status: OPEN, BLOCKED (on Dave, with the exact ask) or DONE.
   - 9 Facts: 20+ yrs since 2007, 10+ HealthTech, 9 products = 9 devices, 2x retention once (hero), TIME Best Invention 2023 once (VIBRANT card), AposHealth brand and product marketing
   - Brand-v3: assets/brand-v3/rk/ exists locally but is not committed; R&K stays on assets/studio/rk/logo.png until that team pushes. No milo/ezra folders yet
   - QA: screens /tmp/claude-0/pw/s4-*.png (1440 + 390), 0 console errors, 0 broken images, no sideways scroll at 390, no image over 400 KB
-- OPEN, awaiting verifier + Dave (4 Nov homepage pass "s7", site b73b60e..9ceb40e, staging https://3shamrocksstudio.github.io/):
+- DONE (superseded, night 12 Nov: later homepage passes replaced it; Dave graded the site "pass" in to-do n11-site, 12 Nov; live https://3shamrocks.com/ index.html md5 = repo at site 6d56d69 (cache-buster, 12 Nov 23:40 Israel)). Was: OPEN, awaiting verifier + Dave (4 Nov homepage pass "s7", site b73b60e..9ceb40e, staging https://3shamrocksstudio.github.io/):
   - 1 Minime: 13% smaller; Grok Imagine idle loop (breath, head turn, blinks), keyed to alpha webm (472 KB) + poster; Safari and reduced motion keep the still with live eyes
   - 2 Career level bar (2007 Studio, HealthTech VIBRANT/AposHealth, TIME 2023, Now 9 products) fills node by node; hero logo pill under the phone removed
   - 3 Eyebrow "Product Design Director · since 2007"; heart icon removed
@@ -164,7 +164,7 @@ Every atomic request from Dave's chat messages. Staging = https://3shamrocksstud
 - BLOCKED (Dave): TH carousel movie-scene mockup needs his Gemini reference image
 - DONE 9 Nov (96df391): Tnufa intake confirmed by email 9 Nov 14:17; ops funnel no longer says "awaiting intake"
 - DONE 9 Nov (Dave's outputs ops/ULTRA-PROMPT.md): the "ULTRA-PROMPT" he asked for at 17:34, saved as a file (was chat-only)
-- OPEN (Score v4 B worker running now): site background music (8 Nov "gaming background music", "changes by section", "per product in portfolio", "play on load"; 9 Nov "annoying… low quality", "sounds like the Shire… masculine, relaxing, chill"). v2 and v3 rejected; music:false on staging since 612f9d6; B (night drive) being wired. Browsers allow sound only after the first tap. Then BLOCKED (Dave): "B OK" or "A"
+- DONE (superseded, night 12 Nov: replaced by Score v7 groove + build-up, v8 softer solo voices, v9 nylon-guitar answers per Dave's 12 Nov comments; site 1821d11; live https://3shamrocks.com/js/studio-sound.js md5 = repo, cache-buster). Was: OPEN (Score v4 B worker running now): site background music (8 Nov "gaming background music", "changes by section", "per product in portfolio", "play on load"; 9 Nov "annoying… low quality", "sounds like the Shire… masculine, relaxing, chill"). v2 and v3 rejected; music:false on staging since 612f9d6; B (night drive) being wired. Browsers allow sound only after the first tap. Then BLOCKED (Dave): "B OK" or "A"
 - BLOCKED (Dave): forest tap ripple, fix cap 2 reached. Ask: "forest A" (keep) or "forest B" (phone crop shows the stream)
 - DONE 8 Nov (ee3935f, 43992e0): living forest at contact: full-bleed, flowing water, swaying leaves, fireflies follow the finger, shamrock glow (seen live 390 + 1440)
 - DONE 8 Nov (a8f8319): mosaic 1,813 unique tiles, max 2 repeats, incl. past studio work
@@ -183,4 +183,14 @@ Every atomic request from Dave's chat messages. Staging = https://3shamrocksstud
 - BLOCKED (Dave): LinkedIn (Dave + studio page) and YouTube Shorts content pack (outputs content/, 22 items, verifier running). Ask: "approve 1–22" and which YouTube channel
 - OPEN (scheduled 10 Nov 08:05): SH✡MER.app AI brand film, one message ("שומר אחי אנוכי"), app users only. Grok weekly limit; treatment in outputs shomer-film/TREATMENT.md. Faster if Dave says "Firefly in"
 - DONE 9 Nov (outputs shomer-reels/): boy and woman reels delivered; superseded by Dave's 17:21 rejection (brand film above)
-- OPEN (scheduled): night shift 23:05 with repo attach step; watchdogs 23:45 and 03:45; IG engagement 17:23 + 23:23; relay 06:40 builds the 08:30 morning pack
+- DONE (night 12 Nov: the scheduled night shift cloned both repos and pushed site 6c614bd/71881e0/6d56d69 and shomer-app e165168, each live md5 = repo). Was: OPEN (scheduled): night shift 23:05 with repo attach step; watchdogs 23:45 and 03:45; IG engagement 17:23 + 23:23; relay 06:40 builds the 08:30 morning pack
+
+## Dave's 12 Nov comments (J8NIX inbox) and night 12 Nov fixes
+- DONE (night 12 Nov, shomer-app e165168, v333): app "שלח משוב" / Send feedback now opens support@shomer-app.co.il, not Dave's personal Gmail (Dave's 3 Nov test note). Live https://www.shomer-app.co.il/version.json = v333; live shomer.html md5 = repo, 0 hits for the personal address. Same fix in the two staging previews (site 71881e0)
+- DONE (night 12 Nov, site 6c614bd, protective): Dave's personal email and studio package prices removed from the public ops files (brain.json, data.json, ops/index.html, BRAIN.md, ARMS-CONTRACT.md); prices stay private in J8NIX. Live md5 = repo. Git history still holds the old text
+- DONE (night 12 Nov, site 6d56d69): Trashure Hunters share image and LickPick privacy/terms links point at 3shamrocks.com, not github.io. Live md5 = repo
+- BLOCKED (Dave): site music v9 uses phrasing from the SoundCloud page "Dave Markovich" (https://soundcloud.com/user5351929). Ask: "is this page yours?" Work itself is live (studio-sound.js 1821d11)
+- BLOCKED (Dave): 14 Instagram drafts (7 accounts x 2) at https://3shamrocks.com/ops/ig-drafts/2026-11-12/ . Ask: "OK all", "OK" + numbers, or notes. Posting needs his Mac session
+- BLOCKED (Dave): Innovation Authority email is not in his Gmail (re-checked night 12 Nov, spam and trash included). Ask: forward it or paste its text in J8NIX
+- OPEN (main team): J8NIX rebuild as an installable phone app, one screen, one next move, three doors (4 J8NIX comments 12 Nov). First version at /j8/ (site cb83b34); waits on Dave's test
+- BLOCKED (Dave login): SH✡MER person-alert privacy fix (subjUid) can't reach the live database: the rules-deploy workflow has no Firebase credential (runs 41178168663 and 42110076645 failed, "no credential"). Ask: one Firebase CI token added as a repo secret, or rules published from the console in a Mac session
