@@ -1,0 +1,25 @@
+{
+  "generated": "2026-11-12T08:02:51.861Z",
+  "results": [
+    {
+      "check": "SHOMER version triple",
+      "verdict": "OK",
+      "detail": "all at v332"
+    },
+    {
+      "check": "3shamrocks.com HTTPS",
+      "verdict": "OK",
+      "detail": "http redirects to https://3shamrocks.com/"
+    },
+    {
+      "check": "Fairent CBS data",
+      "verdict": "OK",
+      "detail": "cites 2026, no newer table published yet"
+    },
+    {
+      "check": "LickPick checkout",
+      "verdict": "BLOCKED",
+      "detail": "LP_PAY.mode=\"test\" — the buy button is disabled and reads \"Checkout opens soon\""
+    }
+  ]
+}
