@@ -188,6 +188,7 @@ Every atomic request from Dave's chat messages. Staging = https://3shamrocksstud
 ## Dave's 12 Nov comments (J8NIX inbox) and night 12 Nov fixes
 - DONE (night 12 Nov, shomer-app e165168, v333): app "שלח משוב" / Send feedback now opens support@shomer-app.co.il, not Dave's personal Gmail (Dave's 3 Nov test note). Live https://www.shomer-app.co.il/version.json = v333; live shomer.html md5 = repo, 0 hits for the personal address. Same fix in the two staging previews (site 71881e0)
 - DONE (night 12 Nov, site 6c614bd, protective): Dave's personal email and studio package prices removed from the public ops files (brain.json, data.json, ops/index.html, BRAIN.md, ARMS-CONTRACT.md); prices stay private in J8NIX. Live md5 = repo. Git history still holds the old text
+- DONE (night 12 Nov, site 542355e): 13 old redirect pages (products/*, studio/*, th.html, lab/chore-royale-v2) send visitors straight to 3shamrocks.com; verifier PASS, live md5 = repo
 - DONE (night 12 Nov, site 6d56d69): Trashure Hunters share image and LickPick privacy/terms links point at 3shamrocks.com, not github.io. Live md5 = repo
 - BLOCKED (Dave): site music v9 uses phrasing from the SoundCloud page "Dave Markovich" (https://soundcloud.com/user5351929). Ask: "is this page yours?" Work itself is live (studio-sound.js 1821d11)
 - BLOCKED (Dave): 14 Instagram drafts (7 accounts x 2) at https://3shamrocks.com/ops/ig-drafts/2026-11-12/ . Ask: "OK all", "OK" + numbers, or notes. Posting needs his Mac session
