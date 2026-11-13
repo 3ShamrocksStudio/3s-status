@@ -124,7 +124,7 @@ What it is: a LinkedIn chess ice-breaker prototype (dashboard: "Prototype on sta
 10. Confirm the portfolio calls: kill J8NIX + R&K, park Ezra/Fairent/Milo.
 
 ### Claude
-- CTO: popups, update notices, 'הידעת?' tips + status dot done (v318 live); events preview live for Dave only; fix the app feedback address (still markodave@gmail.com on main) in the next version; build the closed-app push APK for the Play testing track (server part only after Blaze yes).
+- CTO: popups, update notices, 'הידעת?' tips + status dot done (v318 live); events preview live for Dave only; fix the app feedback address (still Dave's personal Gmail on main; fixed in v333, 12 Nov) in the next version; build the closed-app push APK for the Play testing track (server part only after Blaze yes).
 - CRO: role-check the 8 founders before Dave sends; draft replies the same day; 10 new qualified funded-startup contacts with sources.
 - CFO: create the 4 Morning payment links for SH✡MER pilots/licences (test mode) and reconcile LickPick pricing in data.json.
 - Grants: finish both Tnufa files the hour Dave drops them.
