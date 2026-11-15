@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-14T08:53:08.776Z",
+  "generated": "2026-11-15T09:07:18.902Z",
   "results": [
     {
-      "check": "SHOMER apk vs site",
-      "verdict": "STALE",
-      "detail": "download gives v332, site is v333 — every new download gets an old app"
+      "check": "SHOMER version triple",
+      "verdict": "OK",
+      "detail": "all at v336"
     },
     {
       "check": "3shamrocks.com HTTPS",
