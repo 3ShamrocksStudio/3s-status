@@ -181,7 +181,7 @@ Every atomic request from Dave's chat messages. Staging = https://3shamrocksstud
 - BLOCKED (Dave): EZRA brand proposal (outputs ezra-brand/EZRA-BRAND.html, verified 6/7). Ask: "EZRA A" or "EZRA B"
 - BLOCKED (Dave): TH trailer script + storyboards (outputs th-video/, verified). Ask: King Grime "real" or "comic"
 - BLOCKED (Dave): LinkedIn (Dave + studio page) and YouTube Shorts content pack (outputs content/, 22 items, verifier running). Ask: "approve 1–22" and which YouTube channel
-- OPEN (scheduled 10 Nov 08:05): SH✡MER.app AI brand film, one message ("שומר אחי אנוכי"), app users only. Grok weekly limit; treatment in outputs shomer-film/TREATMENT.md. Faster if Dave says "Firefly in"
+- BLOCKED (Dave; re-classed night 16 Nov: BRAIN §−8.8, Dave 15 Nov 13:40, no social creative until real footage or a paid video tool he approves and signs into; was OPEN, scheduled 10 Nov 08:05): SH✡MER.app AI brand film, one message ("שומר אחי אנוכי"), app users only. Grok weekly limit; treatment in outputs shomer-film/TREATMENT.md. Faster if Dave says "Firefly in"
 - DONE 9 Nov (outputs shomer-reels/): boy and woman reels delivered; superseded by Dave's 17:21 rejection (brand film above)
 - DONE (night 12 Nov: the scheduled night shift cloned both repos and pushed site 6c614bd/71881e0/6d56d69 and shomer-app e165168, each live md5 = repo). Was: OPEN (scheduled): night shift 23:05 with repo attach step; watchdogs 23:45 and 03:45; IG engagement 17:23 + 23:23; relay 06:40 builds the 08:30 morning pack
 
@@ -219,3 +219,9 @@ Every atomic request from Dave's chat messages. Staging = https://3shamrocksstud
 ## Night 15 Nov (23:00 Sat shift, ran into Sun morning)
 - ADVANCED (staged, shomer-app branch subjuid-step1 e700d9b + c7039f9, NOT merged, live app and live rules unchanged): brain step "decide if the pasubj 'palerts must not exist yet' condition should be relaxed". Decided yes: on a slow network the app stops waiting for the private subject record after 1.5 s and writes the alert, so the late record must still land or the person could never close their own alert. Write-once + reporter-only stay. Branch brought up to main v335 (zombie-SOS fixes kept, merge clean, i18n-circles still merges clean). Emulator 19/19 PASS incl. 5 new order tests; 8 inline scripts node --check; opus verifier PASS incl. adversarial review (no new write path). Still waits on the Firebase credential to publish rules
 - 3 OPEN → DONE above (IG approval queue, LinkedIn pipeline, J8NIX rebuild), each with live md5 / row evidence and opus verifier PASS
+
+## Night 16 Nov (Mon 02:08 Israel shift)
+- DONE (night 16 Nov, site 4752ab9 + 26b0366, internal): brain loose end le-1115-3sds-doc, the 3SDS v4.0 spec disagreed with the live studio site. New token sheet ops/brain/brandos/3SDS-LIVE.md read from sprint/index.html (cross-checked with index.html): colours, Bricolage Grotesque / Instrument Sans / Heebo, 3px radius, components, with WCAG contrast numbers computed. Brand OS genome gains violet-3 #d9c4ff (index.html:30); scorer tests still 10/10 caught, 0/2 false positives. Internal by design (_config.yml excludes ops/brain/brandos from the public site, so live check = origin/main holds 26b0366). Sonnet verifier PASS after one fix (two contrast numbers).
+- Messages: 0 new; Dave's t-cv-access reminder note closed (reminder fired Sun 10:00, task done).
+- Only 1 item closed: every other OPEN line is waiting on Dave or on access this cloud run lacks (subjUid: Firebase credential; LickPick folder: Mac; TH APK and Android testers: Dave; i18n-circles: next app update, not merged without Dave's GO).
+
