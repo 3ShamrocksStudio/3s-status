@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15T09:07:16.816Z",
+  "generated": "2026-11-16T09:24:33.224Z",
   "results": [
     {
       "product": "TH MVP",
@@ -16,7 +16,7 @@
       "sourcePush": "2026-11-15T08:37:05Z",
       "deployPush": "2026-11-15T08:37:05Z",
       "lagDays": 0,
-      "ageDays": 0,
+      "ageDays": 1,
       "verdict": "FRESH"
     },
     {
@@ -27,7 +27,7 @@
       "sourcePush": "2026-10-21T05:14:39Z",
       "deployPush": "2026-10-21T05:14:39Z",
       "lagDays": 0,
-      "ageDays": 25,
+      "ageDays": 26,
       "verdict": "FRESH"
     },
     {
@@ -38,7 +38,7 @@
       "sourcePush": "2026-11-05T09:29:42Z",
       "deployPush": "2026-11-05T09:29:42Z",
       "lagDays": 0,
-      "ageDays": 10,
+      "ageDays": 11,
       "verdict": "FRESH"
     },
     {
@@ -49,7 +49,7 @@
       "sourcePush": "2026-11-08T14:09:33Z",
       "deployPush": "2026-11-08T14:09:33Z",
       "lagDays": 0,
-      "ageDays": 7,
+      "ageDays": 8,
       "verdict": "FRESH"
     },
     {
@@ -60,7 +60,7 @@
       "sourcePush": "2026-11-05T20:55:51Z",
       "deployPush": "2026-11-05T20:55:51Z",
       "lagDays": 0,
-      "ageDays": 10,
+      "ageDays": 11,
       "verdict": "FRESH"
     },
     {
@@ -68,10 +68,10 @@
       "source": "j8nix",
       "deploy": "j8nix",
       "built": false,
-      "sourcePush": "2026-10-10T06:13:58Z",
-      "deployPush": "2026-10-10T06:13:58Z",
+      "sourcePush": "2026-11-15T11:27:58Z",
+      "deployPush": "2026-11-15T11:27:58Z",
       "lagDays": 0,
-      "ageDays": 36,
+      "ageDays": 1,
       "verdict": "FRESH"
     },
     {
@@ -82,7 +82,7 @@
       "sourcePush": "2026-11-12T07:47:00Z",
       "deployPush": "2026-11-12T07:47:00Z",
       "lagDays": 0,
-      "ageDays": 3,
+      "ageDays": 4,
       "verdict": "FRESH"
     }
   ]
