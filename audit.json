@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T09:24:27.612Z",
+  "generated": "2026-11-17T10:31:47.368Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -42,21 +42,21 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 546,
+          "textLen": 478,
           "controls": 16,
           "title": "SHOMER app · שומר - Citizens for Citizens"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 546,
+          "textLen": 478,
           "controls": 16,
           "title": "SHOMER app · שומר - Citizens for Citizens"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 546,
+          "textLen": 478,
           "controls": 16,
           "title": "SHOMER app · שומר - Citizens for Citizens"
         }
@@ -306,7 +306,7 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 4098,
+          "textLen": 4115,
           "controls": 54,
           "title": "3Shamrocks Studio"
         },
