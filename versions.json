@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-18T10:01:28.772Z",
+  "generated": "2026-11-19T10:17:39.644Z",
   "results": [
     {
       "check": "SHOMER version triple",
       "verdict": "OK",
-      "detail": "all at v339"
+      "detail": "all at v342"
     },
     {
       "check": "3shamrocks.com HTTPS",
