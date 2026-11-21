@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T09:56:42.356Z",
+  "generated": "2026-11-21T09:33:08.638Z",
   "results": [
     {
       "name": "SHOMER site",
@@ -61,19 +61,10 @@
           "title": "SHOMER app · שומר - Citizens for Citizens"
         }
       ],
-      "errors": [
-        "CONSOLE: Failed to load resource: the server responded with a status of 503 ()",
-        "CONSOLE: Failed to load resource: the server responded with a status of 404 ()"
-      ],
-      "http4xx": [
-        "503 https://www.shomer-app.co.il/'+e.photo+'",
-        "503 https://www.shomer-app.co.il/'+photo+'",
-        "404 https://www.shomer-app.co.il/'+ESC(a.subjPhoto)+'",
-        "404 https://www.shomer-app.co.il/'+e.photo+'",
-        "404 https://www.shomer-app.co.il/'+photo+'"
-      ],
+      "errors": [],
+      "http4xx": [],
       "status": 200,
-      "verdict": "FAIL",
+      "verdict": "PASS",
       "title": "SHOMER app · שומר - Citizens for Citizens"
     },
     {
@@ -315,21 +306,21 @@
         {
           "vp": "phone",
           "hscroll": false,
-          "textLen": 4115,
+          "textLen": 4098,
           "controls": 54,
           "title": "3Shamrocks Studio"
         },
         {
           "vp": "tablet",
           "hscroll": false,
-          "textLen": 4136,
+          "textLen": 4153,
           "controls": 51,
           "title": "3Shamrocks Studio"
         },
         {
           "vp": "desktop",
           "hscroll": false,
-          "textLen": 4153,
+          "textLen": 4136,
           "controls": 67,
           "title": "3Shamrocks Studio"
         }
